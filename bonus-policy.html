@@ -3,257 +3,242 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Hol dir einen coolen Willkommensbonus & Spins | Playspielothek</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- =================== Title ========================= -->
+        <title>Playspielothek</title>
+
+        <!-- =================== Custom Link ==================== -->
         <link rel="stylesheet" href="css/base.min.css">
         <link rel="stylesheet" href="css/promotions.min.css">
-       
-        <!-- MANIFEST -->
 
 
-        <style type="text/css">
-            .loader-wrapper,
-            body {
-                background: #fff;
-            }
-            .loader-wrapper {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                z-index: 99999;
-                pointer-events: none;
-            }
-
-            .logos {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                padding: var(--license-logo-padding, 0);
-                margin: var(--license-logo-margin, 0);
-                background: var(--license-logo-background, transparent);
-            }
-        </style>
-        <style id="ais">
-            :root{
-                --ais-logo-max-width: 100%;
-                --ais-logo-height: auto;
-                --ais-gb: #fff;
-                --ais-title-text-shadow: none;
-                --ais-title-color: #992164;
-                --ais-curve-bg: #550732;
-                --ais-browser-text-color: #fff43d;
-                --ais-dismiss-text-color: #fff;
-                --ais-nav-bg: #fff;
-                --ais-nav-menu-color: #fff;
-                --ais-nav-btn-color: #333;
-                --ais-nav-btn-bg: linear-gradient(0deg,#9de000,#d8fc00);
-            }
-        </style>
+        <!-- ================== Google Fonts ======================== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
     </head>
 
-<body class="de welcome-offer">
-    <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
-        <a href="/">
-            <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo" />
-        </a>
-    </div>
+    <body class="de welcome-offer">
 
-    <div class="fixed-container">
-        <div class="dl-beam">
-            <div class="container">
-                <div class="inner-container">
-                    <slot name="age-icon"><img alt="germany_flag" src="https://service.image-tech-storage.com/workers/germany-flag.7e6efab3.png" class="flag-icon"></slot>
-                    <div class="text">Lizenziert in Deutschland</div>
+        <!-- ================== Mobile Header Logo Start ===================== -->
+        <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
+            <a href="/">
+                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
+            </a>
+        </div>
+        <!-- ================== Mobile Header Logo End ===================== -->
+
+
+
+        <div class="fixed-container">
+            <!-- ================= Sticky German Flag Start ================= -->
+            <div class="dl-beam">
+                <div class="container">
+                    <div class="inner-container">
+                        <slot name="age-icon"><img alt="germany_flag" src="images/germany-flag.webp" class="flag-icon"></slot>
+
+                        <div class="text">Lizenziert in Deutschland</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <header id="header" class="header">
-            <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+            <!-- ================= Sticky German Flag End ================= -->
 
-                <div class="container pt-3">
-                    <div class="navbar-brand mx-auto">
-                        <div class="d-flex justify-content-center align-items-center">
+
+
+            <!-- ================= Desktop Header Logo Start ==================== -->
+            <header id="header" class="header">
+                <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+
+                    <div class="container pt-3">
+                        <div class="navbar-brand mx-auto">
                             <a href="/">
-                                <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo">
+                                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
                             </a>
                         </div>
                     </div>
-                    <div class="topbar-login d-none d-lg-block">
+                </nav>
+
+            </header>
+            <!-- ================= Desktop Header Logo End ==================== -->
+        </div>
+
+
+
+        <!-- ============================ Oval Shape Section Start ======================= -->
+        <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
+        <!-- ============================ Oval Shape Section End ======================= -->
+
+
+
+        <!-- =========================== SubPages Context Start ====================== -->
+        <section class="bonus-policy-section bg-rose-bud-cherry pb-5">
+            <div class="container text-white">
+                <div class="col-lg-10 mx-auto">
+
+                    <div class="mb-3 mb-md-5 text-center">
+                        <h3>Bonusrichtlinie</h3>
+                    </div>
+
+                    <div son-ce="son-compliance-page">
+                        <h6>93-DL-N</h6>
+                        <p><strong>Bonusrichtlinie</strong></p>
+                        <p><strong>Versionsnummer 1.3, zuletzt aktualisiert am 31/7/2024.</strong></p>
+                        <p>Diese Bonusrichtlinie ist integraler Bestandteil der Nutzungsbedingungen und tritt somit mit den Nutzungsbedingungen in Kraft. Alle allgemeinen Bedingungen der Allgemeinen Geschäftsbedingungen gelten für die Bonusrichtlinie, sofern nicht ausdrücklich ausgeschlossen.&nbsp;&nbsp;<br><br></p>
+                        <p style="padding-left: 40px;"><strong>Allgemeine Bonusbedingungen</strong>&nbsp;</p>
+                        <ol>
+                        <li>Wenn zu irgendeinem Zeitpunkt nach dem Lesen dieser Richtlinie etwas nicht klar ist oder Sie unsere Boni nicht erhalten möchten, wenden Sie sich bitte an unser Team der Kundendienstabteilung, bevor Sie mit dem Spielen beginnen.</li>
+                        <li>Sie verwenden Ihr Bonusguthaben erst, nachdem Sie Ihr Echtgeldguthaben gespielt haben.</li>
+                        <li>Wenn Sie Ihr Bonusguthaben verwenden und Ihr Einsatz einen Gewinn erzielt, wird der Gewinn Ihrem Bonusguthaben hinzugefügt (es sei denn, der Einsatz erfüllt alle Ihre Umsatzbedingungen. In diesem Fall wird das gesamte verbleibende Bonusguthaben auf Ihr Echtgeldguthaben übertragen, es sei denn, der Bonus ist nicht auszahlbar).</li>
+                        <li>Wenn Sie sowohl Echtgeld als auch Bonusgeld einsetzen, wird jeder Gewinn Ihrem Bonusguthaben hinzugefügt.</li>
+                        <li>Jeder Bonus oder jedes Freispiel, das Ihnen (direkt auf Ihrem Konto oder über einen Preisvergabemechanismus wie z. B. Prize Twister) auf Ihr Konto gutgeschrieben wird, unterliegt dieser Bonusrichtlinie.</li>
+                        <li>Wenn der Bonus/die Freispiele, die Sie beanspruchen wollten, nicht automatisch auf Ihrem Spielerkonto erscheinen, wenden Sie sich bitte an unseren Kundendienst, bevor Sie Einsätze platzieren, und der Bonus/die Freispiele werden Ihnen gutgeschrieben.</li>
+                        <li>Sofern im Aktionsangebot nicht anders angegeben, stehen Boni nur Spielern zur Verfügung, die mindestens eine erfolgreiche Einzahlung auf ihr Konto vorgenommen haben.</li>
+                        <li>Alle beim Spielen von Freispielangeboten angesammelten Gewinne werden Ihrem Konto als Bonus gutgeschrieben.</li>
+                        <li>Ein aktiver Bonus hindert Sie nicht an einer Auszahlung. Sie müssen jedoch Ihr gesamtes Bonusguthaben stornieren (einschließlich aller Gewinne, die Sie mit Ihrem Bonus angesammelt haben), wenn Sie eine Auszahlung wünschen. Sie können Ihren Bonus jederzeit unter dem Menüpunkt „persönlichen Bereich“ stornieren.</li>
+                        <li>In dem seltenen Fall, dass der Bonus nach seiner Stornierung erneut hinzugefügt werden muss (nach alleinigem Ermessen des Unternehmens), wird er unabhängig von der Anzahl der getätigten Einsätze mit den vollständigen Wettbedingungen erneut hinzugefügt.</li>
+                        <li>Sollte eine technische Fehlkonfiguration, ein menschlicher Fehler oder ein Fehler jeglicher Art dazu führen, dass Ihrem Konto eine falsche Anzahl oder ein falscher Wert von Freispielen oder ein falscher Bonus gutgeschrieben wird, behalten wir uns das Recht vor, dies zu korrigieren, indem wir erhaltene Gewinne entfernen und die Prämie mit der korrekten Konfiguration erneut gutschreiben.</li>
+                        <li>Jeder Versuch, mehrere Konten zu registrieren, um Bonusgeld zu erhalten, gilt als Bonusmissbrauch und führt dazu, dass das Konto/die Konten gesperrt und Ihr Guthaben entfernt wird.</li>
+                        <li>Für einzelne Werbeaktionen können zusätzliche Bedingungen gelten, die die hier genannten Bedingungen außer Kraft setzen oder ergänzen. Bitte überprüfen Sie alle Bedingungen eines Angebots sorgfältig, bevor Sie teilnehmen.&nbsp; Sollten die Teilnahmebedingungen der einzelnen Aktionen gegen die Bonusrichtlinien verstoßen, gelten die Teilnahmebedingungen der einzelnen Aktionen.</li>
+                        <li>In Übereinstimmung mit der Datenschutzrichtlinie versenden wir regelmäßig Werbe-E-Mails mit Bonusangeboten. Sie haben nur Anspruch auf den Bonus, wenn Sie die E-Mail direkt von uns erhalten haben. Sie können sich vom Erhalt von Werbenachrichten abmelden, indem Sie den Kundendienst kontaktieren. Wenn wir feststellen, dass ein bestimmter Kunde diese bestimmte Werbeaktion nicht als beabsichtigter exklusiver Empfänger erhalten hat, an den diese Werbeaktion gesendet wurde, werden wir keine Auszahlungsanträge von diesem Kunden erfüllen, selbst wenn er die Umsatzbedingungen erfüllt hat.</li>
+                        <li>Wir behalten uns das Recht vor, Aktionen oder Bonusangebote jeglicher Art jederzeit und ohne vorherige Ankündigung zu stornieren. Eine solche Stornierung hat keine Auswirkungen auf eine bereits eingelöste Prämie.</li>
+                        <li>Alle Angebote, die Sie in Ihren Angeboten des Tages sehen, stehen Ihnen aufgrund des aktuellen Stands Ihres Kontos zur Verfügung. Angebote können aufgrund von Änderungen auf dem Konto, die durch durchgeführte Transaktionen verursacht wurden, vor Ablauf der Zeit nicht mehr verfügbar sein.</li>
+                        <li>Sofern nicht anders angegeben, beträgt die Mindesteinzahlung, um sich für einen Einzahlungsbonus zu qualifizieren, 10 €.</li>
+                        <li>Wenn der letzte Bonus, den ein Spieler erhalten hat, ein Bonus war, der nicht mit einer Einzahlung verbunden war, muss zuerst eine Einzahlung getätigt werden, bevor der Spieler einen weiteren Bonus in Anspruch nehmen kann, auch wenn dieser dem Spieler angeboten wurde. Jeder Verstoß gegen diese Bedingung kann dazu führen, dass zukünftige Boni gesperrt werden und/oder Gewinne, die durch die Nutzung eines Nicht-Einzahlungsbonus erzielt wurden, entfernt werden.</li>
+                        <li>Wenn Sie einen Bonus ohne Einzahlung (allgemeiner Bonus ohne Einzahlung/Freundschaftsbonus/Registrierungsbonus usw.) oder Freispiele ohne Einzahlung erhalten, beträgt der Höchstbetrag, den Sie gewinnen oder auszahlen können, sofern nicht anders angegeben, 100 € oder das Zweifache des Bonusbetrags. Der größere der beiden Beträge wird angewandt. Alle Gewinne, die über den angewendeten Betrag hinausgehen, einschließlich der Gewinne, die Sie mit diesem Geld, auch nach einer eventuellen Einzahlung, erzielt haben, werden von Ihrem Konto entfernt.</li>
+                        <li>Ein Bonus (einschließlich des Bonusguthabens aus dem Freispielbonus) gilt auch dann als Nicht-Einzahlungsbonus, wenn Ihr Echtgeldguthaben zu dem Zeitpunkt, zu dem Ihnen der Bonus gutgeschrieben wurde, niedriger ist als Ihre letzte Einzahlung.</li>
+                        <li>Freispiele sind Drehs, die erfolgen, ohne dass Ihr Guthaben auf dem Spielkonto reduziert wird. Um Zweifel zu vermeiden, bezieht sich jede Erwähnung von Freispielen in dieser Bonusrichtlinie auf Freispiele, die nicht zu einer Reduzierung Ihres Guthabens führen, unabhängig davon, als was diese Freispiele vermarktet werden. Dazu zählen keine Freispiele, die ein ausgelöstes Feature in einem Spiel sind. &nbsp;</li>
+                        <li>Wenn Sie einen beanspruchbaren Bonus/Freispiele in Verbindung mit einem Einzahlungsangebot erhalten oder Freispiele mit Ihrem Echtgeldguthaben kaufen, müssen Sie den Bonus in Anspruch nehmen oder mit den Freispielen spielen, bevor Sie mit Ihrem verfügbaren Guthaben spielen können (Echtgeld und Bonusguthaben gleichermaßen). Wird dies nicht eingehalten, können Gewinne entfernt werden.</li>
+                        <li>Sofern nicht anders angegeben, wird ein Bonus ohne Einzahlung oder ein Freispielangebot ohne Einzahlung nur Spielern gewährt, die ihre E-Mail-Adresse bestätigt haben. Für den Fall, dass Freispiele ohne Einzahlung oder Bonusangebote ohne Einzahlung irrtümlich an Spieler vergeben werden, die ihre E-Mail nicht bestätigt haben, behalten wir uns das Recht vor, alle damit verbundenen Gewinne zu entfernen.</li>
+                        <li>Spieler dürfen mit einem aktiven Bonus in jedem Spiel spielen. In bestimmten Spielen ist das Bonusguthaben nicht zum Spielen verfügbar und wenn sie diese Spiele öffnen, sehen sie nur ihr Echtgeldguthaben. Um die Verfügbarkeit der Boni zu überprüfen, lesen Sie bitte die Informationskarte für jedes Spiel auf der Spieleplattform der Online-Spielothek.</li>
+                        <li>Ein ausstehender Bonus ist ein Bonus, der erst nach Erfüllung der Umsatzanforderungen zur Verfügung steht. Sie werden diesen Bonus in Ihrem ausstehenden Bonusguthaben sehen.</li>
+                        <li>Ein nicht auszahlbarer Bonus ist ein Bonus, der, sobald die Umsatzanforderungen erfüllt wurden oder der Bonus verbraucht wurde, nicht mehr Ihrem Echtgeldguthaben gutgeschrieben wird, unabhängig davon, ob beim Aufbrauchen noch ein Bonusbetrag übrig war. Sobald die Umsatzbedingung erfüllt / der Bonus aufgebraucht wurde, wird der verbleibende Betrag von Ihrem Bonusguthaben abgezogen.</li>
+                        <li>Boni, Freispiele oder goldene Chips, für die keine Umsatzbedingungen gelten, unterliegen der Überwachung auf „regelwidriges Spiel“, wie in den Abschnitten 28 und 29 beschrieben.</li>
+                        <li>Wenn Sie einen Bonus, Freispiele und/oder goldene Chips erhalten, müssen Sie zuvor eine Einzahlung vorgenommen und Ihr eigenes Geld riskiert haben, um Gelder im Zusammenhang mit dem Bonus/den Freispielen/den goldenen Chips auszahlen zu können.</li>
+                        <li>Sollten Sie nach Erhalt eines Bonus, von Freispielen oder goldenen Chips versuchen auszuzahlen, ohne die für den Erhalt des Bonus/der Freispiele/der goldenen Chips vorgenommene Einzahlung zu riskieren, verfällt der erhaltene Bonus.<br><br><strong>Umsatzbedingungen</strong><br><br></li>
+                        <li>Nur wenn Sie Ihr Bonusguthaben verwenden und ein teilnahmeberechtigtes Spiel spielen (gemäß Klausel 23), generieren die getätigten Einsätze Punkte, die zum Umsetzen Ihres Bonus benötigt werden.</li>
+                        <li>Während Sie Einsätze platzieren, um Einzahlungsboni / Angebote (Gratis- oder Einzahlungsangebote) oder Boni, die für Freispielgewinne gutgeschrieben werden, umzusetzen, beträgt der erlaubte Höchsteinsatz 10 % (min. 0,10) des ursprünglichen/gutgeschriebenen Bonusbetrags oder 1 € (es gilt der niedrigere Betrag). Die Nichteinhaltung dieser Regel bedeutet, dass Sie gegen die Einzahlungsbonus-/Angebotsbedingungen verstoßen und wir behalten uns das Recht vor, jegliche Gewinne zu annullieren und zu entfernen. Ein Einsatz umfasst jede spezielle Einsatzfunktion, jede Glücksspielfunktion oder jede andere Art von Wettaktivität (unabhängig von ihrem Namen)</li>
+                        <li>Sofern im Aktionsangebot nicht anders angegeben, unterliegen Boni (einschließlich Gewinne aus Freispielen), die mit einem Einzahlungsangebot vergeben werden, einer Umsatzbedingung des dreißigfachen (30) Gesamtbetrags. Wenn Sie beispielsweise 10 € einzahlen und einen 10 € Bonus erhalten, müssen Sie den Gesamtbetrag 30-mal umsetzen, in diesem Fall 20 € (Einzahlung + Bonus). Wenn ein Bonus (einschließlich der Gewinne aus Freispielen) nicht im Rahmen eines Einzahlungsangebots vergeben wird oder wenn der Gesamtbonusbetrag (aus Boni und Freispielgewinnen) höher ist als der Einzahlungsbetrag, der zur Inanspruchnahme des Angebots getätigt wurde, unterliegt das Angebot einer Umsatzanforderung von sechzig (60) Mal nur für den Bonusbetrag.</li>
+                        <li>Wir haben 3 verschiedene Arten von Umsatzbedingungen, die wir für unsere Boni anwenden. Sofern nicht anders angegeben, hat der Bonus die Standard-Umsatzbedingungen. Spiele, die zu den folgenden Umsatzgruppen gehören, zählen für die Umsatzbedingungen eines Bonus:
+                        <ol>
+                        <li><strong>Standardumsatzbedingungen</strong>: In einem anderen Spiel als Slots und Rubbellose platzierte Einsätze zählen nicht für die Umsatzbedingungen.</li>
+                        <li><strong>Umsatzbedingungen mit gemischten Einsätzen:</strong> 10 % der Einsätze, die in anderen Spielen als Slots oder Rubbellosen platziert wurden, tragen zu Ihren Umsatzbedingungen bei.</li>
+                        <li><strong>Spezielle Umsatzbedingungen mit gemischten Einsätzen:</strong> 50 % der Einsätze, die in anderen Spielen als Slots und Rubbellosen platziert wurden, tragen zu Ihren Umsatzbedingungen bei. Spezielle Umsatzbedingungen mit gemischten Einsätzen sind nur bei besonderen Anlässen und für Spieler mit bestimmten Status verfügbar.</li>
+                        </ol>
+                        </li>
+                        <li>Wenn der Bonus Ihrem Konto gutgeschrieben wird, wird der erforderliche Umsatzbetrag in Bonuspunkte zum Einlösen umgewandelt.</li>
+                        <li>Die Umsatzbedingungen des Bonus werden auf der Bonusseite im persönlichen Bereich als Punkte zum Einlösen angezeigt. Für je 1 € die Sie setzen, erhalten Sie 0,5 Punkte.</li>
+                        <li>Umsatzanforderungen zählen nur jeweils für einen Bonus gemäß den folgenden Regeln:<br>33.1 &nbsp; &nbsp;Wenn es Boni gibt, die auf ein bestimmtes Spiel oder bestimmte Spiele beschränkt sind, tragen die Einsätze zuerst zu diesen Boni bei, wenn das jeweilige Spiel gespielt wird.<br>33.2 &nbsp; &nbsp;Wenn mehrere Boni mit unterschiedlichen Einsatzbedingungen aktiv sind, wird der Umsatz zuerst auf den Bonus mit dem höchsten Betrag angewendet.<br>33.3 &nbsp; &nbsp;Wenn es zwei aktive Boni mit identischen Bedingungen gibt, trägt der Umsatz zuerst zum Bonus mit dem höchsten Betrag bei.<br>33.4 &nbsp; &nbsp;Bitte beachten Sie, dass Sie Ihr Echtgeldguthaben immer zuerst umsetzen und erst dann, wenn es vollständig umgesetzt wurde, mit dem Umsetzen Ihres Bonusguthabens beginnen.<br>33.4.1 &nbsp; &nbsp;Auszahlungen werden nur auf den höchsten verwendeten Bonus angewendet. Dies gilt auch für Fälle, in denen ein Einsatz mit dem höchsten Bonusguthaben platziert wurde oder wenn für den höchsten Bonus bereits Punkte zum Einlösen gesammelt wurden.</li>
+                        <li>Wenn ein Bonus innerhalb von 30 Tagen nicht genutzt wurde (Umsatzanforderungen erfüllt oder verloren), wird der Bonusbetrag storniert und von Ihrem Konto entfernt, es sei denn, Sie verfügen über ein Echtgeldguthaben.</li>
+                        <li>Sofern nicht anders angegeben, haben Sie bis zu 24 Stunden Zeit, um die Umsatzbedingungen für Boni ohne Einzahlung (No Deposit-Bonus)/Freispiele zu erfüllen, bevor der Bonus und jegliche Gewinne entfernt werden.</li>
+                        <li>Wenn Bonusgeld umgesetzt und verloren wurde, aber nicht alle Umsatzbedingungen erfüllt wurden und Sie keine offenen Spiele haben, wird die nächste Einzahlung auf Ihr Konto den Bonus automatisch zurücksetzen und es ist nicht erforderlich, die verbleibenden Umsatzbedingungen zu erfüllen. Wenn Sie Ihre Spielsitzung fortsetzen und sicherstellen möchten, dass Ihr Bonus verbraucht wird, wenden Sie sich bitte nach Ihrer Einzahlung an den Kundendienst. Im Falle eines Missbrauchs, der darauf abzielt, die Erfüllung von Umsatzbedingungen für einen Bonus zu vermeiden, werden alle Gewinne entfernt und Ihre Einzahlung könnte eingezogen werden.</li>
+                        <li>Wenn einer Ihrer Boni aufgebraucht / storniert wurde oder abgelaufen ist, entweder seitens des Systems oder auf Ihren eigenen Wunsch hin, und die Umsatzbedingungen nicht erfüllt wurden, werden alle Ihre Gewinne entfernt, einschließlich aller ausstehenden/nicht angeforderten Gewinne aus Spielen/Aktionen, die Sie gespielt haben, während Ihnen der Bonus zur Verfügung stand.</li>
+                        <li>Wenn Sie einen Bonus und/oder Freispiele erhalten und noch keine Echtgeldeinsätze platziert haben, müssen Sie eine Einzahlung vornehmen und Einsätze mit Ihrem Echtgeld platzieren, um Gewinne auszahlen zu können.</li>
+                        <li>Sollten Sie versuchen, Gewinne aus einem Gratisbonus oder Freispielen auszuzahlen, ohne vorher mit Echtgeld gespielt zu haben, verfallen alle diese Gewinne. Darüber hinaus wird eine Auszahlungsgebühr gemäß Klausel 8.6 unserer Allgemeinen Geschäftsbedingungen erhoben.<br><br><strong>Regelwidriges Spiel/Faires Spiel</strong><br><br></li>
+                        <li>Wir behalten uns das Recht vor, Transaktionsaufzeichnungen und -protokolle von Zeit zu Zeit aus beliebigen Gründen zu überprüfen. Sollte sich bei einer solchen Überprüfung herausstellen, dass ein Kunde an regelwidrigem Spiel beteiligt ist, das wir nach unserem eigenen Ermessen als missbräuchlich erachten, behalten wir uns das Recht vor, die Berechtigung für eine Werbeaktion für den entsprechenden Kunden zu widerrufen.</li>
+                        <li>Wir behalten uns das Recht vor, einen Bonus und/oder Gewinne zu verweigern oder für ungültig zu erklären, falls Gelder von einem Zahlungsdienst oder Zahlungsanbieter oder vom Benutzer selbst storniert oder verweigert oder angefochten werden.</li>
+                        <li>Wir behalten uns das Recht vor, Auszahlungen einzubehalten und/oder alle Gewinne und Boni einzubehalten, sollten diese durch regelwidriges Spiel erzielt werden. Der Ausdruck „regelwidriges Spiel“ kann unter anderem eine oder mehrere der folgenden Spielarten umfassen: Gleiche, Null- oder Niedrigmargeneinsätze oder Hedge-Einsätze gelten als regelwidriges Spiel, wenn sie vorsätzlich zum Ausnutzen von Boni durchgeführt werden. Darüber hinaus gelten folgende Spielmuster als regelwidrig:
+                        <ol>
+                        <li>Erhöhung des Guthabens und anschließende signifikante Änderung des Spielmusters (Einsatz, Spielart, Einsatzstruktur usw.), um die Umsatzbedingungen für diesen Bonus zu erfüllen.</li>
+                        <li>Die Verwendung eines beliebigen Einsatzsystems oder das Platzieren von Eins-zu-eins-Einsätzen auf Baccarat und Roulette.</li>
+                        <li>Das Platzieren von Einsätzen, um eine Prämie in einer Währung zu erhalten, und anschließender Wechsel der Währung in eine stärkere Währung, bevor die Prämie dem Konto gutgeschrieben wird.</li>
+                        </ol>
+                        </li>
+                        <li>Wenn wir den Verdacht haben, dass ein Spieler ein oder mehrere Bonusangebote missbraucht hat oder missbraucht, entweder allein oder in Zusammenarbeit mit Partnern, behalten wir uns das Recht vor, den Bonus oder die Boni zu stornieren, alle Gewinne zu annullieren und die Konten der betreffenden Spieler zu schließen.</li>
+                        <li>Wenn Sie zum Zeitpunkt der Inanspruchnahme eines Bonus ohne Einzahlung eine ausstehende Auszahlung haben, behält sich die Online-Spielothek das Recht vor, alle nachfolgenden Gewinne aus diesem Bonus, einschließlich des Bonusbetrags, für ungültig zu erklären.</li>
+                        <li>Werbeaktionen und Boni sind dazu da, unsere geschätzten Spieler zu belohnen - Wir haben eine Null-Toleranz-Haltung in Bezug auf Bonusmissbrauch und betrügerische Aktivitäten. Wir behalten uns das Recht vor, Boni von Spielern zu sperren, die unsere Werbeaktionen missbräuchlich nutzen. Bei Verdacht auf betrügerische Aktivitäten oder Missbrauch behalten wir uns das Recht vor, Boni und Gewinne vom Konto zu entfernen.</li>
+                        <li>Faires Spiel bedeutet, dass Sie mit der Absicht einzahlen, mit dem eingezahlten Geld zu spielen bzw. es zu riskieren.</li>
+                        <li>Boni/Freispielgewinne ohne Umsatzanforderungen unterliegen den Regeln für faires Spiel. Jeder Spieler, der solche Angebote wahrnimmt und versucht, eine Auszahlung vorzunehmen, ohne sich an die Regeln für faires Spiel zu halten, muss mit der Konfiszierung seiner gesamten Gewinne rechnen und wird nicht mehr in der Lage sein, weitere Angebote in Anspruch zu nehmen.</li>
+                        </ol>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </section>
+        <!-- =========================== SubPages Context End ====================== -->
 
-        </header>
-    </div>
-    <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
-    <section class="bonus-policy-section bg-rose-bud-cherry pb-5">
-        <div class="container text-white">
-            <div class="col-lg-10 mx-auto">
-                <div class="mb-3 mb-md-5 text-center">
-                    <h3>Bonusrichtlinie</h3>
-                </div>
-                    <div son-ce="son-compliance-page"><h6>93-DL-N</h6>
-    <p><strong>Bonusrichtlinie</strong></p>
-    <p><strong>Versionsnummer 1.3, zuletzt aktualisiert am 31/7/2024.</strong></p>
-    <p>Diese Bonusrichtlinie ist integraler Bestandteil der Nutzungsbedingungen und tritt somit mit den Nutzungsbedingungen in Kraft. Alle allgemeinen Bedingungen der Allgemeinen Geschäftsbedingungen gelten für die Bonusrichtlinie, sofern nicht ausdrücklich ausgeschlossen.&nbsp;&nbsp;<br><br></p>
-    <p style="padding-left: 40px;"><strong>Allgemeine Bonusbedingungen</strong>&nbsp;</p>
-    <ol>
-    <li>Wenn zu irgendeinem Zeitpunkt nach dem Lesen dieser Richtlinie etwas nicht klar ist oder Sie unsere Boni nicht erhalten möchten, wenden Sie sich bitte an unser Team der Kundendienstabteilung, bevor Sie mit dem Spielen beginnen.</li>
-    <li>Sie verwenden Ihr Bonusguthaben erst, nachdem Sie Ihr Echtgeldguthaben gespielt haben.</li>
-    <li>Wenn Sie Ihr Bonusguthaben verwenden und Ihr Einsatz einen Gewinn erzielt, wird der Gewinn Ihrem Bonusguthaben hinzugefügt (es sei denn, der Einsatz erfüllt alle Ihre Umsatzbedingungen. In diesem Fall wird das gesamte verbleibende Bonusguthaben auf Ihr Echtgeldguthaben übertragen, es sei denn, der Bonus ist nicht auszahlbar).</li>
-    <li>Wenn Sie sowohl Echtgeld als auch Bonusgeld einsetzen, wird jeder Gewinn Ihrem Bonusguthaben hinzugefügt.</li>
-    <li>Jeder Bonus oder jedes Freispiel, das Ihnen (direkt auf Ihrem Konto oder über einen Preisvergabemechanismus wie z. B. Prize Twister) auf Ihr Konto gutgeschrieben wird, unterliegt dieser Bonusrichtlinie.</li>
-    <li>Wenn der Bonus/die Freispiele, die Sie beanspruchen wollten, nicht automatisch auf Ihrem Spielerkonto erscheinen, wenden Sie sich bitte an unseren Kundendienst, bevor Sie Einsätze platzieren, und der Bonus/die Freispiele werden Ihnen gutgeschrieben.</li>
-    <li>Sofern im Aktionsangebot nicht anders angegeben, stehen Boni nur Spielern zur Verfügung, die mindestens eine erfolgreiche Einzahlung auf ihr Konto vorgenommen haben.</li>
-    <li>Alle beim Spielen von Freispielangeboten angesammelten Gewinne werden Ihrem Konto als Bonus gutgeschrieben.</li>
-    <li>Ein aktiver Bonus hindert Sie nicht an einer Auszahlung. Sie müssen jedoch Ihr gesamtes Bonusguthaben stornieren (einschließlich aller Gewinne, die Sie mit Ihrem Bonus angesammelt haben), wenn Sie eine Auszahlung wünschen. Sie können Ihren Bonus jederzeit unter dem Menüpunkt „persönlichen Bereich“ stornieren.</li>
-    <li>In dem seltenen Fall, dass der Bonus nach seiner Stornierung erneut hinzugefügt werden muss (nach alleinigem Ermessen des Unternehmens), wird er unabhängig von der Anzahl der getätigten Einsätze mit den vollständigen Wettbedingungen erneut hinzugefügt.</li>
-    <li>Sollte eine technische Fehlkonfiguration, ein menschlicher Fehler oder ein Fehler jeglicher Art dazu führen, dass Ihrem Konto eine falsche Anzahl oder ein falscher Wert von Freispielen oder ein falscher Bonus gutgeschrieben wird, behalten wir uns das Recht vor, dies zu korrigieren, indem wir erhaltene Gewinne entfernen und die Prämie mit der korrekten Konfiguration erneut gutschreiben.</li>
-    <li>Jeder Versuch, mehrere Konten zu registrieren, um Bonusgeld zu erhalten, gilt als Bonusmissbrauch und führt dazu, dass das Konto/die Konten gesperrt und Ihr Guthaben entfernt wird.</li>
-    <li>Für einzelne Werbeaktionen können zusätzliche Bedingungen gelten, die die hier genannten Bedingungen außer Kraft setzen oder ergänzen. Bitte überprüfen Sie alle Bedingungen eines Angebots sorgfältig, bevor Sie teilnehmen.&nbsp; Sollten die Teilnahmebedingungen der einzelnen Aktionen gegen die Bonusrichtlinien verstoßen, gelten die Teilnahmebedingungen der einzelnen Aktionen.</li>
-    <li>In Übereinstimmung mit der Datenschutzrichtlinie versenden wir regelmäßig Werbe-E-Mails mit Bonusangeboten. Sie haben nur Anspruch auf den Bonus, wenn Sie die E-Mail direkt von uns erhalten haben. Sie können sich vom Erhalt von Werbenachrichten abmelden, indem Sie den Kundendienst kontaktieren. Wenn wir feststellen, dass ein bestimmter Kunde diese bestimmte Werbeaktion nicht als beabsichtigter exklusiver Empfänger erhalten hat, an den diese Werbeaktion gesendet wurde, werden wir keine Auszahlungsanträge von diesem Kunden erfüllen, selbst wenn er die Umsatzbedingungen erfüllt hat.</li>
-    <li>Wir behalten uns das Recht vor, Aktionen oder Bonusangebote jeglicher Art jederzeit und ohne vorherige Ankündigung zu stornieren. Eine solche Stornierung hat keine Auswirkungen auf eine bereits eingelöste Prämie.</li>
-    <li>Alle Angebote, die Sie in Ihren Angeboten des Tages sehen, stehen Ihnen aufgrund des aktuellen Stands Ihres Kontos zur Verfügung. Angebote können aufgrund von Änderungen auf dem Konto, die durch durchgeführte Transaktionen verursacht wurden, vor Ablauf der Zeit nicht mehr verfügbar sein.</li>
-    <li>Sofern nicht anders angegeben, beträgt die Mindesteinzahlung, um sich für einen Einzahlungsbonus zu qualifizieren, 10 €.</li>
-    <li>Wenn der letzte Bonus, den ein Spieler erhalten hat, ein Bonus war, der nicht mit einer Einzahlung verbunden war, muss zuerst eine Einzahlung getätigt werden, bevor der Spieler einen weiteren Bonus in Anspruch nehmen kann, auch wenn dieser dem Spieler angeboten wurde. Jeder Verstoß gegen diese Bedingung kann dazu führen, dass zukünftige Boni gesperrt werden und/oder Gewinne, die durch die Nutzung eines Nicht-Einzahlungsbonus erzielt wurden, entfernt werden.</li>
-    <li>Wenn Sie einen Bonus ohne Einzahlung (allgemeiner Bonus ohne Einzahlung/Freundschaftsbonus/Registrierungsbonus usw.) oder Freispiele ohne Einzahlung erhalten, beträgt der Höchstbetrag, den Sie gewinnen oder auszahlen können, sofern nicht anders angegeben, 100 € oder das Zweifache des Bonusbetrags. Der größere der beiden Beträge wird angewandt. Alle Gewinne, die über den angewendeten Betrag hinausgehen, einschließlich der Gewinne, die Sie mit diesem Geld, auch nach einer eventuellen Einzahlung, erzielt haben, werden von Ihrem Konto entfernt.</li>
-    <li>Ein Bonus (einschließlich des Bonusguthabens aus dem Freispielbonus) gilt auch dann als Nicht-Einzahlungsbonus, wenn Ihr Echtgeldguthaben zu dem Zeitpunkt, zu dem Ihnen der Bonus gutgeschrieben wurde, niedriger ist als Ihre letzte Einzahlung.</li>
-    <li>Freispiele sind Drehs, die erfolgen, ohne dass Ihr Guthaben auf dem Spielkonto reduziert wird. Um Zweifel zu vermeiden, bezieht sich jede Erwähnung von Freispielen in dieser Bonusrichtlinie auf Freispiele, die nicht zu einer Reduzierung Ihres Guthabens führen, unabhängig davon, als was diese Freispiele vermarktet werden. Dazu zählen keine Freispiele, die ein ausgelöstes Feature in einem Spiel sind. &nbsp;</li>
-    <li>Wenn Sie einen beanspruchbaren Bonus/Freispiele in Verbindung mit einem Einzahlungsangebot erhalten oder Freispiele mit Ihrem Echtgeldguthaben kaufen, müssen Sie den Bonus in Anspruch nehmen oder mit den Freispielen spielen, bevor Sie mit Ihrem verfügbaren Guthaben spielen können (Echtgeld und Bonusguthaben gleichermaßen). Wird dies nicht eingehalten, können Gewinne entfernt werden.</li>
-    <li>Sofern nicht anders angegeben, wird ein Bonus ohne Einzahlung oder ein Freispielangebot ohne Einzahlung nur Spielern gewährt, die ihre E-Mail-Adresse bestätigt haben. Für den Fall, dass Freispiele ohne Einzahlung oder Bonusangebote ohne Einzahlung irrtümlich an Spieler vergeben werden, die ihre E-Mail nicht bestätigt haben, behalten wir uns das Recht vor, alle damit verbundenen Gewinne zu entfernen.</li>
-    <li>Spieler dürfen mit einem aktiven Bonus in jedem Spiel spielen. In bestimmten Spielen ist das Bonusguthaben nicht zum Spielen verfügbar und wenn sie diese Spiele öffnen, sehen sie nur ihr Echtgeldguthaben. Um die Verfügbarkeit der Boni zu überprüfen, lesen Sie bitte die Informationskarte für jedes Spiel auf der Spieleplattform der Online-Spielothek.</li>
-    <li>Ein ausstehender Bonus ist ein Bonus, der erst nach Erfüllung der Umsatzanforderungen zur Verfügung steht. Sie werden diesen Bonus in Ihrem ausstehenden Bonusguthaben sehen.</li>
-    <li>Ein nicht auszahlbarer Bonus ist ein Bonus, der, sobald die Umsatzanforderungen erfüllt wurden oder der Bonus verbraucht wurde, nicht mehr Ihrem Echtgeldguthaben gutgeschrieben wird, unabhängig davon, ob beim Aufbrauchen noch ein Bonusbetrag übrig war. Sobald die Umsatzbedingung erfüllt / der Bonus aufgebraucht wurde, wird der verbleibende Betrag von Ihrem Bonusguthaben abgezogen.</li>
-    <li>Boni, Freispiele oder goldene Chips, für die keine Umsatzbedingungen gelten, unterliegen der Überwachung auf „regelwidriges Spiel“, wie in den Abschnitten 28 und 29 beschrieben.</li>
-    <li>Wenn Sie einen Bonus, Freispiele und/oder goldene Chips erhalten, müssen Sie zuvor eine Einzahlung vorgenommen und Ihr eigenes Geld riskiert haben, um Gelder im Zusammenhang mit dem Bonus/den Freispielen/den goldenen Chips auszahlen zu können.</li>
-    <li>Sollten Sie nach Erhalt eines Bonus, von Freispielen oder goldenen Chips versuchen auszuzahlen, ohne die für den Erhalt des Bonus/der Freispiele/der goldenen Chips vorgenommene Einzahlung zu riskieren, verfällt der erhaltene Bonus.<br><br><strong>Umsatzbedingungen</strong><br><br></li>
-    <li>Nur wenn Sie Ihr Bonusguthaben verwenden und ein teilnahmeberechtigtes Spiel spielen (gemäß Klausel 23), generieren die getätigten Einsätze Punkte, die zum Umsetzen Ihres Bonus benötigt werden.</li>
-    <li>Während Sie Einsätze platzieren, um Einzahlungsboni / Angebote (Gratis- oder Einzahlungsangebote) oder Boni, die für Freispielgewinne gutgeschrieben werden, umzusetzen, beträgt der erlaubte Höchsteinsatz 10 % (min. 0,10) des ursprünglichen/gutgeschriebenen Bonusbetrags oder 1 € (es gilt der niedrigere Betrag). Die Nichteinhaltung dieser Regel bedeutet, dass Sie gegen die Einzahlungsbonus-/Angebotsbedingungen verstoßen und wir behalten uns das Recht vor, jegliche Gewinne zu annullieren und zu entfernen. Ein Einsatz umfasst jede spezielle Einsatzfunktion, jede Glücksspielfunktion oder jede andere Art von Wettaktivität (unabhängig von ihrem Namen)</li>
-    <li>Sofern im Aktionsangebot nicht anders angegeben, unterliegen Boni (einschließlich Gewinne aus Freispielen), die mit einem Einzahlungsangebot vergeben werden, einer Umsatzbedingung des dreißigfachen (30) Gesamtbetrags. Wenn Sie beispielsweise 10 € einzahlen und einen 10 € Bonus erhalten, müssen Sie den Gesamtbetrag 30-mal umsetzen, in diesem Fall 20 € (Einzahlung + Bonus). Wenn ein Bonus (einschließlich der Gewinne aus Freispielen) nicht im Rahmen eines Einzahlungsangebots vergeben wird oder wenn der Gesamtbonusbetrag (aus Boni und Freispielgewinnen) höher ist als der Einzahlungsbetrag, der zur Inanspruchnahme des Angebots getätigt wurde, unterliegt das Angebot einer Umsatzanforderung von sechzig (60) Mal nur für den Bonusbetrag.</li>
-    <li>Wir haben 3 verschiedene Arten von Umsatzbedingungen, die wir für unsere Boni anwenden. Sofern nicht anders angegeben, hat der Bonus die Standard-Umsatzbedingungen. Spiele, die zu den folgenden Umsatzgruppen gehören, zählen für die Umsatzbedingungen eines Bonus:
-    <ol>
-    <li><strong>Standardumsatzbedingungen</strong>: In einem anderen Spiel als Slots und Rubbellose platzierte Einsätze zählen nicht für die Umsatzbedingungen.</li>
-    <li><strong>Umsatzbedingungen mit gemischten Einsätzen:</strong> 10 % der Einsätze, die in anderen Spielen als Slots oder Rubbellosen platziert wurden, tragen zu Ihren Umsatzbedingungen bei.</li>
-    <li><strong>Spezielle Umsatzbedingungen mit gemischten Einsätzen:</strong> 50 % der Einsätze, die in anderen Spielen als Slots und Rubbellosen platziert wurden, tragen zu Ihren Umsatzbedingungen bei. Spezielle Umsatzbedingungen mit gemischten Einsätzen sind nur bei besonderen Anlässen und für Spieler mit bestimmten Status verfügbar.</li>
-    </ol>
-    </li>
-    <li>Wenn der Bonus Ihrem Konto gutgeschrieben wird, wird der erforderliche Umsatzbetrag in Bonuspunkte zum Einlösen umgewandelt.</li>
-    <li>Die Umsatzbedingungen des Bonus werden auf der Bonusseite im persönlichen Bereich als Punkte zum Einlösen angezeigt. Für je 1 € die Sie setzen, erhalten Sie 0,5 Punkte.</li>
-    <li>Umsatzanforderungen zählen nur jeweils für einen Bonus gemäß den folgenden Regeln:<br>33.1 &nbsp; &nbsp;Wenn es Boni gibt, die auf ein bestimmtes Spiel oder bestimmte Spiele beschränkt sind, tragen die Einsätze zuerst zu diesen Boni bei, wenn das jeweilige Spiel gespielt wird.<br>33.2 &nbsp; &nbsp;Wenn mehrere Boni mit unterschiedlichen Einsatzbedingungen aktiv sind, wird der Umsatz zuerst auf den Bonus mit dem höchsten Betrag angewendet.<br>33.3 &nbsp; &nbsp;Wenn es zwei aktive Boni mit identischen Bedingungen gibt, trägt der Umsatz zuerst zum Bonus mit dem höchsten Betrag bei.<br>33.4 &nbsp; &nbsp;Bitte beachten Sie, dass Sie Ihr Echtgeldguthaben immer zuerst umsetzen und erst dann, wenn es vollständig umgesetzt wurde, mit dem Umsetzen Ihres Bonusguthabens beginnen.<br>33.4.1 &nbsp; &nbsp;Auszahlungen werden nur auf den höchsten verwendeten Bonus angewendet. Dies gilt auch für Fälle, in denen ein Einsatz mit dem höchsten Bonusguthaben platziert wurde oder wenn für den höchsten Bonus bereits Punkte zum Einlösen gesammelt wurden.</li>
-    <li>Wenn ein Bonus innerhalb von 30 Tagen nicht genutzt wurde (Umsatzanforderungen erfüllt oder verloren), wird der Bonusbetrag storniert und von Ihrem Konto entfernt, es sei denn, Sie verfügen über ein Echtgeldguthaben.</li>
-    <li>Sofern nicht anders angegeben, haben Sie bis zu 24 Stunden Zeit, um die Umsatzbedingungen für Boni ohne Einzahlung (No Deposit-Bonus)/Freispiele zu erfüllen, bevor der Bonus und jegliche Gewinne entfernt werden.</li>
-    <li>Wenn Bonusgeld umgesetzt und verloren wurde, aber nicht alle Umsatzbedingungen erfüllt wurden und Sie keine offenen Spiele haben, wird die nächste Einzahlung auf Ihr Konto den Bonus automatisch zurücksetzen und es ist nicht erforderlich, die verbleibenden Umsatzbedingungen zu erfüllen. Wenn Sie Ihre Spielsitzung fortsetzen und sicherstellen möchten, dass Ihr Bonus verbraucht wird, wenden Sie sich bitte nach Ihrer Einzahlung an den Kundendienst. Im Falle eines Missbrauchs, der darauf abzielt, die Erfüllung von Umsatzbedingungen für einen Bonus zu vermeiden, werden alle Gewinne entfernt und Ihre Einzahlung könnte eingezogen werden.</li>
-    <li>Wenn einer Ihrer Boni aufgebraucht / storniert wurde oder abgelaufen ist, entweder seitens des Systems oder auf Ihren eigenen Wunsch hin, und die Umsatzbedingungen nicht erfüllt wurden, werden alle Ihre Gewinne entfernt, einschließlich aller ausstehenden/nicht angeforderten Gewinne aus Spielen/Aktionen, die Sie gespielt haben, während Ihnen der Bonus zur Verfügung stand.</li>
-    <li>Wenn Sie einen Bonus und/oder Freispiele erhalten und noch keine Echtgeldeinsätze platziert haben, müssen Sie eine Einzahlung vornehmen und Einsätze mit Ihrem Echtgeld platzieren, um Gewinne auszahlen zu können.</li>
-    <li>Sollten Sie versuchen, Gewinne aus einem Gratisbonus oder Freispielen auszuzahlen, ohne vorher mit Echtgeld gespielt zu haben, verfallen alle diese Gewinne. Darüber hinaus wird eine Auszahlungsgebühr gemäß Klausel 8.6 unserer Allgemeinen Geschäftsbedingungen erhoben.<br><br><strong>Regelwidriges Spiel/Faires Spiel</strong><br><br></li>
-    <li>Wir behalten uns das Recht vor, Transaktionsaufzeichnungen und -protokolle von Zeit zu Zeit aus beliebigen Gründen zu überprüfen. Sollte sich bei einer solchen Überprüfung herausstellen, dass ein Kunde an regelwidrigem Spiel beteiligt ist, das wir nach unserem eigenen Ermessen als missbräuchlich erachten, behalten wir uns das Recht vor, die Berechtigung für eine Werbeaktion für den entsprechenden Kunden zu widerrufen.</li>
-    <li>Wir behalten uns das Recht vor, einen Bonus und/oder Gewinne zu verweigern oder für ungültig zu erklären, falls Gelder von einem Zahlungsdienst oder Zahlungsanbieter oder vom Benutzer selbst storniert oder verweigert oder angefochten werden.</li>
-    <li>Wir behalten uns das Recht vor, Auszahlungen einzubehalten und/oder alle Gewinne und Boni einzubehalten, sollten diese durch regelwidriges Spiel erzielt werden. Der Ausdruck „regelwidriges Spiel“ kann unter anderem eine oder mehrere der folgenden Spielarten umfassen: Gleiche, Null- oder Niedrigmargeneinsätze oder Hedge-Einsätze gelten als regelwidriges Spiel, wenn sie vorsätzlich zum Ausnutzen von Boni durchgeführt werden. Darüber hinaus gelten folgende Spielmuster als regelwidrig:
-    <ol>
-    <li>Erhöhung des Guthabens und anschließende signifikante Änderung des Spielmusters (Einsatz, Spielart, Einsatzstruktur usw.), um die Umsatzbedingungen für diesen Bonus zu erfüllen.</li>
-    <li>Die Verwendung eines beliebigen Einsatzsystems oder das Platzieren von Eins-zu-eins-Einsätzen auf Baccarat und Roulette.</li>
-    <li>Das Platzieren von Einsätzen, um eine Prämie in einer Währung zu erhalten, und anschließender Wechsel der Währung in eine stärkere Währung, bevor die Prämie dem Konto gutgeschrieben wird.</li>
-    </ol>
-    </li>
-    <li>Wenn wir den Verdacht haben, dass ein Spieler ein oder mehrere Bonusangebote missbraucht hat oder missbraucht, entweder allein oder in Zusammenarbeit mit Partnern, behalten wir uns das Recht vor, den Bonus oder die Boni zu stornieren, alle Gewinne zu annullieren und die Konten der betreffenden Spieler zu schließen.</li>
-    <li>Wenn Sie zum Zeitpunkt der Inanspruchnahme eines Bonus ohne Einzahlung eine ausstehende Auszahlung haben, behält sich die Online-Spielothek das Recht vor, alle nachfolgenden Gewinne aus diesem Bonus, einschließlich des Bonusbetrags, für ungültig zu erklären.</li>
-    <li>Werbeaktionen und Boni sind dazu da, unsere geschätzten Spieler zu belohnen - Wir haben eine Null-Toleranz-Haltung in Bezug auf Bonusmissbrauch und betrügerische Aktivitäten. Wir behalten uns das Recht vor, Boni von Spielern zu sperren, die unsere Werbeaktionen missbräuchlich nutzen. Bei Verdacht auf betrügerische Aktivitäten oder Missbrauch behalten wir uns das Recht vor, Boni und Gewinne vom Konto zu entfernen.</li>
-    <li>Faires Spiel bedeutet, dass Sie mit der Absicht einzahlen, mit dem eingezahlten Geld zu spielen bzw. es zu riskieren.</li>
-    <li>Boni/Freispielgewinne ohne Umsatzanforderungen unterliegen den Regeln für faires Spiel. Jeder Spieler, der solche Angebote wahrnimmt und versucht, eine Auszahlung vorzunehmen, ohne sich an die Regeln für faires Spiel zu halten, muss mit der Konfiszierung seiner gesamten Gewinne rechnen und wird nicht mehr in der Lage sein, weitere Angebote in Anspruch zu nehmen.</li>
-    </ol></div>
+
+        <!-- ============================= Footer Section Start ======================= -->
+        <footer class="footer">
+            <div class="footer-top bg-mulberry-wood pt-5 pb-5">
+                <div class="container text-center">
+                    <!-- ===== Footer Links ====== -->
+                    <ul class="list-inline mb-4">
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="payment-options.html">Zahlungsarten</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="responsible-gaming.html"><span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen<a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="terms-conditions.html"><span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="privacy-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="bonus-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie</a>
+                        </li>
+                    </ul>
+
+                    <!-- === Footer Context ==== -->
+                    <div class="small-1 col-lg-10 mx-auto">
+                        <div class="text-amaranth">
+                            <div son-ce="son-license-text">
+                                Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22 erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
+                                <br>
+                                <br>
+                                <a href="responsible-gaming.html" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
+                                <br>
                             </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-top bg-mulberry-wood pt-5 pb-5">
-            <div class="container text-center">
-                <ul class="list-inline mb-4">
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="payment-options.html">
-                        Zahlungsarten                    </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="responsible-gaming.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen </a>
-                    </li>
-                    <!--<li class="list-inline-item mb-2">
-                    <a class="text-white pl-2" href="https://www.prizeaffiliates.com/" target="_blank">
-                        <span class="divider-vertical d-none d-sm-inline"></span>
-                        Partner                    </a>
-                </li>-->
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="terms-conditions.html">
-                            <span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="privacy-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="bonus-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie </a>
-                    </li>
-                </ul>
-                <div class="small-1 col-lg-10 mx-auto">
-                    <div class="text-amaranth">
-                        <div son-ce="son-license-text">Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos
-                            Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener
-                            Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22
-                            erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
-                            <br>
-                            <br><a href="https://son-direct.com/?appName=PlaySpielothek.dl&langID=8&name=responsible_gaming" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
-                            <br>
                         </div>
-                        <son-beam style="--beam-background: transparent"></son-beam>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom bg-white pt-3 pb-3">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-center">
-                    <div class="p-2">
-                        <div class="logos">
-                            <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
-                                <img src="https://service.image-tech-storage.com/logos/4044fd17-e653-4397-8b5f-e2c4f30772b0_dark.png" class="lazyloaded">
-                            </a>
 
-                            <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
-                                <img src="https://service.image-tech-storage.com/logos/6ad3e32a-b71d-467c-af67-4fc9b59c1f47_dark.png" class="lazyloaded">
-                            </a>
+            <!-- ======= Footer Brand Logos ===== -->
+            <div class="footer-bottom bg-white pt-3 pb-3">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center">
+                        <div class="p-2">
+                            <div class="logos">
 
-                            <a rel="nofollow" style="width: 45px;">
-                                <img src="https://service.image-tech-storage.com/logos/3e989124-2461-48a8-b27d-bb89f8608334_dark.png" class="lazyloaded">
-                            </a>
+                                <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
+                                    <img src="images/GGL.webp" class="lazyloaded">
+                                </a>
 
-                            <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
-                                <img src="https://service.image-tech-storage.com/logos/12d9a2a9-1de1-4804-afae-44943cf50d86_dark.png" class="lazyloaded">
-                            </a>
+                                <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
+                                    <img src="images/skillnote.webp" class="lazyloaded">
+                                </a>
 
-                            <a rel="nofollow" style="width: 126px;">
-                                <img src="https://service.image-tech-storage.com/logos/42c459f5-7087-48ad-adbf-342380f0013f_dark.png" class="lazyloaded">
-                            </a>
+                                <a rel="nofollow" style="width: 45px;">
+                                    <img src="images/18.webp" class="lazyloaded">
+                                </a>
 
-                            <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
-                                <img src="https://service.image-tech-storage.com/logos/b4068a9b-e29d-4d64-a9eb-10af8aa0fde5_dark.png" class="lazyloaded">
-                            </a>
+                                <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
+                                    <img src="images/itect-labs.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" style="width: 126px;">
+                                    <img src="images/secure-site.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
+                                    <img src="images/de.webp" class="lazyloaded">
+                                </a>
+                            </div>
+
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
 
-
-
-
-
-
-    </footer>
-</body>
+        </footer>
+        <!-- ============================= Footer Section End ======================= -->
+    </body>
 
 </html>

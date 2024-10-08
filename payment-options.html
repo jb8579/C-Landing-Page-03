@@ -3,190 +3,177 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Hol dir einen coolen Willkommensbonus & Spins | Playspielothek</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- =================== Title ========================= -->
+        <title>Playspielothek</title>
+
+        <!-- =================== Custom Link ==================== -->
         <link rel="stylesheet" href="css/base.min.css">
         <link rel="stylesheet" href="css/promotions.min.css">
-       
-        <!-- MANIFEST -->
 
 
-        <style type="text/css">
-            .loader-wrapper,
-            body {
-                background: #fff;
-            }
-            .loader-wrapper {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                z-index: 99999;
-                pointer-events: none;
-            }
-
-            .logos {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                padding: var(--license-logo-padding, 0);
-                margin: var(--license-logo-margin, 0);
-                background: var(--license-logo-background, transparent);
-            }
-        </style>
-        <style>*,*::before,*::after{box-sizing:border-box}a{color:#0d6efd;text-decoration:underline}a:hover{color:#0a58ca}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img{vertical-align:middle;border-style:none}.payments{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:var(--payment-logo-padding, 0);margin:var(--payment-logo-margin, 0);background:var(--payment-logo-background, transparent)}img{display:block;width:auto;max-height:var(--payment-logo-item-max-height, 35px);margin:var(--payment-logo-item-margin, 10px)}</style>
-        <style id="ais">
-            :root{
-                --ais-logo-max-width: 100%;
-                --ais-logo-height: auto;
-                --ais-gb: #fff;
-                --ais-title-text-shadow: none;
-                --ais-title-color: #992164;
-                --ais-curve-bg: #550732;
-                --ais-browser-text-color: #fff43d;
-                --ais-dismiss-text-color: #fff;
-                --ais-nav-bg: #fff;
-                --ais-nav-menu-color: #fff;
-                --ais-nav-btn-color: #333;
-                --ais-nav-btn-bg: linear-gradient(0deg,#9de000,#d8fc00);
-            }
-        </style>
+        <!-- ================== Google Fonts ======================== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
     </head>
 
-<body class="de welcome-offer">
-    <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
-        <a href="/">
-            <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo" />
-        </a>
-    </div>
+    <body class="de welcome-offer">
 
-    <div class="fixed-container">
-        <div class="dl-beam">
-            <div class="container">
-                <div class="inner-container">
-                    <slot name="age-icon"><img alt="germany_flag" src="https://service.image-tech-storage.com/workers/germany-flag.7e6efab3.png" class="flag-icon"></slot>
-                    <div class="text">Lizenziert in Deutschland</div>
+        <!-- ================== Mobile Header Logo Start ===================== -->
+        <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
+            <a href="/">
+                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
+            </a>
+        </div>
+        <!-- ================== Mobile Header Logo End ===================== -->
+
+
+
+        <div class="fixed-container">
+            <!-- ================= Sticky German Flag Start ================= -->
+            <div class="dl-beam">
+                <div class="container">
+                    <div class="inner-container">
+                        <slot name="age-icon"><img alt="germany_flag" src="images/germany-flag.webp" class="flag-icon"></slot>
+
+                        <div class="text">Lizenziert in Deutschland</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <header id="header" class="header">
-            <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+            <!-- ================= Sticky German Flag End ================= -->
 
-                <div class="container pt-3">
-                    <div class="navbar-brand mx-auto">
-                        <div class="d-flex justify-content-center align-items-center">
+
+
+            <!-- ================= Desktop Header Logo Start ==================== -->
+            <header id="header" class="header">
+                <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+
+                    <div class="container pt-3">
+                        <div class="navbar-brand mx-auto">
                             <a href="/">
-                                <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo">
+                                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
                             </a>
                         </div>
                     </div>
-                    <div class="topbar-login d-none d-lg-block">
-                    </div>
-                </div>
-            </nav>
+                </nav>
 
-        </header>
-    </div>
-    <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
-    <section class="payment-options-section pt-0 pb-5 cover bg-rose-bud-cherry">
-        <div class="container text-center text-white">
-            <h3 class="mt-4 mb-4">Zahlungsmöglichkeiten</h3>
-            <p class="mb-4">Klick auf eine der Zahlungsmöglichkeiten um mehr Details zu sehen.</p>
-            <div class="d-flex justify-content-center flex-wrap mb-3">
-                <div class="payments"><img alt="Astropay" src="https://service.image-tech-storage.com/payments/9c1c5be6-e157-40d1-b3af-456857932e10_medium.png" class="lazyloaded"><img alt="MasterCard" src="https://service.image-tech-storage.com/payments/fe47d411-036b-4e3f-bb4a-496d412fc754_medium.png" class="lazyloaded"><img alt="Payz" src="https://service.image-tech-storage.com/payments/847c0b15-9529-4d84-90e4-9ef904c350d6_medium.png" class="lazyloaded"><img alt="Visa" src="https://service.image-tech-storage.com/payments/2e292091-bcae-473b-ae57-34a7fc3553c4_medium.png" class="lazyloaded"></div>
-            </div>
-            <p class="mb-5">Die Verfügbarkeit hängt von Ihrem Land ab</p>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-top bg-mulberry-wood pt-5 pb-5">
-            <div class="container text-center">
-                <ul class="list-inline mb-4">
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="payment-options.html">
-                        Zahlungsarten                    </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="responsible-gaming.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen </a>
-                    </li>
-                    <!--<li class="list-inline-item mb-2">
-                    <a class="text-white pl-2" href="https://www.prizeaffiliates.com/" target="_blank">
-                        <span class="divider-vertical d-none d-sm-inline"></span>
-                        Partner                    </a>
-                </li>-->
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="terms-conditions.html">
-                            <span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="privacy-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="bonus-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie </a>
-                    </li>
-                </ul>
-                <div class="small-1 col-lg-10 mx-auto">
-                    <div class="text-amaranth">
-                        <div son-ce="son-license-text">Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos
-                            Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener
-                            Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22
-                            erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
-                            <br>
-                            <br><a href="https://son-direct.com/?appName=PlaySpielothek.dl&langID=8&name=responsible_gaming" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
-                            <br>
-                        </div>
-                        <son-beam style="--beam-background: transparent"></son-beam>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom bg-white pt-3 pb-3">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-center">
-                    <div class="p-2">
-                        <div class="logos">
-                            <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
-                                <img src="https://service.image-tech-storage.com/logos/4044fd17-e653-4397-8b5f-e2c4f30772b0_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
-                                <img src="https://service.image-tech-storage.com/logos/6ad3e32a-b71d-467c-af67-4fc9b59c1f47_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" style="width: 45px;">
-                                <img src="https://service.image-tech-storage.com/logos/3e989124-2461-48a8-b27d-bb89f8608334_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
-                                <img src="https://service.image-tech-storage.com/logos/12d9a2a9-1de1-4804-afae-44943cf50d86_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" style="width: 126px;">
-                                <img src="https://service.image-tech-storage.com/logos/42c459f5-7087-48ad-adbf-342380f0013f_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
-                                <img src="https://service.image-tech-storage.com/logos/b4068a9b-e29d-4d64-a9eb-10af8aa0fde5_dark.png" class="lazyloaded">
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            </header>
+            <!-- ================= Desktop Header Logo End ==================== -->
         </div>
 
 
 
+        <!-- ============================ Oval Shape Section Start ======================= -->
+        <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
+        <!-- ============================ Oval Shape Section End ======================= -->
 
 
+        
+        <!-- =========================== SubPages Context Start ====================== -->
+        <section class="payment-options-section pt-0 pb-5 cover bg-rose-bud-cherry">
+            <div class="container text-center text-white">
+                <h3 class="mt-4 mb-4">Zahlungsmöglichkeiten</h3>
+                <p class="mb-4">Klick auf eine der Zahlungsmöglichkeiten um mehr Details zu sehen.</p>
+                <div class="d-flex justify-content-center flex-wrap mb-3">
+                    <div class="payments">
+                        <img alt="Astropay" src="images/astro-pay.webp" class="lazyloaded">
+                        <img alt="MasterCard" src="images/master-card.webp"
+                        class="lazyloaded">
+                        <img alt="Payz" src="images/payz.webp" class="lazyloaded">
+                        <img alt="Visa" src="images/visa.webp"
+                        class="lazyloaded">
+                    </div>
+                </div>
+                <p class="mb-5">Die Verfügbarkeit hängt von Ihrem Land ab</p>
+            </div>
+        </section>
+        <!-- =========================== SubPages Context End ====================== -->
 
-    </footer>
-</body>
+
+        <!-- ============================= Footer Section Start ======================= -->
+        <footer class="footer">
+            <div class="footer-top bg-mulberry-wood pt-5 pb-5">
+                <div class="container text-center">
+                    <!-- ===== Footer Links ====== -->
+                    <ul class="list-inline mb-4">
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="payment-options.html">Zahlungsarten</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="responsible-gaming.html"><span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen<a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="terms-conditions.html"><span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="privacy-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="bonus-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie</a>
+                        </li>
+                    </ul>
+
+                    <!-- === Footer Context ==== -->
+                    <div class="small-1 col-lg-10 mx-auto">
+                        <div class="text-amaranth">
+                            <div son-ce="son-license-text">
+                                Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22 erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
+                                <br>
+                                <br>
+                                <a href="responsible-gaming.html" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======= Footer Brand Logos ===== -->
+            <div class="footer-bottom bg-white pt-3 pb-3">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center">
+                        <div class="p-2">
+                            <div class="logos">
+
+                                <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
+                                    <img src="images/GGL.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
+                                    <img src="images/skillnote.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" style="width: 45px;">
+                                    <img src="images/18.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
+                                    <img src="images/itect-labs.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" style="width: 126px;">
+                                    <img src="images/secure-site.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
+                                    <img src="images/de.webp" class="lazyloaded">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ============================= Footer Section End ======================= -->
+    </body>
 
 </html>

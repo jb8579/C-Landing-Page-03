@@ -3,490 +3,473 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Hol dir einen coolen Willkommensbonus & Spins | Playspielothek</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- =================== Title ========================= -->
+        <title>Playspielothek</title>
+
+        <!-- =================== Custom Link ==================== -->
         <link rel="stylesheet" href="css/base.min.css">
         <link rel="stylesheet" href="css/promotions.min.css">
-       
-        <!-- MANIFEST -->
 
 
-        <style type="text/css">
-            .loader-wrapper,
-            body {
-                background: #fff;
-            }
-            .loader-wrapper {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                z-index: 99999;
-                pointer-events: none;
-            }
-
-            .logos {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                padding: var(--license-logo-padding, 0);
-                margin: var(--license-logo-margin, 0);
-                background: var(--license-logo-background, transparent);
-            }
-        </style>
-        <style id="ais">
-            :root{
-                --ais-logo-max-width: 100%;
-                --ais-logo-height: auto;
-                --ais-gb: #fff;
-                --ais-title-text-shadow: none;
-                --ais-title-color: #992164;
-                --ais-curve-bg: #550732;
-                --ais-browser-text-color: #fff43d;
-                --ais-dismiss-text-color: #fff;
-                --ais-nav-bg: #fff;
-                --ais-nav-menu-color: #fff;
-                --ais-nav-btn-color: #333;
-                --ais-nav-btn-bg: linear-gradient(0deg,#9de000,#d8fc00);
-            }
-        </style>
+        <!-- ================== Google Fonts ======================== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
     </head>
 
-<body class="de welcome-offer">
-    <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
-        <a href="/">
-            <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo" />
-        </a>
-    </div>
+    <body class="de welcome-offer">
 
-    <div class="fixed-container">
-        <div class="dl-beam">
-            <div class="container">
-                <div class="inner-container">
-                    <slot name="age-icon"><img alt="germany_flag" src="https://service.image-tech-storage.com/workers/germany-flag.7e6efab3.png" class="flag-icon"></slot>
-                    <div class="text">Lizenziert in Deutschland</div>
+        <!-- ================== Mobile Header Logo Start ===================== -->
+        <div class="mob-header d-lg-none" style="padding: 0px 0px!important;">
+            <a href="/">
+                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
+            </a>
+        </div>
+        <!-- ================== Mobile Header Logo End ===================== -->
+
+
+
+        <div class="fixed-container">
+            <!-- ================= Sticky German Flag Start ================= -->
+            <div class="dl-beam">
+                <div class="container">
+                    <div class="inner-container">
+                        <slot name="age-icon"><img alt="germany_flag" src="images/germany-flag.webp" class="flag-icon"></slot>
+
+                        <div class="text">Lizenziert in Deutschland</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <header id="header" class="header">
-            <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+            <!-- ================= Sticky German Flag End ================= -->
 
-                <div class="container pt-3">
-                    <div class="navbar-brand mx-auto">
-                        <div class="d-flex justify-content-center align-items-center">
+
+
+            <!-- ================= Desktop Header Logo Start ==================== -->
+            <header id="header" class="header">
+                <nav class="navbar navbar-light bg-white p-0 pb-lg-3">
+
+                    <div class="container pt-3">
+                        <div class="navbar-brand mx-auto">
                             <a href="/">
-                                <img class="img-fluid logo" src="https://aws-origin.image-tech-storage.com/playspielothek.de/images/nav/logo_de.png?v=1719811372" alt="Logo">
+                                <img class="img-fluid logo" src="images/logo_de.webp" alt="Logo">
                             </a>
                         </div>
                     </div>
-                    <div class="topbar-login d-none d-lg-block">
-                    </div>
-                </div>
-            </nav>
+                </nav>
 
-        </header>
-    </div>
-    <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
-    <section class="terms-conditions-section bg-rose-bud-cherry pb-5">
-        <div class="container text-white">
-            <div class="col-lg-10 mx-auto">
-                <div class="mb-3 mb-md-5 text-center">
-                    <h3>Allgemeine Geschäftsbedingungen</h3>
-                                </div>
-                <div son-ce="son-compliance-page"><div son-ce="son-license-text">Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22 erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a> <br><br><a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=responsible_gaming" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a><br></div><h6>89-DL-N</h6>
-    <h3>Allgemeine Geschäftsbedingungen</h3>
-    <p><strong>Letzte Aktualisierung: 31/07/2024</strong></p>
-    <p><br>Lesen Sie bitte diese Vertragsbedingungen aufmerksam durch, bevor Sie diese Vereinbarung akzeptieren und diese Webseite benutzen. Drucken Sie diese Vertragsbedingungen unbedingt aus, und verwahren Sie sie in Ihren Unterlagen<br><br><strong>1. EINFÜHRUNG</strong></p>
-    <ol>
-    <li>Diese Allgemeinen Geschäftsbedingungen regeln Ihren Zugriff auf und die Nutzung der Website PlaySpielothek (die „Website“), die von Skill on Net Ltd mit Genehmigung der Gemeinsamen Glücksspielbehörde der Länder (GGL) betrieben wird. Skill on Net Ltd ist ein in Malta unter der Reg.-Nr. C50024 eingetragenes Unternehmen, mit Geschäftssitz in Office1/5297, Level G Quantum House 75 Abate Rigord Street, Ta' Xbiex 1120 Malta.</li>
-    <li>In den folgenden Vertragsbedingungen wird auf Skill on Net Ltd als "Wir", "Uns" oder mit einem anderen Namen mit einem ähnlichen Bezeichnungssinn Bezug genommen. In diesen Vertragsbedingungen wird auf Sie als "Kunde", "Sie", "Anwender", der "Spieler" oder mit einem anderen Begriff der gleichen Bedeutung Bezug genommen.</li>
-    <li>Wir halten diese Begriffe für verständlich und eindeutig. Sollten Sie hinsichtlich dieser Begriffe oder eines anderen Teils unserer Dienstleistung Aufklärung benötigen, nehmen Sie bitte in Ihrem eigenen und in unserem Interesse über unsere Kundendienst-Abteilung mittels des Support-Links auf der Webseite und dem Rechtsberater Ihrer Wahl Kontakt auf.</li>
-    <li>Beachten Sie bitte, dass alle Telefongespräche mit Ihrem Einverständnis digital aufgezeichnet werden und als Beweis nach unserem Ermessen verwendet werden können. Beachten Sie bitte, dass Sie durch die Bestätigung der AGB auch darin einwilligen, dass alle Telefongespräche digital aufgezeichnet werden.</li>
-    <li>Zur Sicherheit der Transaktionen verwenden wir SSL-Verschlüsselung. Alle Kundendaten werden vertraulich behandelt und ohne Ihr Einverständnis nicht zu Zwecken außerhalb des Vertragsverhältnisses an Dritte weitergegeben.</li>
-    <li>Indem Sie das Kästchen 'Ich stimme den Vertragsbedingungen zu' ankreuzen, bestätigen Sie, dass Sie alle Vertragsbedingungen gelesen, verstanden und akzeptiert haben, und dass Sie diese einhalten werden, womit Sie eine rechtlich bindende Vereinbarung zwischen Ihnen und uns abschließen. Falls Sie einer dieser Vertragsbedingungen nicht zustimmen, sollten Sie die Bedingungen nicht akzeptieren. Sobald Sie diesen Vertragsbedingungen zugestimmt haben, kann ein Nichterfüllen einer oder mehrerer derselben Ihrerseits zur Disqualifikation, Sperrung oder Schließung des Kontos, und/oder rechtlichen Schritten gegen Sie führen, wenn wir dies für angebracht halten.</li>
-    <li>Wir betreiben verschiedene Websites in Verbindung mit derselben Lizenz und gestatten nur ein Konto. Dies bedeutet, dass Sie über eine Master-Registrierung verfügen, die erstellt wird, wenn Sie sich registrieren und Ihr Konto auf der ersten Website verifizieren. Jede spätere Registrierung bei einer anderen Marke wird mit der Master-Registrierung verknüpft. Wenn wir berechtigten Grund zu der Annahme haben, dass zwei oder mehr registrierte Konten miteinander verbunden sind – zum Beispiel, indem sie durch dieselbe Internet Protocol-Adresse („IP-Adresse“), dasselbe Nutzungsmuster, ähnliche Transaktionen, gemeinsame Bankinformationen, Adressen oder anderweitig verbunden sind – und dass die über die Website bereitgestellten Dienste von Ihnen in irgendeiner Weise missbraucht werden, unter anderem aufgrund eines zuvor unbekannten Fehlers, sonstigen Fehlers oder anderen Software-Fehlers, können wir die Ihnen über die Website bereitgestellten Dienste einstellen, Ihre Möglichkeit einschränken, auf Ihr Konto/Ihre Konten zuzugreifen und Transaktionen in einem oder mehreren der verknüpften Konten rückgängig machen.</li>
-    <li>Durch akzeptieren der AGB und die Verwendung dieser Webseite und/oder der Software stimmen Sie diesen Vertragsbedingungenzu. Gegebenenfalls müssen wir die AGB aus verschiedenen Gründen ändern, unter anderem aus geschäftlichen Gründen oder aufgrund neuer Gesetze oder Vorschriften. Die aktuellen AGB sind hier abrufbar, und das Datum ihres Inkrafttretens ist jeweils vermerkt. Wenn wir wesentliche Änderungen an den AGB vornehmen möchten, informieren wir Sie über solche Änderungen frühestmöglich im Voraus auf einem der folgenden Wege:
-    <ul>
-    <li>E-Mail (an die E-Mail-Adresse, die Sie uns zuvor mitgeteilt haben, falls vorhanden);</li>
-    <li>Hinweis auf der Website.<br><br>Wenn wir Änderungen an den AGB vornehmen, die wir Ihnen direkt mitteilen möchten, werden wir hierfür einen Mitteilungsweg wählen, den wir nach unserem Ermessen für angemessen halten.<br><br>Sollten wir wesentliche Änderungen vornehmen, die die Vertragsbeziehung zwischen Ihnen und Skill on Net Limited in irgendeiner Weise betreffen, fordern wir Sie auf, den geänderten AGB zuzustimmen. Sie können erst dann auf der Website weiterspielen, wenn Sie diese neuen AGB akzeptiert haben.<br><br></li>
-    </ul>
-    </li>
-    <li>Diese Vertragsbedingungen sind in deutscher Sprache geschrieben. Falls diese Vertragsbedingungen in eine andere Sprache übersetzt werden, hat die deutsche Version Vorrang.</li>
-    <li>Ihre Teilnahme an den Spielen erfolgt nach Ihrem alleinigen Ermessen und auf Ihr alleiniges Risiko. Indem Sie diese Vertragsbedingungen akzeptieren, bestätigen Sie, dass Sie die Dienstleistungen, die wir durch unsere Webseite und/oder Software erbringen, nicht als anstößig, unfair oder bedenklich erachten. Sie bestätigen auch, dass es uns nicht möglich ist, Ihnen rechtliche Beratung zu bieten oder Ihnen bei rechtlicher Unsicherheit in Bezug auf die Legalität der Teilnahme am Online-Glücksspiel zu helfen.</li>
-    <li>Alle Gebühren und Kosten, die in diesem Dokument dargestellt sind, sind in Euro ("EUR").</li>
-    <li>Sofern nicht anders auf der Webseite angegeben, beträgt der Mindesteinzahlungsbetrag 10 EUR.</li>
-    <li>Wir behalten uns das Recht vor, den Zugang auf alle oder bestimmte Teile der Webseite im Hinblick auf bestimmte Rechtsprechungen zu einzuschränken.</li>
-    <li>Wenn nicht speziell etwas anderes erwähnt ist, dann ist immer die GMT Zeitzone gemeint, wenn von Zeiten gesprochen wird.</li>
-    <li>Alle beworbenen Ersteinzahlungsboni/Willkommensangebote unterliegen einer Kontoüberprüfung bei Registrierung. Nach abgeschlossener Registrierung erfolgt eine automatische Überprüfung der eingegebenen Kontodetails. Dabei könnte das System entscheiden, dass Ihr Konto nicht für Boni berechtigt ist. Falls Ihr Konto nicht für Boni berechtigt ist, erhalten Sie bei der Erstellung des Kontos eine entsprechende E-Mail mit dieser Entscheidung.</li>
-    <li>Wir behalten uns das Recht vor, die minimalen/maximalen Einsätze anzupassen.</li>
-    </ol>
-    <p><br><strong>2. Gesetzliche Erfordernisse für das Spielen</strong></p>
-    <ol>
-    <li>Unsere Mitarbeiter, Direktoren, Vertreter oder Berater und deren Verwandten (einschließlich Ehepartner, Elternteil, Partner, Kind oder Bruder/Schwester) dürfen sich nicht registrieren und nicht direkt oder indirekt an einem der Spiele teilnehmen. Werden solche Konten identifiziert, werden sie gesperrt und alle Gelder eingezogen.</li>
-    <li>Sie müssen mindestens 18 Jahre alt sein. Bitte seien Sie sich darüber im Klaren, dass Glücksspiel von Minderjährigen illegal ist.</li>
-    <li>Um ein Konto zu registrieren, sind wir gesetzlich dazu verpflichtet, die folgenden Informationen zu erheben und die Daten zu verifizieren, bevor wir die Aktivierung unserer Glücksspieldienste zulassen:
-    <ul>
-    <li>Vorname</li>
-    <li>Nachname</li>
-    <li>Mädchenname (falls zutreffend),</li>
-    <li>Geburtsdatum</li>
-    <li>Geburtsort</li>
-    <li>Adresse</li>
-    </ul>
-    </li>
-    <li>Nach Erhalt der in 2.3 erfassten personenbezogenen Daten bitten wir Sie, Ihre Mobiltelefonnummer zu verifizieren. Anschließend versuchen wir, die in 2.3 erfassten Daten mithilfe eines von Schufa bereitgestellten Dienstes zu verifizieren. Wenn die Verifizierung erfolgreich ist, erhalten Sie über ein vorläufiges Konto, mit dem Sie innerhalb von maximal 72 Stunden bis zu 100 € einzahlen können. Danach wird Ihr Konto bis zur vollständigen Verifizierung gesperrt. Nach einer erfolgreichen Einzahlung über SOFORT oder durch Hochladen einer Kopie eines Ausweisdokuments des in Abschnitt 2.7 aufgeführten Typs können Sie Ihr Konto auf ein vollständiges, nicht vorläufiges Konto aufwerten.</li>
-    <li>Wenn der Verifizierungsversuch bei Schufa nicht erfolgreich ist, haben Sie die Möglichkeit, die in Abschnitt 2.3 angegebenen persönlichen Daten zu bearbeiten, um die Verifizierung zur Registrierung eines vorläufigen Kontos erneut einzureichen.</li>
-    <li>Wenn Sie die Schufa-Verifizierung nicht bestehen, können Sie über unsere von Jumio bereitgestellte Dokumenten-Upload-Software eine Kopie eines Ausweises des in Abschnitt 2.7 aufgeführten Typs hochladen. Wir werden versuchen zu überprüfen, ob er dieselben Informationen enthält, mit denen Sie sich registriert haben, und eine Lebendigkeitserkennung durchführen. Wenn dieser Vorgang erfolgreich ist, wurde Ihr Konto vollständig verifiziert.</li>
-    <li>Zusätzlich zur Beurteilung während unseres Registrierungsprozesses behalten wir uns das Recht vor, jederzeit einen zusätzlichen Altersnachweis von Ihnen zu verlangen, um zu verhindern, dass Minderjährige unsere Dienste nutzen. Folgende Dokumente akzeptieren wir als Identitätsnachweis:
-    <ul>
-    <li>Reisepass;</li>
-    <li>Offizieller Personalausweis</li>
-    </ul>
-    </li>
-    <li>Nachdem Ihr Konto zu einem vorläufigen Konto wurde (oder vollständig verifiziert, wenn das vorläufige Konto umgangen wird), führen wir eine technische Überprüfung durch, um herauszufinden, ob Sie beim Selbstausschlusssystem OASIS registriert sind. Wenn Sie dort registriert sind, kann der Kontoregistrierungsvorgang nicht abgeschlossen werden.</li>
-    <li>Bevor Sie spielen und eine Kontoverifizierung durchführen können, müssen Sie den Prozess der anbieterübergreifenden Registrierung monatlicher Einzahlungslimits über LUGAS abschließen.&nbsp;</li>
-    </ol>
-    <p><br><strong>3. Informationen, die wir über Sie sammeln und wie wir diese verwenden</strong></p>
-    <ol>
-    <li>Wir verarbeiten Informationen über Sie in Übereinstimmung mit unserer <a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=privacy_policy">Datenschutzrichtlinie</a>. Unsere Datenschutzerklärung ist Bestandteil dieser allgemeinen Geschäftsbedingungen und enthält Angaben über die Art der Informationen, die wir erfassen und wie wir mit ihnen umgehen – dies umfasst, mit wem sie geteilt werden und warum.</li>
-    <li>Wir sind berechtigt und unter Umständen verpflichtet, die Informationen, die wir über Sie gespeichert haben, einschließlich personenbezogener Daten und Spielverlauf, mit den Regulierungsbehörden und anderen Einrichtungen zu teilen, einschließlich der Polizei und Strafverfolgungsbehörden, um Fälle von Betrug, Geldwäsche und Spielintegritätsprobleme zu untersuchen und um unsere gesetzlichen Pflichten zu erfüllen.</li>
-    </ol>
-    <p><strong>4. Lizenzgewährung</strong></p>
-    <ol>
-    <li>Die Webseite, der über die Webseite verfügbare, downloadbare Client, unsere Apps und die Webseite in ihrer für die Nutzung mit Mobiltelefonen und Tablets optimierten Form, laufen komplett mit einer Serie von Programmen, die unser Eigentum oder über Dritte lizensiert sind, damit es möglich ist, Ihnen unsere Dienstleistungen über die Webseite ("Software") anzubieten.</li>
-    <li>Wir gewähren Ihnen eine Lizenz zur Verwendung einer Kopie der Software und, wo anwendbar, der damit verbundenen Dokumentation ausschließlich in Übereinstimmung mit und in Abhängigkeit von diesen Bestimmungen.</li>
-    <li>Sie dürfen ein Recht an der Software weder verkaufen, vermieten, leasen, transferieren oder gewähren, noch die Software mittels ‚Reverse Engineering' rekonstruieren, sie dekompilieren oder disassemblieren.</li>
-    <li>Sie dürfen einem Dritten die Software nicht kenntlich machen, auf ihr basierenden Derivativen Arbeiten vornehmen, oder sie für irgendeinen anderen als die ausdrücklich gestatteten Zwecke verwenden; ausgenommen sind die speziellen Verwendungen, die in der Anwender-Dokumentation, die die Software begleitet, ausdrücklich gestattet sind.</li>
-    <li>Die Software ist für Sie lediglich auf einer Basis ohne Gewähr für Mangelfreiheit verfügbar, und sie hat keine Garantie oder Schadloshaltung irgendeiner Art. Der Download und/oder die Nutzung der Software und der Dienstleistungen erfolgen auf Ihr eigenes Risiko.</li>
-    <li>Sie erkennen hiermit an, dass es nicht in unserer Kontrolle liegt, wie Sie die Software verwenden. Wir sind Ihnen oder einem Dritten gegenüber in Bezug auf Ihren Erhalt und/oder Verwendung der Software nicht haftbar</li>
-    </ol>
-    <p><br><strong>5. Echtgeld-Modus und Demo-Modus </strong></p>
-    <ol>
-    <li>Nach Abschluss des Registrierungs- und Verifikationsprozesses können Sie die auf unsere Webseite angebotenen Dienstleistungen nutzen undentweder im Echtgeld-Modus oder im Demomodus zu spielen.</li>
-    <li>Im Echtgeld-Modus kann echtes Geld gesetzt und gewonnen werden. Um im Echtgeld-Modus zu spielen, ist es erforderlich, dass Sie über Geldmittel in Ihrem Bonus-Guthaben verfügen, oder dass Sie Geldmittel auf Ihr Konto (mit der in Klausel 5 beschriebenen Bedeutung) durch eine der zugelassenen Einzahlungsmethoden, einzahlen. Diese Geldmittel werden auf Ihr Konto mit dem tatsächlichen Erhalt oder bei Erhalt der Bestätigung durch einen Zahlungsabwickler eingezahlt. Mindest- und Höchstlimits können bei den Zahlungen auf Ihr Konto eingesetzt werden, abhängig von Ihrem bisherigen Verhalten, der Einzahlungsmethode, und weiteren Faktoren, die von uns sowie dem Gesetzgeber oder der zuständigen Behörde festgelegt werden. Wir sind keine Bank&nbsp;und Einlagen sind nicht durch eine Regierungsstelle gesichert. Alle Zahlungen auf und von Ihrem Konto sind zinsfrei. Alle Zahlungen auf Ihr Konto müssen aus einer Zahlungsquelle kommen, von welcher Sie der bezeichnete Kontoinhaber sind.<br><br>Im Übungsmodus ist das Guthaben, das Sie sehen, kein Echtgeld-Guthaben, und die Einsätze und Gewinne werden nicht mit echten Auszahlungen honoriert. Der Zweck des Demo-Modus ist es, Ihnen zu ermöglichen, zu verstehen, wie die Spiele ablaufen, ohne Ihr eigenes Geld zu prüfen.&nbsp;<br><br></li>
-    <li>Es liegt in Ihrer Verantwortung sicherzustellen, dass Sie alle Regeln und Verfahrensweisen der Spiele auf der Webseite / den Webseiten lesen und verstehen, bevor Sie Echtgeld-Spiele ausführen.</li>
-    <li>Hiermit erkennen Sie an, dass Sie beim Spielen das Risiko eingehen, Geld zu verlieren.</li>
-    <li>Die Ausschüttungsquote (RTP) des Spiels wird in den Spielregeln jedes Spiels angezeigt und kann sich ändern. Falls das RTP ein wichtiger Faktor bei Ihrer Entscheidung für ein bestimmtes Spiel ist, empfehlen wir Ihnen, bei jedem Spiel die Spielregeln zu checken.</li>
-    </ol>
-    <p><br><strong>6. Anwender-Konto</strong></p>
-    <ol>
-    <li>Sie sind dafür verantwortlich, die mit Ihrer Kontoregistrierung verbundenen Informationen bei etwaigen Änderungen auf dem neuesten Stand zu halten. Wenn sich die bei der Registrierung bereitgestellten Informationen ändern, müssen Sie uns darüber informieren und uns einen Nachweis der neuen Angaben zusenden.</li>
-    <li>Zusätzlich zur Verifizierungsbewertung, durchgeführt während der Erstregistrierung, behalten wir uns das Recht vor, eine Kundenadresse auch an einem späteren Zeitpunkt durch alle verfügbaren Mittel zu bestätigen, einschließlich aber nicht beschränkt auf das Absenden eines Adressenverifizierungsbriefes per Post an Sie, das Kontaktieren per E-Mail, Telefon oder Live-Chat. Unabhängig davon werden Kundendaten mindestens jährlich auf Richtigkeit überprüft. Falls sich die bei einer Registrierungsänderung gemachten Angaben ändern, müssen Sie uns auf den neuesten Stand bringen und uns einen Nachweis über die neuen Details schicken.</li>
-    <li>Ihr Konto ist ausschließlich für Ihren persönlichen Gebrauch bestimmt. Sie dürfen Ihre Kontodaten nicht an Dritte weitergeben oder die Kontodaten anderer verwenden. Die Nutzung Ihres Kontos dient ausschließlich Ihren privaten Zwecken. Es ist strengstens untersagt, im Namen Dritter ein Konto zu eröffnen oder eine Transaktion durchzuführen, eine Zahlungsmethode Dritter zu verwenden oder Dritten den Zugriff auf Ihr Konto zu gestatten. Wenn wir die Nutzung Ihres Kontos durch Dritte feststellen, wird es geschlossen und steht nicht mehr zur Verfügung, es sei denn, unsere Ermittlungen rechtfertigen die Aufrechterhaltung des Kontos aufgrund der Umstände des Falls, der den einmaligen Verstoß gegen diese Klausel rechtfertigt.</li>
-    <li>Wir gehen davon aus, dass es sich bei jeder Eingabe Ihres korrekten Benutzernamens und Passworts oder Logins mithilfe biometrischer Anmeldefunktionen um Ihre Person handelt. Alle Transaktionen, bei denen der Benutzername und das Passwort korrekt eingegeben wurden, gelten als gültig und von Ihnen autorisiert, sofern uns keine gegenteiligen Informationen vorliegen.</li>
-    <li>Wir übernehmen absolut keine Verantwortung für den Zugriff eines Dritten auf Ihr Konto unter Verwendung des richtigen Benutzernamens und Passworts, und wir haften nicht für Verluste, die Ihnen als Ergebnis eines solchen Vorfalls entstanden sind, soweit dies nicht auf grob fahrlässigem oder vorsätzlichem Handeln unsererseits beruht. Jeder Zugriff auf Ihr Konto mit richtigem Benutzernamen und Passwort wird von uns als berechtigt gesehen.</li>
-    <li>Sollten Sie eine nicht autorisierte Benutzung Ihres Kontos bemerken, sind Sie verpflichtet, uns umgehend zu benachrichtigen, und wir werden Ihr Konto bei Anhängigkeit weiterer Untersuchungen dieser nicht autorisierten Verwendung sperren. Falls Sie einen Computer mit anderen Personen teilen, raten wir dazu, dass in Bezug auf die Kontrollbox zur Passworterinnerung keine Aktion ausgeführt wird.</li>
-    <li>Die Kontoeinrichtungen werden Ihnen nur zur Verfügung gestellt, damit Sie Wetten platzieren oder an Spielen teilnehmen können. Wenn Sie, aus welchem Grund auch immer, den Anschein erwecken, dass Sie Geld einzahlen oder auszahlen, ohne tatsächlich gespielt zu haben, wird Ihr Konto gesperrt und die Umstände werden untersucht. Dies kann dazu führen, dass Ihr Konto dauerhaft geschlossen wird.</li>
-    <li>Alle Konto-Funktionen werden Ihnen ausschließlich zur Verfügung gestellt, um Sie in die Lage zu versetzen, an den Spielen teilzunehmen.</li>
-    <li>Hiermit erkennen Sie an und stimmen zu, dass das Spielen dazu führen kann, dass Geld verloren wird und dass alle Verluste, die Ihnen durch das Spielen der von uns angebotenen Spielothek-Spiele entstanden sind, Verluste sind, die in Ihrer eigenen, alleinigen Verantwortung liegen.</li>
-    <li>Sie können Ihr Konto schließen, indem Sie unsere Seite für die Spielerbeschränkungen besuchen und die Option zum Schließen des Kontos auswählen. Ein geschlossenes Konto ist vollständig von Glücksspielaktivitäten ausgeschlossen, steht aber zur Anforderung von Auszahlungen oder zur Überprüfung des Spiel-/Einzahlungsverlaufs und anderer Kontoinformationen zur Verfügung. Glücksspielaktivitäten können nur reaktiviert werden, wenn Sie sich für eine Reaktivierung entscheiden. Falls die Schließung des Kontos mit Bedenken hinsichtlich einer möglichen Spielsucht zusammenhängt, stimmen Sie zu, die Option „Konto schließen“ nicht zu nutzen, sondern sich stattdessen für einen Ausschluss bei OASIS zu registrieren. OASIS wird auf allen lizenzierten Websites Ihre Möglichkeit einschränken, an Glücksspiel-Aktivitäten teilzunehmen. Falls Sie Ihre Daten auf mehr als einer der von Skill On Net Ltd lizenzierten Websites registriert haben, erhalten Sie die Möglichkeit, alle Konten zu schließen oder nur das der Marke, bei dem Sie gegenwärtig angemeldet sind.</li>
-    <li>Wenn Sie Ihr Konto nicht schließen, sondern nur einschränken möchten, sodass Sie nicht spielen können, können Sie dies über das OASIS-Selbstausschlussverfahren auf unserer Website tun, indem Sie den Anweisungen auf der Seite „Spielerlimits“ folgen, oder über <a href="https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs">Players (FAQs) | rp-darmstadt.hessen.de</a>. Infolgedessen werden Sie von allen Anbietern blockiert, die mit der OASIS-Datenbank verbunden sind.</li>
-    <li>Hiermit bestätigen Sie, dass Sie Ihr Konto in Bezug auf unsere Dienstleistungen und unter Beachtung aller anwendbaren Gesetze nicht für eine verbotene oder ungesetzliche Aktivität verwenden oder beabsichtigen es in dieser Weise zu verwenden, oder es einer anderen Person zu gestatten, das Konto in dieser Weise zu verwenden - einschließlich, aber nicht beschränkt auf Betrug oder Geldwäsche.</li>
-    <li>Hiermit bestätigen Sie, dass Sie kein Spieler-Konto bei uns gehabt haben, das gekündigt oder gesperrt wurde, und dass Sie sich uns gegenüber weder jetzt noch in der Vergangenheit über etwaige (Sucht-)Probleme im Zusammenhang mit Glücksspiel geäußert haben.</li>
-    <li>Hiermit bestätigen Sie, dass Sie die Verbindung während eines Spiels nicht absichtlich unterbrechen, während Sie unsere Dienstleistungen nutzen. Falls wir feststellen, dass Sie diese Klausel verletzen, können wir umgehend Ihren Zugriff auf unsere Dienstleistungen beenden und/oder Ihr Konto blockieren lassen.</li>
-    <li>Hiermit bestätigen Sie, dass Sie nicht in eine betrügerische, heimlich abgesprochene, manipulierende oder andere ungesetzliche Aktivität in Bezug auf die Teilnahme an einem der Spiele durch Sie oder einen Dritten eingebunden sein werden.</li>
-    <li>Sie erklären sich damit einverstanden, dass wir berechtigt sind, Ihr Konto zu kündigen und/oder zu sperren und alle über dieses Konto verfügbaren Gelder zu beschlagnahmen, wenn unserer Meinung nach verdächtige, unangemessene, betrügerische oder rechtswidrige Aktivitäten durch die Nutzung unserer Dienste versucht und/oder durchgeführt werden.</li>
-    <li>Im Falle, dass Sie bemerken, dass ein anderer Nutzer unserer Dienstleistungen betrügt, manipuliert oder versucht Spielausgänge und -ergebnisse zu manipulieren, dabei im heimlichen Einverständnis mit einer weiteren Person handelt, um uns zu betrügen, durch die Verwendung von Software mit Künstlicher Intelligenz (AI), oder etwas durchführt, das als nachteilig für uns gedeutet werden kann, finanziell oder in anderer Form, sind Sie verantwortlich dafür, uns diese Informationen zu geben. Wir werden alle Informationen, die Sie an uns weiterleiten, mit der höchsten Vertraulichkeit behandeln. Falls wir entdecken, oder den Verdacht haben, dass Sie derartige Kenntnisse hatten und nicht an uns weitergeleitet haben, behalten wir uns das Recht vor, unsere Dienstleistungen an Sie zu beenden.&nbsp;</li>
-    <li>Skill on Net Ltd. oder Dritte, die im Namen von Skill On Net handeln, gewähren Kunden keine Kredite.</li>
-    <li>Wir überprüfen die OASIS-Datenbank regelmäßig, um herauszufinden, ob Sie durch diesen Dienst einem Spielverbot unterliegen. Falls Sie Ihr Konto dort registriert haben, kann es nicht mehr für Glücksspiele verwendet werden.</li>
-    <li>Vor der Teilnahme an einem Spiel prüfen wir über den LUGAS-Dienst, ob Sie auf der Website eines anderen Betreibers aktiv sind. Wenn dies der Fall ist, wird Ihnen der Zugriff auf die Spiele verweigert, bis Ihre Beziehung mit dem anderen Betreiber gekündigt wird.</li>
-    </ol>
-    <p><br><strong>7. Transaktionen: Einzahlungen</strong></p>
-    <ol>
-    <li>Einzahlungen mit Methoden, die nicht Ihnen gehören (Zahlungsmethoden Dritter), sind strengstens untersagt. Durch die Annahme dieser Allgemeinen Geschäftsbedingungen erklären Sie sich damit einverstanden, dass Sie solche Methoden nicht verwenden werden. Wenn Einzahlungen über eine Drittanbietermethode entdeckt werden, wird Ihr Konto einer weiteren Überprüfung unterzogen.</li>
-    <li>Wenn Gewinne aus Einzahlungen mit einer Zahlungsmethode eines Drittanbieters erzielt wurden, werden diese für ungültig erklärt und alle mit einer Zahlungsmethode eines Drittanbieters eingezahlten Gelder werden ausschließlich an die Person zurückerstattet, die die Zahlungsmethode für die Einzahlung des Drittanbieters verwendet hat. In Fällen, in denen es technisch nicht möglich ist, die Einzahlungen Dritter über dieselbe Zahlungsmethode zurückzuerstatten, die für die Einzahlungen Dritter verwendet wurde, erfolgt die Rückerstattung ausschließlich per Banküberweisung auf ein Bankkonto, das nach Ablauf der Frist auf den Namen des Dritten geführt wird, nachdem die folgenden zusätzlichen Verifizierungsschritte ausgeführt wurden.</li>
-    <li>Spieler, die Kredit-/Debitkarteneinzahlungen mit der Kredit-/Debitkarte einer anderen Person vornehmen und diese Einzahlungen nicht auf die verwendete Kredit-/Debitkarte zurückerstattet werden können, werden gebeten, weitere Verifizierungsdokumente wie unten aufgeführt vorzulegen:
-    <ol style="list-style-type: lower-alpha;">
-    <li>Kopien der verwendeten Kreditkarte eines Dritten;</li>
-    <li>Ausweisdokument des Kreditkarteninhabers gemäß Abschnitt 2.7 dieser Bedingungen;</li>
-    <li>Formular zur Vollmachtserklärung. Dieses Formular muss vom Kredit-/Debitkarteninhaber und Kontoinhaber ausgefüllt und unterzeichnet werden.</li>
-    <li>ankkontodaten des Dritten zusammen mit einem Bankkonto-Inhabernachweis (Kontoauszug mit dem Namen des Bankkontoinhabers und der Bankkontonummer)</li>
-    </ol>
-    </li>
-    <li>Wenn Sie die im vorliegenden Abschnitt beschriebenen zusätzlichen Verifizierungsprüfungen nicht erfüllen, werden Ihrem Konto weitere Einschränkungen auferlegt, bis solche weiteren Verifizierungsprüfungen ordnungsgemäß zu unserer Zufriedenheit und unseren Standards durchgeführt wurden.</li>
-    <li>Nach der Einzahlung erhalten Sie eine E-Mail-Bestätigung der Transaktion. Wir empfehlen, dass Sie die Details aller Transaktions-Daten ausdrucken und verwahren, um Missverständnisse und Diskussionen zu einem späteren Zeitpunkt zu vermeiden.<br>i. Bitte beachten Sie, dass Kreditkartenabwickler nach eigenem Ermessen Transaktionen ohne die CVV-Sicherheitsüberprüfung verarbeiten können.</li>
-    <li>Alle Einzahlungen werden umgehend wirksam, sobald wir eine erfolgreiche Bestätigung vom gewählten Zahlungsabwickler erhalten. Nach der Einzahlung ist es Ihnen umgehend möglich, im Echtgeld-Modus zu spielen. Es ist verboten, Geld einzuzahlen, das mit unrechtmäßigen Mitteln erworben wurde.</li>
-    <li>Bitte beachten Sie, dass vor jeder Auszahlung oder bei einzelnen Einzahlungen von mehr als 25 € bzw. monatlichen Einzahlungen von mehr als 100 € ein Nachweis des Kreditkarteninhabers erforderlich ist.</li>
-    <li>Wir behalten uns das Recht vor, mit Ihnen Kontakt aufzunehmen, um eine getätigte Einzahlung mündlich zu bestätigen.</li>
-    <li>Wir behalten uns das Recht vor, nach jeder Einzahlung Ausweisdokumente anzufordern.</li>
-    <li>Wir können jederzeit einen positiven Saldo Ihres Kontos oder eines verknüpften Kontos mit allen Beträgen belasten, die Sie uns schulden.</li>
-    <li>Falls für Ihre Einzahlungen eine Bearbeitungsgebühr anfällt, werden Sie vor Abschluss des Einzahlungsvorgangs darüber informiert.</li>
-    </ol>
-    <p><br><strong>8. Transaktionen: Auszahlungen</strong></p>
-    <ol>
-    <li>Auszahlungen können nur bearbeitet werden, wenn der Spieler über ein vollständig verifiziertes Konto mit mindestens einer genehmigten Einzahlung verfügt. Darüber hinaus muss der Spieler für eine Auszahlung über ausreichende Echtgeldmittel verfügen und alle geltenden Anforderungen erfüllt haben. Auszahlungen können nur auf der Basis der vom Spieler bei der Erstregistrierung gegebenen oder später aktualisierten Informationen durchgeführt werden.</li>
-    <li>Damit wir Auszahlungen so schnell wie möglich vornehmen können, wendet unser System bei der Kontoregistrierung Kontrollen an, die einen individuellen Auszahlungsbetrag pro Transaktion vorsehen. Dieser Betrag wird in der Rubrik "Weitere Informationen" auf der Auszahlungsseite angezeigt. Nachdem eine Transaktion bearbeitet wurde, können Sie sofort eine weitere anfordern. Es gibt keine Begrenzung für die Anzahl der Transaktionen pro Tag/Woche/Monat. Wenn Sie in einer einzelnen Transaktion einen höheren Betrag als die Transaktionsgrenze auszahlen möchten oder eine Auszahlungsanfrage gestellt haben, die Sie erhöhen möchten, können Sie uns diesbezüglich direkt über E-Mail kontaktieren.</li>
-    <li>Bei sich wiederholenden Auszahlungsanfragen, die 2.000 € überschreiten, behalten wir uns weitere Prüfungsverfahren vor.</li>
-    <li>Beachten Sie bitte ebenfalls, dass alle Gewinne über dem Wert von 5.000 € mehrere Geschäftstage für die Abwicklung benötigen können. Dies ist auf zusätzliche Sicherheitsprüfungen zurückzuführen, die von unserer Konten-Abteilung durchgeführt werden.</li>
-    <li>Um eine Auszahlung vorzunehmen, müssen Sie zunächst alle Boni stornieren. Dies ist während des Auszahlungsanforderungsprozesses möglich.</li>
-    <li>Für Auszahlungen ohne vorherige Echtgeldaktivitäten wird eine Gebühr in Höhe von 5 EUR erhoben. Diese Gebühr wird zum Zeitpunkt der Auszahlungsanfrage von Ihrem Kontoguthaben abgebucht.</li>
-    <li>Für Transaktionen wenden wir die sogenannte „Closed-loop“ Regel an. Danach erfolgen Auszahlungen grundsätzlich nur mit der Methode und auf das Zahlungskonto, welches Sie auch für die Einzahlung verwendet haben. Bei abweichenden Zahlungsarten wird eine erneute Prüfung erforderlich.</li>
-    <li>Ein Transfer von Geldmitteln zwischen Spielern ist streng untersagt und wird technisch unterbunden, soweit möglich.</li>
-    <li>Sobald Sie einen Antrag auf Auszahlung gestellt haben, wird Ihr Antrag unverzüglich an eine unsere Konten-Abteilungen weitergeleitet, die Ihre Auszahlung durchführt, vorausgesetzt, sie hat alle für die Auszahlung erforderlichen Informationen. Sie können jederzeit Ihren Antrag auf Auszahlung von Geldern ändern oder umkehren, bis Ihre Auszahlung fertiggestellt und voll abgewickelt ist. Nach der vollständigen Bearbeitung wird Ihr Geld umgehend auf Ihr Konto überwiesen.</li>
-    <li>Gewninnbenachrichtigungen erfolgen automatisiert und treffen keine Aussage über die Rechtmäßigkeit des Auszahlungsverlangens. Dieses unterliegt grundsätzlich den allgemeinen und unter Umständen vertieften Geldwäscheprüfungen.</li>
-    <li>Für den Fall , dass Sie sich dafür entscheiden, Ihren Antrag innerhalb der Bearbeitungszeit zu stornieren, werden Ihre Geldmittel Ihrem Echtgeld-Konto wieder zugeteilt.</li>
-    <li>Sollten Sie eine unserer Anforderungen zur Bereitstellung von KYC-Dokumenten nicht erfüllen können, behalten wir uns das Recht vor, die Abhebung rückgängig zu machen.</li>
-    <li>Auszahlungsanfragen werden nur als gültig gesehen, wenn sie über die Auszahlungsseite in der Software erfolgen. Wir nehmen keine Auszahlungswünsche über E-Mail oder Telefon oder ein anderes Verfahren an.</li>
-    <li>Falls eine Auszahlung aufgrund fehlender Informationen abgelehnt oder unvollständig ist, werden Ihre Geldbeträge wieder Ihrem Echtgeldguthaben hinzugefügt. Wir empfehlen Ihnen, die erforderlichen Informationen anzugeben und eine neue Auszahlung zu beantragen.</li>
-    </ol>
-    <p><br><strong>9. Boni</strong></p>
-    <ol>
-    <li>Sie erkennen an und verstehen, dass unsere Vertragsbedingungen im Hinblick auf Promotionen, Boni und Sonderangebote einen integralen Bestandteil dieser <a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=bonus_policy">Vertragsbedingungen darstellen</a>. Diese Vertragsbedingungen werden in unseren Bonus-Regelungen dargestellt. Im Falle eines Widerspruchs zwischen den Vorschriften unserer Vertragsbedingungen zu Promotion, Boni und Sonderangeboten und diesen Vertragsbedingungen haben die Vorschriften zu Promotionen, Boni und Sonderangebote Vorrang.</li>
-    </ol>
-    <p><strong>10. Funktionsstörung des Spiels</strong></p>
-    <ol>
-    <li>Falls ein technisches Problem dazu führt, dass ein Spiel / eine Funktion einen höheren Betrag auf ein Spieler-Konto auszahlt als ausgezahlt werden müsste (ein Spielgewinn, Bonus-Spiel-Gewinn, etc.), behalten wir uns das Recht vor, alle Geldmittel von dem Konto zu nehmen, die nicht korrekt gutgeschrieben wurden, sowie alle Gewinne, die danach unter Verwendung der fälschlicherweise gutgeschriebenen Geldmittel gemacht wurden, zurückzufordern.</li>
-    <li>Falls wir feststellen, dass ein Spieler in Verbindung mit den Spielen / der Software eine technische Panne in unzulässiger und treuwidriger Weise ausnutzt oder gebraucht hat, entweder er selbst oder in Zusammenarbeit mit Partnern, behalten wir uns das Recht vor, alle Gewinne ungültig zu machen und die betreffenden Spieler-Konten zu schließen.</li>
-    <li>Im Falle eines Systemversagens sind alle laufenden Spiele ungültig.</li>
-    <li>Im Falle, dass ein Spiel gestartet wird, aber aufgrund eines Systemversagens misslingt, erstatten wir Ihnen den im Spiel gesetzten Wettbetrag, indem wir ihn Ihrem Spielerkonto gutschreiben.</li>
-    <li>Wir werden alle angemessenen Maßnahmen ergreifen, um sicherzustellen, dass unser System Ihre Teilnahme an einem Spiel ermöglicht. Wir haben keinen Einfluss auf Spielausfälle nachdem Sie das Spiel begonnen haben, durch ein Versagen des Telekommunikationssystems oder einen Ausfall Ihres Computersystems. Falls unser System Sie nicht in die Lage versetzt, nach der Wiederherstellung des Systems bei einem durch ein Versagen des Telekommunikationssytems oder Ihres Computersystems unterbrochenen Spiel fortzufahren, werden wir:
-    <ol style="list-style-type: lower-alpha;">
-    <li>sicherstellen, dass das Spiel beendet wird; und</li>
-    <li>Ihnen den getätigten Einsatz erstatten, indem wir ihn Ihrem Konto gutschreiben.<br><br></li>
-    </ol>
-    </li>
-    </ol>
-    <p><strong>11. Einstellung der Dienstleistungen</strong></p>
-    <ol>
-    <li>Wir können die gesamten oder jeden Teil der Dienstleistungen aus einem in unserem alleinigen Ermessen liegenden Grund zeitweise einstellen. Wir können, sind aber nicht dazu verpflichtet, Ihnen so viele Mitteilungen über eine solche Einstellung geben, wie es angemessen und praktikabel ist. Wir werden die Dienstleistung wieder instand setzen, sobald dies nach dieser temporären Einstellung in vertretbarem Umfang möglich ist.</li>
-    </ol>
-    <p><br><strong>12. Änderung</strong></p>
-    <ol>
-    <li>Wir behalten uns das Recht vor, den Inhalt der Webseite oder der über die Seite angebotenen Dienste nach unserem alleinigen Ermessen, mit unmittelbarer Wirkung und ohne Ankündigung, einzustellen, zu modifizieren, zu entfernen oder hinzuzufügen. Wir haften Ihnen gegenüber nicht für Verluste, die als Ergebnis einer dieser vorgenommenen Änderungen erlitten wurden, und Sie haben uns gegenüber in dieser Hinsicht keine Ansprüche. Ausgenommen hiervon sind Verlust, die auf Verletzung einer Kardinalpflicht oder auf grob fahrlässigem bzw. vorsätzlichem Verhalten beruhen.</li>
-    </ol>
-    <p><br><strong>13. Software mit künstlicher Intelligenz </strong></p>
-    <ol>
-    <li>Sie erklären sich damit einverstanden, keine Software mit Künstlicher Intelligenz ('KI- Software') zu verwenden, während Sie die Software und/oder Webseite benutzen. Wir werden so handeln, dass wir die Verwendung solcher KI-Software-Programme entdecken und verhindern, die Ihnen zu einem unfairen Vorteil gegenüber den anderen Spielern verhelfen, einschließlich, aber nicht beschränkt auf, das Entdecken des Betriebs derartiger Programme auf Ihrem Computer. Falls wir die Verwendung von KI-Software feststellen, und nach unserem alleinigen Ermessen diese Entdeckung als zutreffend erachten, wird Ihr Konto gekündigt und alle Gewinne werden storniert.</li>
-    </ol>
-    <p><br><strong>14. Zufallsgenerator</strong></p>
-    <ol>
-    <li>Sie akzeptieren und stimmen zu, dass ein Zufallsgenerator die zufällig generierten Ereignisse erzeugt, die für die Dienstleistungen erforderlich sind. Wenn das in der (durch Ihre Hardware installierte und betriebene) Software gezeigte Ergebnis mit unserem Ergebnis oder dem Ergebnis unserer Spielpartnerserver in Konflikt steht, hat das Ergebnis, das auf unserem Server erscheint, unter allen Umständen Vorrang. Sie stimmen zu, dass (unbeschadet Ihrer anderen Rechte und Rechtsmittel) das Unternehmen die finale Entscheidungskraft über die Nutzungsbedingungen unserer Dienste innehat. Sie haben kein Recht, dahingehende Entscheidungen des Unternehmens anzufechten.</li>
-    </ol>
-    <p>&nbsp;</p>
-    <p><strong>15. Beleidigende oder ausfallende Äußerungen </strong></p>
-    <ol>
-    <li>Wir tolerieren keinen beleidigenden oder ausfallenden Sprachgebrauch oder anderes Verhalten, das von uns, nach unserem alleinigen Ermessen, als unpassend erachtet wird.</li>
-    <li>Schlechtes Benehmen oder beleidigende Äußerungen, das / die von uns identifiziert werden oder über die wir unterrichtet werden, können zu einer Einstellung oder zum Verlust von Spielprivilegien oder einer anderen Aktion führen, wie von uns beschlossen, einschließlich, aber nicht beschränkt auf, das Schließen des Kontos.</li>
-    <li>Den Spielern ist es untersagt, anstößige Benutzer- oder Bildschirmnamen zu verwenden, wenn sie sich registrieren oder anmelden.</li>
-    <li>Die Spieler können unserer Kundensupport-Abteilung jederzeit Informationen im Hinblick auf Missbrauch oder andere Verstöße vorlegen, damit wir diese dann untersuchen.</li>
-    </ol>
-    <p><br><strong>16. Überwachen der Webseite </strong></p>
-    <ol>
-    <li>Wir können die Webseite und die Anwender der Webseite jederzeit elektronisch überwachen, um eine Erfüllung dieser Vereinbarung sicherzustellen, und wir können alle Informationen, Aufzeichnungen oder elektronische Kommunikation eines Anwenders der Webseite bekanntgeben: (a) gemäß einem Gesetz, einer Regulierung oder einem jeden Ersuchen einer rechtmäßigen Regierung; (b) falls eine derartige Bekanntgabe für den fortgesetzten Betrieb der Webseite notwendig ist; oder (c) um unsere Rechte und/oder das Eigentum unserer Partner zu schützen.</li>
-    </ol>
-    <p><br><strong>17. Inaktive Konten </strong></p>
-    <ol>
-    <li>Wenn sich ein Kontoinhaber für einen Zeitraum von 12 Monaten nicht an seinem Konto anmeldet, wird das Konto als „inaktives Konto“ eingestuft. Während ein Konto inaktiv ist, ziehen wir jeden Monat 5 EUR Verwaltungsgebühr von diesem Konto ab. Die monatliche Verwaltungsgebühr ist vorbehaltlich etwaiger Änderungen. Wenn das Konto ein Guthaben von weniger als 5 EUR aufweist, wird der gesamte Betrag abgezogen und das Guthaben ist null. Wir werden Sie mindestens 30 Tage, bevor Ihr Kundenkonto inaktiv wird und die monatliche Gebühr anfällt, per E-Mail informieren, sofern Ihre aktuelle E-Mail-Adresse in unserem System hinterlegt ist. Innerhalb des Zeitfensters von 30 Tagen können Sie ohne zusätzliche Gebühren Ihr Kundenkonto durch einen Login reaktivieren oder sich das Guthaben auszahlen lassen. Wir werden Sie dabei auch über die Konsequenzen eines inaktiven Kundenkontos und die jeweils anfallenden Gebühren sowie über die Möglichkeit, Ihr Guthaben auszahlen zu lassen oder das Kundenkonto zu reaktivieren, um die Gebühren zu vermeiden, informieren.</li>
-    </ol>
-    <p><br><strong>18. Kunden-Support </strong></p>
-    <ol>
-    <li>Wir bieten einen Support-Service für unsere Spieler.</li>
-    <li>Die Spieler können eine E-Mail unter detaillierter Darstellung ihrer Fragen oder Beanstandungen an support@playspielothek.de senden, die dann unsere Kundendienst-Abteilung erreicht. Um eine Konto-Identifizierung zu erleichtern, sollte eine E-Mail von der zu Ihrem Konto registrierten E-Mail-Adresse geschickt werden und dabei den Benutzername des betreffenden Kontos enthalten. Wir behalten uns das Recht vor, weitere Identitätsprüfungen vorzunehmen, um sicherzustellen, dass die uns kontaktierende Person der Kontoinhaber ist.</li>
-    </ol>
-    <p><br><strong>19. Verantwortungsvolles Spielen (Responsible Gaming)</strong></p>
-    <ol>
-    <li>Wir glauben, dass wir eine 'geschützte Entertainment-Umgebung' bieten. Es ist ein wichtiger Teil unseres gesamten Kundenbetreuungsprogramms. Das Spiel in einer geschützten Umgebung soll eine aufregende und angenehme Erfahrung - ausschließlich für Erwachsene - sein. Wir möchten, dass Sie Ihr Erlebnis genießen, spielen Sie also bitte mit Vernunft und innerhalb Ihres Budgets. Während die Mehrzahl der Menschen innerhalb ihrer Mittel spielt, kann für manche das Spielen zu einem Problem werden. Falls Sie in der übergreifenden Sperrdatei verzeichnet sind, ist es Ihnen nicht erlaubt, ein Konto zu eröffnen, und Sie dürfen auch nicht spielen. Bestehende Konten werden gesperrt, wenn Sie in der ortsunabhängigen, landesweiten Sperrdatei aufgeführt sind, nachdem Sie ein Konto eröffnet hatten.</li>
-    <li><strong>Limits: </strong>Wir bieten Ihnen die Möglichkeit, Ihre bevorzugten Einzahlungs-, Verlust- und Einsatzlimits für die folgenden Zeiträume festzulegen:
-    <ul>
-    <li>Täglich</li>
-    <li>Wöchentlich</li>
-    <li>Monatlich<br><br>Jede Reduzierung des Limits tritt auf Ihrem Konto sofort in Kraft. Wenn Sie jedoch ein Limit erhöhen möchten, wird die Änderung erst nach 7 Tagen wirksam. Zu diesen Limits zählen alle eingezahlten, verlorenen und gesetzten Beträge auf allen verschiedenen Marken, bei denen Sie Ihre Daten registriert haben. Wenn Ihr Konto von einer früheren Lizenz auf diese Lizenz übertragen wurde, werden Einzahlungen/Verluste und Einsätze, die mit der vorherigen Lizenz getätigt wurden, den neu festgelegten Limits nicht angerechnet.</li>
-    </ul>
-    </li>
-    <li><strong>Automatische Auszahlungen:</strong> Wir bieten Ihnen eine Funktion, mit der Sie einen Gewinnbetrag festlegen können. Wenn Sie zulassen, dass Gewinne diesen Betrag überschreiten, wird der überschüssige Betrag aus wirtschaftlichen Gründen automatisch für die weitere Verwendung zur Teilnahme am Spiel gesperrt, bis ein bestimmter Mindestbetrag zur Deckung der Transaktionskosten erreicht ist. Wird dieser Betrag ebenfalls erreicht, wird der gesamte überschüssige Betrag automatisch ausgezahlt (vorbehaltlich etwaiger Prüfungen). Bei der Entscheidung, ob Sie dieses Limit erreicht haben, werden die Guthaben aller Marken berücksichtigt, bei denen Sie Ihre Daten registriert haben.</li>
-    <li><strong>Möglichkeit zur Spielbeschränkung (OASIS):</strong> OASIS ist ein zentrales Sperrsystem, das Sie, wenn Sie dort registriert sind, daran hindert, auf einer damit verbundenen Website zu spielen. OASIS bietet eine 24-Stunden-Sperre, die Sie in jedem Spiel über die „Panik-Taste“ aktivieren können. OASIS bietet auch längere Sperren mit einer Mindestdauer von 3 Monaten. Ihr Antrag auf eine Sperre wird sofort nach der Einreichung des Antrags bearbeitet. Im Falle einer 24-stündigen Spielpause endet die Kontosperre automatisch, nachdem die 24 Stunden verstrichen sind. Um nach einer längeren Sperre wieder zum Glücksspiel zurückzukehren, müssen Einzelpersonen nach dem auf <a href="https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs" target="_blank" rel="noopener">https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs</a> beschriebenen Verfahren unter Verwendung des angegebenen Formulars einen Antrag bei OASIS einreichen. Im Falle einer längerfristigen Sperre werden Sie auch vom Erhalt von Marketingmaterial, das wir versenden, ausgeschlossen. Sie erhalten kein weiteres Marketingmaterial, bis der Ausschluss beendet ist, die gesetzlich vorgeschriebene Frist nach dem Ausschluss abgelaufen ist und Sie die Rückkehr zur Website angefordert und Ihre erneute Einwilligung zur Werbung und zur OASIS-Abfrage zu Werbezwecken erteilt haben.</li>
-    <li>Es gibt viele Organisationen, die Personen Unterstützung und Hilfe bieten, die ein Problem mit dem Spielen entwickeln. Es gibt einen Bereich für‚ Verantwortungsvolles Spielen auf unserer Webseite, mit allen Einzelheiten; außerdem können Sie bei allen Sorgen und Fragen Ihrerseits unser Personal ansprechen.</li>
-    <li>Wenn wir der Meinung sind, dass ein Spieler für Spielsucht oder andere glücksspielbedingte Schäden (einschließlich finanzieller Schäden) gefährdet ist, sei es aufgrund der Wahrnehmung durch unsere Mitarbeiter, aufgrund von Berichten aus externen Quellen oder anderen sachlichen Hinweisen, die sich aus unseren Prozessen zur Spielüberwachung ergeben, werden wir Sie per E-Mail darüber informieren und Sie auffordern, innerhalb einer vorgegebenen Frist Stellung zu nehmen und uns Ihre Meinung zu unseren Ergebnissen mitzuteilen. Wenn Sie nicht antworten oder Ihre Antwort nicht zufriedenstellend ist, werden wir in Ihrem Namen eine Drittanbieterregistrierung bei OASIS beantragen.</li>
-    </ol>
-    <p>&nbsp;</p>
-    <p><strong>20. Kundenbeschwerden </strong></p>
-    <ol>
-    <li>Falls Sie wünschen, eine Forderung oder Beschwerde mitzuteilen, sollten Sie als ersten Schritt, so schnell wie unter den Umständen praktikabel, unsere Kunden-Support-Abteilung kontaktieren. Eine weitere Möglichkeit, eine Beschwerde vorzubringen, bietet die Plattform zur Online-Streitbeilegung (OS), die von der Europäischen Kommission unter <a href="http://ec.europa.eu/odr" target="_blank" rel="noopener">http://ec.europa.eu/odr</a> zur Verfügung gestellt wird. Unter obigem Link finden Sie weitere Informationen hierzu und können eine Streitigkeit zur Beilegung einreichen.</li>
-    </ol>
-    <p><br><strong>21. Urheberrecht</strong></p>
-    <ol>
-    <li>Der gesamte Inhalt dieser Webseite, einschließlich, aber nicht beschränkt auf Text, Warenzeichen oder Dienstleistungsmarken, Grafiken, Animationen, Videos, Musik, Audiomaterial, Logos, Icons und Bilder ('Copyright-Material') sind entweder unser Eigentum oder werden mit entsprechender Genehmigung verwendet.</li>
-    <li>Mit Ausnahme des hier Spezifizierten darf kein Teil des Materials auf diesen Seiten ohne Erlaubnis des Inhabers der Rechte nachgedruckt, neu veröffentlicht oder in einer anderen Form verwendet werden. Der Anwender erwirbt keine Rechte an diesem Copyright-Material und darf es nicht ohne unsere schriftliche Erlaubnis verwenden.</li>
-    </ol>
-    <p><br><strong>22. Links zu den Webseiten Dritter&nbsp;</strong></p>
-    <ol>
-    <li>Diese Webseite kann Hyperlinks zu Webseiten enthalten, die von anderen Personen als von uns betrieben werden. Diese Hyperlinks werden Ihnen nur zu Ihrer Information und Hilfe zur Verfügung gestellt. Sie stimmen zu, uns nicht für den Inhalt oder den Betrieb derartiger Webseiten verantwortlich zu machen.</li>
-    </ol>
-    <p><br><strong>23. Betrügerisches Verhalten </strong></p>
-    <ol>
-    <li>Falls wir betrügerische Aktivität vermuten, können wir Ihr Konto, mit oder ohne vorherige Benachrichtigung an Sie, und zwar nach unserem alleinigen und absoluten Ermessen, sperren. Unberührt bleibt unsere Verpflichtung, Verdächtige Aktivitäten im Zusammenhang mit Geldwäsche ohne Inkenntnissetzung des Spielers an die Zuständige Finanzaufsichtsbehörde zu melden.</li>
-    <li>Falls wir der Meinung sind, dass Sie sich an betrügerischen, ungesetzlichen, unehrlichen oder unangemessenen Aktivitäten beteiligt haben oder versucht haben, sich an solchen zu beteiligen, während Sie unsere Dienstleistungen nutzen, einschließlich, aber nicht beschränkt auf Spielmanipulationen oder die Vornahme betrügerischer Zahlungen, einschließlich, aber nicht beschränkt auf die Verwendung einer gestohlenen Kreditkarte oder betrügerischer Rückbuchungen (Charge-Back) oder Geldwäsche, sind wir berechtigt, Maßnahmen zu ergreifen, die wir für angemessen halten, einschließlich, aber nicht beschränkt auf:&nbsp;
-    <ol style="list-style-type: lower-alpha;">
-    <li>die sofortige Sperrung des Zugangs zu unserem Service;</li>
-    <li>Ihr Konto zu kündigen</li>
-    <li>Einfrieren Iher Gelder, bis der Verdacht ausgeräumt ist und/oder Einreichen eines Berichts über verdächtige Transaktionen an die zuständige FIU und/oder Weiterleitung der Gelder an die deutsche Staatsanwaltschaft bei Vorlage eines Gerichtsbeschlusses oder Urteils, das die Beschlagnahme von Geldern durch die deutsche Staatsanwaltschaft verlangt und/oder Beschlagnahme der Geldgewinne auf Ihrem Konto;</li>
-    <li>Weitergabe dieser Informationen (einschließlich Ihrem Identität) an die zuständigen Behörden, an Finanzinstitute, relevante Behörden und/oder jede Person oder Einrichtung, die ein gesetzliches Recht hat, diese Informationen zu erhalten; und/oder</li>
-    <li>Einleitung rechtlicher Schritte gegen einen Nutzer.</li>
-    </ol>
-    </li>
-    <li>Wir sind Ihnen oder Dritten gegenüber für Ansprüche oder Schäden nicht haftbar, die aus der oben genannten rechtmäßigen Kündigung oder Sperrung des Kontos entstehen.</li>
-    </ol>
-    <p><br><strong>24. Benachrichtigungen </strong></p>
-    <ol>
-    <li>Jede Benachrichtigung, die wir Ihnen geben, wird an die von Ihnen bei der Registrierung Ihres Kontos gelieferte E-Mail-Adresse gesendet. Es liegt in Ihrer alleinigen Verantwortung, Ihre E-Mail-Adresse auf dem neuesten Stand und wirksam zu halten.</li>
-    <li>Falls hier nichts anderes spezifiziert ist, gelten diese Benachrichtigungen oder andere Mitteilungen als erhalten (a) am Datum der Zustellung, falls per E-Mail geschickt, und (b) fünf Geschäftstage nach dem Abschicken, falls per Einschreiben geschickt.</li>
-    <li>Jede der hier beteiligten Parteien ist zur Angabe einer anderen Adresse berechtigt, indem die andere Partei wie oben erwähnt darüber benachrichtigt wird.</li>
-    <li>Jede Mitteilung von Ihnen an uns ist an die E-Mail-Adresse der Kunden Support Abteilung – support@playspielothek.de zu senden. Eine E-Mail, die Sie uns schicken, und die eine Antwort auf eine Transaktions-E-Mail (z.B. E-Mail zur Einzahlungsbestätigung, Bonus-Bestätigungsmail) ist, stellt keine akzeptierte Kontaktform dar und wird nicht als von uns empfangen betrachtet.</li>
-    <li>Wenn Sie auf Ihrem Konto Auffälligkeiten jeglicher Art vermuten/bemerken, müssen Sie unseren Kundendienst benachrichtigen und mit dem Spielen aufhören, bis das Problem behoben ist und die Behebung bestätigt wird. Wenn Sie weiterspielen, bevor das Problem behoben ist, haften wir nicht für weitere Verluste und es wird kein Geld rückwirkend zurückerstattet.</li>
-    </ol>
-    <p><br><strong>25. Maßgebendes Recht </strong></p>
-    <ol>
-    <li>Jede Meinungsverschiedenheit, die im Hinblick auf oder in Verbindung mit dieser Vereinbarung entstanden ist, ihre Interpretation, Durchführung, Erfüllung, oder die Parteien und ihr Verhältnis, wird unter Beachtung des internationalen Privatrechts sowie der europäischen Zuständigkeitsverordnung ausschließlich in Übereinstimmung mit den Gesetzen Deutschlands geregelt und bestimmt, und die deutschen Gerichte haben die alleinige Zuständigkeit.</li>
-    </ol>
-    <p><br><strong>26. Haftungsbeschränkung </strong></p>
-    <ol>
-    <li>Wir haften nicht für Schäden oder Verluste aus oder in Verbindung mit einer Ausfallzeit, Server- oder anderen Technik-Unterbrechungen, die beim Betrieb oder der Übertragung entstehen können, für die Webseite oder deren Inhalt oder einen Missbrauch derselben oder der über die Webseite angebotenen Dienstleistungen, für Fehler oder Unterlassungen im Inhalt, für Verlust oder Verfälschung von Daten, für Kommunikations- oder Verbindungsausfall. Dies gilt nicht für Schäden aufgrund grob fahrlässiger oder vorsätzlicher Handlungen sowie Pflichtverletzungen in Bezug auf Kardinalpflichten. In diesem Fall übersteigt unsere Gesamthaftung nicht den Betrag der von Ihnen über Ihr Konto platzierten Wetteinsätze, in Bezug auf den Wetteinsatz, der die relevante Haftung entstehen ließ oder den tatsächlichen, in Ihrem Konto falsch gesetzten Betrag, wo dieser Betrag von uns aufgrund eines Systemversagens falsch gesetzt wurde, wobei es unerheblich ist, welcher Fall zutrifft.</li>
-    <li>Wir haften Ihnen oder einem Dritten gegenüber nicht für einen Vertrag, eine unerlaubte Handlung, Nachlässigkeit oder sonstwie für einen Verlust oder Schaden, der irgendwie entsteht, wie ausdrücklich in dieser Klausel 29 dargestellt, oder in irgendeiner damit verbundenen Art und Weise, Ihr Konto, oder Dritte, ob direkt oder indirekte, zufällig, spezielle oder exemplarische Schäden (einschließlich, aber nicht beschränkt auf alle Schäden, Verlust von Geschäftsgewinnen [einschließlich des Verlustes oder des Nichterhaltens von antizipierten Gewinnen], Betriebsunterbrechungen, Verlust von Geschäftsinformationen, Datenverlust, Verlust des – ideellen - Firmenwertes oder -ansehens oder einen anderen Verlust) der aus oder in Verbindung mit der Nutzung der Webseite oder der über die Webseite angebotenen Dienstleistungen entsteht. Dies gilt nicht für Schäden aufgrund grob fahrlässiger oder vorsätzlicher Handlungen sowie Pflichtverletzungen in Bezug auf Kardinalpflichten.</li>
-    <li>Vorbehaltlich der Klauseln 30.1 und 30.4 bezieht sich diese Haftungsbeschränkung sowohl auf Schäden, die entstehen aus Nutzung oder Missbrauch der Dienstleistungen (einschließlich Schäden, die von Dritten verursacht wurden), sowie auch auf infolge der Software verursachte Schäden. Die hier aufgeführten Schadenstypen sind dabei nicht abschließend.</li>
-    <li>Unsere Haftung ist nicht begrenzt oder ausgeschlossen bei einem durch unsere Nachlässigkeit verursachten Todesfall oder einem Fall von Körperverletzung; Unsere Haftung ist ferner nicht ausgeschlossen in den zuvor gelisteten Ausnahmefällen (grobe Fahrlässigkeit, Vorsatz, Verletzung von Kardinalpflichten)</li>
-    </ol>
-    <p><br><strong>27. Schadloshaltung&nbsp;</strong></p>
-    <ol>
-    <li>Vorbehaltlich Klausel 29 erklären Sie sich bereit, uns schadlos zu halten und freizustellen von und gegen jeden Anspruch Dritter, der aus ihrer Nutzung der Dienstleistungen entsteht, einschließlich jeder Haftung oder Kosten, entstehend aus allen Forderungen, Verlusten, tatsächlichen Schäden, Klagen, Urteilen, Prozesskosten und notwendig gewordenen Aufwendungen, beispielsweise in Form von Anwaltsgebühren jeder Art und Beschaffenheit. In einem solchen Fall werden wir Ihnen eine Benachrichtigung über diesen Anspruch, Rechtsstreit oder Prozess zukommen lassen.</li>
-    </ol>
-    <p><br><strong>28. Gesamtvereinbarung, Modifikationen und Ergänzungen </strong></p>
-    <ol>
-    <li>Diese Vereinbarung konstituiert die Gesamtvereinbarung zwischen den Parteien im Hinblick auf den hierin enthaltenen Gegenstand und tritt an die Stelle aller vorherigen und zeitlich damit zusammenfallenden Vereinbarungen, Vorschläge und Mitteilungen, schriftlich oder mündlich, zwischen uns und Ihnen.</li>
-    <li>Falls eine zukünftige Modifikation für Sie unannehmbar ist, haben Sie das Recht, diese Vereinbarung zu kündigen.&nbsp;</li>
-    </ol>
-    <p><br><strong>29. Salvatorische Klausel</strong></p>
-    <ol>
-    <li>Falls eine Vorschrift dieser Vereinbarung durch ein Gericht als ungültig oder nicht durchführbar gesehen oder erklärt wird, setzt eine solche Feststellung oder Erklärung keine andere dieser Vorschriften außer Kraft, und diese Vereinbarung wird durch dispositives Gesetzesrecht geschlossen, welches der unwirksamen Bestimmung nach den Vorstellungen der Parteien an nächsten kommt.</li>
-    </ol>
-    <p><br><strong>30. Getrennte Geldmittel </strong></p>
-    <ol>
-    <li>Alle Geldmittel der Spieler werden in einem von unseren laufenden Geschäften getrennten Bankkonto verwahrt, und die Gelder der Spieler werden vor den Ansprüchen Dritter geschützt, selbst im Falle einer Insolvenz. Dem Kreditinstitut ist bewusst, dass es erforderlich ist, die Spieler-Gelder von denen aus unseren laufenden Geschäftsmitteln zu trennen, und es wird nicht versuchen, eine Forderung, Abbuchung, Aufrechnung oder anderen Anspruch gegen das Geldmittel-Konto der Spieler durchzusetzen oder zu vollstrecken oder die Spieler-Geldmittel mit einem anderen Bankkonto im Hinblick auf eine Schuld unsererseits zu verrechnen.</li>
-    </ol>
-    <p><br><strong>31. Steuern auf Gewinne</strong></p>
-    <ol>
-    <li>Falls Ihre Gerichtsbarkeit dies erfordert, sind Sie für das Mitteilen Ihrer Gewinne und Verluste an die Steuerbehörden und/oder andere Behörden in Ihrem Gerichtsbezirk verantwortlich.</li>
-    </ol>
-    <p><br><strong>32. Verbotene Praktiken</strong></p>
-    <ol>
-    <li>Verbotene Praktiken sind nicht gestattet und stellen einen Verstoß gegen die Nutzungsbedingungen dar. Wir ergreifen alle geeigneten Maßnahmen, um verbotene Praktiken zu verhindern und zu erkennen, und werden relevante Spieler, die in Verbindung mit verbotenen Praktiken stehen, identifizieren. Vorbehaltlich dem Vorstehenden haften wir nicht für Verluste oder Schäden, die Sie infolge von verbotenen Praktiken erleiden. Wir allein entscheiden, welche Maßnahmen wir in Bezug auf verbotene Praktiken ergreifen.</li>
-    <li>Sie stimmen zu, dass Sie sich nicht an verbotenen Praktiken beteiligen und nicht damit verbunden sind.</li>
-    <li>Falls wir hinreichende Gründe haben (entweder durch uns oder unsere Spielpartner und andere Anbieter erkannt), dass Sie an einer Form von verbotenen Praktiken beteiligt oder damit verbunden sind, wie u. a. Betrug, Mogelei- und Verdunklungspraktiken, die in der Glücksspiel- und Spielbranche genutzt werden (einschließlich, aber nicht beschränkt auf „Wonging“, „Entgegengesetzte Wetten“, „Perfektes Paar“-Kartenzählen, Dragon Tiger „Suited Tie“-Kartenzählen oder eine beliebige andere Kartenzähltechnik) oder</li>
-    <li>Falls Sie Einsätze platziert und/oder Online-Spiele mit einem beliebigen anderen Anbieter von Online-Glücksspielen gespielt haben und dabei (als Folge Ihres Spiels) mit verbotenen Praktiken in Verbindung stehen oder Sie sich an einer anderen unangemessenen Aktivität beteiligt haben.</li>
-    <li>Wir behalten uns das Recht vor, in Bezug auf Ihr Konto (und/oder ein beliebiges, anderes, von Ihnen geführtes Konto bei einem Anbieterunternehmen) das gesamte Guthaben oder einen Teil davon einzubehalten und/oder den Betrag an Einsätzen, Auszahlungen, Boni oder Gewinnen abzuziehen, die mit verbotenen Praktiken in Verbindung stehen oder davon betroffen sind. Die in diesem Abschnitt dargelegten Rechte berühren keine anderen Rechte (einschließlich allgemein gültiger Rechte), die wir gegen Sie gemäß den Nutzungsbedingungen und anderem geltend machen können.</li>
-    </ol>
-    <p><strong>33. Ihre personenbezogenen Daten</strong></p>
-    <ol>
-    <li>Gemäß dem Data Protection Act (Datenschutzgesetz) von 2001 (Kapitel 440 der Gesetze von Malta), der EU-Verordnung 2016/679 (Datenschutzgrundverordnung), der Deutschen Datenschutzbestimmungen und anderen anwendbaren Gesetzen sind wir verpflichtet, bei der Verwendung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung der Website erfassen, die datenschutzrechtlichen Anforderungen zu beachten. Wir nehmen daher unsere Verpflichtungen in Bezug auf die Nutzung Ihrer personenbezogenen Daten sehr ernst. Zudem speichern wir Spielerdaten für einen Zeitraum von mindestens 5 Jahren ab dem Datum, an dem die Geschäftsbeziehung endet, um aufsichtsrechtliche und gesetzliche Pflichten zu erfüllen, unter anderem die landesspezifischen Geldwäscheregelungen. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.</li>
-    </ol>
-    <p><br><strong>34. Verwendung von Cookies auf der Website</strong></p>
-    <ol>
-    <li>Die Website verwendet „Cookies“, um die Funktionalität der Website zu unterstützen. Ein Cookie ist eine kleine Textdatei, die auf Ihren Computer heruntergeladen wird, wenn Sie auf die Website zugreifen, und die es uns ermöglicht, zu erkennen, wenn Sie die Website später erneut besuchen. Informationen zum Löschen und zur Verwaltung von Cookies finden Sie unter <a href="http://www.aboutcookies.org" target="_blank" rel="noopener">www.aboutcookies.org</a>. Bitte beachten Sie, dass Sie durch das Löschen unserer Cookies oder die Deaktivierung zukünftiger Cookies möglicherweise auf bestimmte Bereiche oder Funktionen der Website nicht mehr zugreifen können. Weitere Informationen finden Sie in unserer Cookie-Richtlinie. Bei Aufruf unserer Internetseite werden Sie zu einer Erklärung mit Bezug auf die Cookie-Einstellungen aufgefordert.</li>
-    </ol>
-    <p><br><strong>35. Abtretung von Rechten und Pflichten</strong></p>
-    <ol>
-    <li>Wir behalten uns das Recht vor, die AGB ganz oder teilweise an eine beliebige Person zu übertragen, abzutreten, unterzulizenzieren oder zu verpfänden, soweit eine solche Abtretung zu denselben Bedingungen oder zu Bedingungen erfolgt, die für Sie nicht weniger vorteilhaft sind.</li>
-    </ol>
-    <p><br><strong>36. Ereignisse außerhalb unserer Kontrolle</strong></p>
-    <ol>
-    <li>Wir sind nicht haftbar oder verantwortlich für die Nichterfüllung oder verspätete Erfüllung einer unserer Verpflichtungen gemäß den AGB, soweit dies durch Ereignisse außerhalb unserer angemessenen Kontrolle verursacht wird, unter anderem durch höhere Gewalt, Krieg, zivile Unruhen, Unterbrechung öffentlicher Kommunikationsnetze oder -dienste, Arbeitskampf oder DDOS-Attacken und ähnliche Internetangriffe mit nachteiligen Auswirkungen („höhere Gewalt“). Unsere Leistung gilt für den Zeitraum, während dessen die höhere Gewalt andauert, als ausgesetzt, und die Frist zur Erfüllung verlängert sich um die Dauer dieses Zeitraums. Wir werden uns nach besten Kräften bemühen, die höhere Gewalt zu beenden oder eine Lösung zu finden, durch die unsere Verpflichtungen trotz des Eintretens höherer Gewalt erfüllt werden können.</li>
-    </ol>
-    <p><br><strong>37. Widerrufsrecht</strong></p>
-    <ol>
-    <li>Das Spiel beginnt mit einer entsprechenden Erklärung des Spielers. Durch Annahme dieser AGB erklären Sie sich ausdrücklich damit einverstanden, dass Ihr Widerrufsrecht nach vollständiger Erfüllung der Leistungen durch Skill On Net Limited ausgeschlossen ist, d.h. insbesondere nach Beendigung eines Spiels.</li>
-    </ol>
-    <p>&nbsp;</p></div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-top bg-mulberry-wood pt-5 pb-5">
-            <div class="container text-center">
-                <ul class="list-inline mb-4">
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="payment-options.html">
-                        Zahlungsarten                    </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="responsible-gaming.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen </a>
-                    </li>
-                    <!--<li class="list-inline-item mb-2">
-                    <a class="text-white pl-2" href="https://www.prizeaffiliates.com/" target="_blank">
-                        <span class="divider-vertical d-none d-sm-inline"></span>
-                        Partner                    </a>
-                </li>-->
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="terms-conditions.html">
-                            <span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="privacy-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung </a>
-                    </li>
-                    <li class="list-inline-item mb-2">
-                        <a class="text-white pl-2" href="bonus-policy.html">
-                            <span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie </a>
-                    </li>
-                </ul>
-                <div class="small-1 col-lg-10 mx-auto">
-                    <div class="text-amaranth">
-                        <div son-ce="son-license-text">Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos
-                            Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener
-                            Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22
-                            erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
-                            <br>
-                            <br><a href="https://son-direct.com/?appName=PlaySpielothek.dl&langID=8&name=responsible_gaming" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
-                            <br>
-                        </div>
-                        <son-beam style="--beam-background: transparent"></son-beam>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom bg-white pt-3 pb-3">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-center">
-                    <div class="p-2">
-                        <div class="logos">
-                            <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
-                                <img src="https://service.image-tech-storage.com/logos/4044fd17-e653-4397-8b5f-e2c4f30772b0_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
-                                <img src="https://service.image-tech-storage.com/logos/6ad3e32a-b71d-467c-af67-4fc9b59c1f47_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" style="width: 45px;">
-                                <img src="https://service.image-tech-storage.com/logos/3e989124-2461-48a8-b27d-bb89f8608334_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
-                                <img src="https://service.image-tech-storage.com/logos/12d9a2a9-1de1-4804-afae-44943cf50d86_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" style="width: 126px;">
-                                <img src="https://service.image-tech-storage.com/logos/42c459f5-7087-48ad-adbf-342380f0013f_dark.png" class="lazyloaded">
-                            </a>
-
-                            <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
-                                <img src="https://service.image-tech-storage.com/logos/b4068a9b-e29d-4d64-a9eb-10af8aa0fde5_dark.png" class="lazyloaded">
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            </header>
+            <!-- ================= Desktop Header Logo End ==================== -->
         </div>
 
 
 
+        <!-- ============================ Oval Shape Section Start ======================= -->
+        <section class="oval-top-section pt-4 pb-4 pt-md-5 pb-md-5 pt-lg-4 pb-lg-4"></section>
+        <!-- ============================ Oval Shape Section End ======================= -->
 
 
+        
+        <!-- =========================== SubPages Context Start ====================== -->
+        <section class="terms-conditions-section bg-rose-bud-cherry pb-5">
+            <div class="container text-white">
+                <div class="col-lg-10 mx-auto">
+                    <div class="mb-3 mb-md-5 text-center">
+                        <h3>Allgemeine Geschäftsbedingungen</h3>
+                                    </div>
+                    <div son-ce="son-compliance-page">
+                        <div son-ce="son-license-text">Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22 erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a> <br><br><a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=responsible_gaming" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a><br></div><h6>89-DL-N</h6>
+                        <h3>Allgemeine Geschäftsbedingungen</h3>
+                        <p><strong>Letzte Aktualisierung: 31/07/2024</strong></p>
+                        <p><br>Lesen Sie bitte diese Vertragsbedingungen aufmerksam durch, bevor Sie diese Vereinbarung akzeptieren und diese Webseite benutzen. Drucken Sie diese Vertragsbedingungen unbedingt aus, und verwahren Sie sie in Ihren Unterlagen<br><br><strong>1. EINFÜHRUNG</strong></p>
+                        <ol>
+                        <li>Diese Allgemeinen Geschäftsbedingungen regeln Ihren Zugriff auf und die Nutzung der Website PlaySpielothek (die „Website“), die von Skill on Net Ltd mit Genehmigung der Gemeinsamen Glücksspielbehörde der Länder (GGL) betrieben wird. Skill on Net Ltd ist ein in Malta unter der Reg.-Nr. C50024 eingetragenes Unternehmen, mit Geschäftssitz in Office1/5297, Level G Quantum House 75 Abate Rigord Street, Ta' Xbiex 1120 Malta.</li>
+                        <li>In den folgenden Vertragsbedingungen wird auf Skill on Net Ltd als "Wir", "Uns" oder mit einem anderen Namen mit einem ähnlichen Bezeichnungssinn Bezug genommen. In diesen Vertragsbedingungen wird auf Sie als "Kunde", "Sie", "Anwender", der "Spieler" oder mit einem anderen Begriff der gleichen Bedeutung Bezug genommen.</li>
+                        <li>Wir halten diese Begriffe für verständlich und eindeutig. Sollten Sie hinsichtlich dieser Begriffe oder eines anderen Teils unserer Dienstleistung Aufklärung benötigen, nehmen Sie bitte in Ihrem eigenen und in unserem Interesse über unsere Kundendienst-Abteilung mittels des Support-Links auf der Webseite und dem Rechtsberater Ihrer Wahl Kontakt auf.</li>
+                        <li>Beachten Sie bitte, dass alle Telefongespräche mit Ihrem Einverständnis digital aufgezeichnet werden und als Beweis nach unserem Ermessen verwendet werden können. Beachten Sie bitte, dass Sie durch die Bestätigung der AGB auch darin einwilligen, dass alle Telefongespräche digital aufgezeichnet werden.</li>
+                        <li>Zur Sicherheit der Transaktionen verwenden wir SSL-Verschlüsselung. Alle Kundendaten werden vertraulich behandelt und ohne Ihr Einverständnis nicht zu Zwecken außerhalb des Vertragsverhältnisses an Dritte weitergegeben.</li>
+                        <li>Indem Sie das Kästchen 'Ich stimme den Vertragsbedingungen zu' ankreuzen, bestätigen Sie, dass Sie alle Vertragsbedingungen gelesen, verstanden und akzeptiert haben, und dass Sie diese einhalten werden, womit Sie eine rechtlich bindende Vereinbarung zwischen Ihnen und uns abschließen. Falls Sie einer dieser Vertragsbedingungen nicht zustimmen, sollten Sie die Bedingungen nicht akzeptieren. Sobald Sie diesen Vertragsbedingungen zugestimmt haben, kann ein Nichterfüllen einer oder mehrerer derselben Ihrerseits zur Disqualifikation, Sperrung oder Schließung des Kontos, und/oder rechtlichen Schritten gegen Sie führen, wenn wir dies für angebracht halten.</li>
+                        <li>Wir betreiben verschiedene Websites in Verbindung mit derselben Lizenz und gestatten nur ein Konto. Dies bedeutet, dass Sie über eine Master-Registrierung verfügen, die erstellt wird, wenn Sie sich registrieren und Ihr Konto auf der ersten Website verifizieren. Jede spätere Registrierung bei einer anderen Marke wird mit der Master-Registrierung verknüpft. Wenn wir berechtigten Grund zu der Annahme haben, dass zwei oder mehr registrierte Konten miteinander verbunden sind – zum Beispiel, indem sie durch dieselbe Internet Protocol-Adresse („IP-Adresse“), dasselbe Nutzungsmuster, ähnliche Transaktionen, gemeinsame Bankinformationen, Adressen oder anderweitig verbunden sind – und dass die über die Website bereitgestellten Dienste von Ihnen in irgendeiner Weise missbraucht werden, unter anderem aufgrund eines zuvor unbekannten Fehlers, sonstigen Fehlers oder anderen Software-Fehlers, können wir die Ihnen über die Website bereitgestellten Dienste einstellen, Ihre Möglichkeit einschränken, auf Ihr Konto/Ihre Konten zuzugreifen und Transaktionen in einem oder mehreren der verknüpften Konten rückgängig machen.</li>
+                        <li>Durch akzeptieren der AGB und die Verwendung dieser Webseite und/oder der Software stimmen Sie diesen Vertragsbedingungenzu. Gegebenenfalls müssen wir die AGB aus verschiedenen Gründen ändern, unter anderem aus geschäftlichen Gründen oder aufgrund neuer Gesetze oder Vorschriften. Die aktuellen AGB sind hier abrufbar, und das Datum ihres Inkrafttretens ist jeweils vermerkt. Wenn wir wesentliche Änderungen an den AGB vornehmen möchten, informieren wir Sie über solche Änderungen frühestmöglich im Voraus auf einem der folgenden Wege:
+                        <ul>
+                        <li>E-Mail (an die E-Mail-Adresse, die Sie uns zuvor mitgeteilt haben, falls vorhanden);</li>
+                        <li>Hinweis auf der Website.<br><br>Wenn wir Änderungen an den AGB vornehmen, die wir Ihnen direkt mitteilen möchten, werden wir hierfür einen Mitteilungsweg wählen, den wir nach unserem Ermessen für angemessen halten.<br><br>Sollten wir wesentliche Änderungen vornehmen, die die Vertragsbeziehung zwischen Ihnen und Skill on Net Limited in irgendeiner Weise betreffen, fordern wir Sie auf, den geänderten AGB zuzustimmen. Sie können erst dann auf der Website weiterspielen, wenn Sie diese neuen AGB akzeptiert haben.<br><br></li>
+                        </ul>
+                        </li>
+                        <li>Diese Vertragsbedingungen sind in deutscher Sprache geschrieben. Falls diese Vertragsbedingungen in eine andere Sprache übersetzt werden, hat die deutsche Version Vorrang.</li>
+                        <li>Ihre Teilnahme an den Spielen erfolgt nach Ihrem alleinigen Ermessen und auf Ihr alleiniges Risiko. Indem Sie diese Vertragsbedingungen akzeptieren, bestätigen Sie, dass Sie die Dienstleistungen, die wir durch unsere Webseite und/oder Software erbringen, nicht als anstößig, unfair oder bedenklich erachten. Sie bestätigen auch, dass es uns nicht möglich ist, Ihnen rechtliche Beratung zu bieten oder Ihnen bei rechtlicher Unsicherheit in Bezug auf die Legalität der Teilnahme am Online-Glücksspiel zu helfen.</li>
+                        <li>Alle Gebühren und Kosten, die in diesem Dokument dargestellt sind, sind in Euro ("EUR").</li>
+                        <li>Sofern nicht anders auf der Webseite angegeben, beträgt der Mindesteinzahlungsbetrag 10 EUR.</li>
+                        <li>Wir behalten uns das Recht vor, den Zugang auf alle oder bestimmte Teile der Webseite im Hinblick auf bestimmte Rechtsprechungen zu einzuschränken.</li>
+                        <li>Wenn nicht speziell etwas anderes erwähnt ist, dann ist immer die GMT Zeitzone gemeint, wenn von Zeiten gesprochen wird.</li>
+                        <li>Alle beworbenen Ersteinzahlungsboni/Willkommensangebote unterliegen einer Kontoüberprüfung bei Registrierung. Nach abgeschlossener Registrierung erfolgt eine automatische Überprüfung der eingegebenen Kontodetails. Dabei könnte das System entscheiden, dass Ihr Konto nicht für Boni berechtigt ist. Falls Ihr Konto nicht für Boni berechtigt ist, erhalten Sie bei der Erstellung des Kontos eine entsprechende E-Mail mit dieser Entscheidung.</li>
+                        <li>Wir behalten uns das Recht vor, die minimalen/maximalen Einsätze anzupassen.</li>
+                        </ol>
+                        <p><br><strong>2. Gesetzliche Erfordernisse für das Spielen</strong></p>
+                        <ol>
+                        <li>Unsere Mitarbeiter, Direktoren, Vertreter oder Berater und deren Verwandten (einschließlich Ehepartner, Elternteil, Partner, Kind oder Bruder/Schwester) dürfen sich nicht registrieren und nicht direkt oder indirekt an einem der Spiele teilnehmen. Werden solche Konten identifiziert, werden sie gesperrt und alle Gelder eingezogen.</li>
+                        <li>Sie müssen mindestens 18 Jahre alt sein. Bitte seien Sie sich darüber im Klaren, dass Glücksspiel von Minderjährigen illegal ist.</li>
+                        <li>Um ein Konto zu registrieren, sind wir gesetzlich dazu verpflichtet, die folgenden Informationen zu erheben und die Daten zu verifizieren, bevor wir die Aktivierung unserer Glücksspieldienste zulassen:
+                        <ul>
+                        <li>Vorname</li>
+                        <li>Nachname</li>
+                        <li>Mädchenname (falls zutreffend),</li>
+                        <li>Geburtsdatum</li>
+                        <li>Geburtsort</li>
+                        <li>Adresse</li>
+                        </ul>
+                        </li>
+                        <li>Nach Erhalt der in 2.3 erfassten personenbezogenen Daten bitten wir Sie, Ihre Mobiltelefonnummer zu verifizieren. Anschließend versuchen wir, die in 2.3 erfassten Daten mithilfe eines von Schufa bereitgestellten Dienstes zu verifizieren. Wenn die Verifizierung erfolgreich ist, erhalten Sie über ein vorläufiges Konto, mit dem Sie innerhalb von maximal 72 Stunden bis zu 100 € einzahlen können. Danach wird Ihr Konto bis zur vollständigen Verifizierung gesperrt. Nach einer erfolgreichen Einzahlung über SOFORT oder durch Hochladen einer Kopie eines Ausweisdokuments des in Abschnitt 2.7 aufgeführten Typs können Sie Ihr Konto auf ein vollständiges, nicht vorläufiges Konto aufwerten.</li>
+                        <li>Wenn der Verifizierungsversuch bei Schufa nicht erfolgreich ist, haben Sie die Möglichkeit, die in Abschnitt 2.3 angegebenen persönlichen Daten zu bearbeiten, um die Verifizierung zur Registrierung eines vorläufigen Kontos erneut einzureichen.</li>
+                        <li>Wenn Sie die Schufa-Verifizierung nicht bestehen, können Sie über unsere von Jumio bereitgestellte Dokumenten-Upload-Software eine Kopie eines Ausweises des in Abschnitt 2.7 aufgeführten Typs hochladen. Wir werden versuchen zu überprüfen, ob er dieselben Informationen enthält, mit denen Sie sich registriert haben, und eine Lebendigkeitserkennung durchführen. Wenn dieser Vorgang erfolgreich ist, wurde Ihr Konto vollständig verifiziert.</li>
+                        <li>Zusätzlich zur Beurteilung während unseres Registrierungsprozesses behalten wir uns das Recht vor, jederzeit einen zusätzlichen Altersnachweis von Ihnen zu verlangen, um zu verhindern, dass Minderjährige unsere Dienste nutzen. Folgende Dokumente akzeptieren wir als Identitätsnachweis:
+                        <ul>
+                        <li>Reisepass;</li>
+                        <li>Offizieller Personalausweis</li>
+                        </ul>
+                        </li>
+                        <li>Nachdem Ihr Konto zu einem vorläufigen Konto wurde (oder vollständig verifiziert, wenn das vorläufige Konto umgangen wird), führen wir eine technische Überprüfung durch, um herauszufinden, ob Sie beim Selbstausschlusssystem OASIS registriert sind. Wenn Sie dort registriert sind, kann der Kontoregistrierungsvorgang nicht abgeschlossen werden.</li>
+                        <li>Bevor Sie spielen und eine Kontoverifizierung durchführen können, müssen Sie den Prozess der anbieterübergreifenden Registrierung monatlicher Einzahlungslimits über LUGAS abschließen.&nbsp;</li>
+                        </ol>
+                        <p><br><strong>3. Informationen, die wir über Sie sammeln und wie wir diese verwenden</strong></p>
+                        <ol>
+                        <li>Wir verarbeiten Informationen über Sie in Übereinstimmung mit unserer <a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=privacy_policy">Datenschutzrichtlinie</a>. Unsere Datenschutzerklärung ist Bestandteil dieser allgemeinen Geschäftsbedingungen und enthält Angaben über die Art der Informationen, die wir erfassen und wie wir mit ihnen umgehen – dies umfasst, mit wem sie geteilt werden und warum.</li>
+                        <li>Wir sind berechtigt und unter Umständen verpflichtet, die Informationen, die wir über Sie gespeichert haben, einschließlich personenbezogener Daten und Spielverlauf, mit den Regulierungsbehörden und anderen Einrichtungen zu teilen, einschließlich der Polizei und Strafverfolgungsbehörden, um Fälle von Betrug, Geldwäsche und Spielintegritätsprobleme zu untersuchen und um unsere gesetzlichen Pflichten zu erfüllen.</li>
+                        </ol>
+                        <p><strong>4. Lizenzgewährung</strong></p>
+                        <ol>
+                        <li>Die Webseite, der über die Webseite verfügbare, downloadbare Client, unsere Apps und die Webseite in ihrer für die Nutzung mit Mobiltelefonen und Tablets optimierten Form, laufen komplett mit einer Serie von Programmen, die unser Eigentum oder über Dritte lizensiert sind, damit es möglich ist, Ihnen unsere Dienstleistungen über die Webseite ("Software") anzubieten.</li>
+                        <li>Wir gewähren Ihnen eine Lizenz zur Verwendung einer Kopie der Software und, wo anwendbar, der damit verbundenen Dokumentation ausschließlich in Übereinstimmung mit und in Abhängigkeit von diesen Bestimmungen.</li>
+                        <li>Sie dürfen ein Recht an der Software weder verkaufen, vermieten, leasen, transferieren oder gewähren, noch die Software mittels ‚Reverse Engineering' rekonstruieren, sie dekompilieren oder disassemblieren.</li>
+                        <li>Sie dürfen einem Dritten die Software nicht kenntlich machen, auf ihr basierenden Derivativen Arbeiten vornehmen, oder sie für irgendeinen anderen als die ausdrücklich gestatteten Zwecke verwenden; ausgenommen sind die speziellen Verwendungen, die in der Anwender-Dokumentation, die die Software begleitet, ausdrücklich gestattet sind.</li>
+                        <li>Die Software ist für Sie lediglich auf einer Basis ohne Gewähr für Mangelfreiheit verfügbar, und sie hat keine Garantie oder Schadloshaltung irgendeiner Art. Der Download und/oder die Nutzung der Software und der Dienstleistungen erfolgen auf Ihr eigenes Risiko.</li>
+                        <li>Sie erkennen hiermit an, dass es nicht in unserer Kontrolle liegt, wie Sie die Software verwenden. Wir sind Ihnen oder einem Dritten gegenüber in Bezug auf Ihren Erhalt und/oder Verwendung der Software nicht haftbar</li>
+                        </ol>
+                        <p><br><strong>5. Echtgeld-Modus und Demo-Modus </strong></p>
+                        <ol>
+                        <li>Nach Abschluss des Registrierungs- und Verifikationsprozesses können Sie die auf unsere Webseite angebotenen Dienstleistungen nutzen undentweder im Echtgeld-Modus oder im Demomodus zu spielen.</li>
+                        <li>Im Echtgeld-Modus kann echtes Geld gesetzt und gewonnen werden. Um im Echtgeld-Modus zu spielen, ist es erforderlich, dass Sie über Geldmittel in Ihrem Bonus-Guthaben verfügen, oder dass Sie Geldmittel auf Ihr Konto (mit der in Klausel 5 beschriebenen Bedeutung) durch eine der zugelassenen Einzahlungsmethoden, einzahlen. Diese Geldmittel werden auf Ihr Konto mit dem tatsächlichen Erhalt oder bei Erhalt der Bestätigung durch einen Zahlungsabwickler eingezahlt. Mindest- und Höchstlimits können bei den Zahlungen auf Ihr Konto eingesetzt werden, abhängig von Ihrem bisherigen Verhalten, der Einzahlungsmethode, und weiteren Faktoren, die von uns sowie dem Gesetzgeber oder der zuständigen Behörde festgelegt werden. Wir sind keine Bank&nbsp;und Einlagen sind nicht durch eine Regierungsstelle gesichert. Alle Zahlungen auf und von Ihrem Konto sind zinsfrei. Alle Zahlungen auf Ihr Konto müssen aus einer Zahlungsquelle kommen, von welcher Sie der bezeichnete Kontoinhaber sind.<br><br>Im Übungsmodus ist das Guthaben, das Sie sehen, kein Echtgeld-Guthaben, und die Einsätze und Gewinne werden nicht mit echten Auszahlungen honoriert. Der Zweck des Demo-Modus ist es, Ihnen zu ermöglichen, zu verstehen, wie die Spiele ablaufen, ohne Ihr eigenes Geld zu prüfen.&nbsp;<br><br></li>
+                        <li>Es liegt in Ihrer Verantwortung sicherzustellen, dass Sie alle Regeln und Verfahrensweisen der Spiele auf der Webseite / den Webseiten lesen und verstehen, bevor Sie Echtgeld-Spiele ausführen.</li>
+                        <li>Hiermit erkennen Sie an, dass Sie beim Spielen das Risiko eingehen, Geld zu verlieren.</li>
+                        <li>Die Ausschüttungsquote (RTP) des Spiels wird in den Spielregeln jedes Spiels angezeigt und kann sich ändern. Falls das RTP ein wichtiger Faktor bei Ihrer Entscheidung für ein bestimmtes Spiel ist, empfehlen wir Ihnen, bei jedem Spiel die Spielregeln zu checken.</li>
+                        </ol>
+                        <p><br><strong>6. Anwender-Konto</strong></p>
+                        <ol>
+                        <li>Sie sind dafür verantwortlich, die mit Ihrer Kontoregistrierung verbundenen Informationen bei etwaigen Änderungen auf dem neuesten Stand zu halten. Wenn sich die bei der Registrierung bereitgestellten Informationen ändern, müssen Sie uns darüber informieren und uns einen Nachweis der neuen Angaben zusenden.</li>
+                        <li>Zusätzlich zur Verifizierungsbewertung, durchgeführt während der Erstregistrierung, behalten wir uns das Recht vor, eine Kundenadresse auch an einem späteren Zeitpunkt durch alle verfügbaren Mittel zu bestätigen, einschließlich aber nicht beschränkt auf das Absenden eines Adressenverifizierungsbriefes per Post an Sie, das Kontaktieren per E-Mail, Telefon oder Live-Chat. Unabhängig davon werden Kundendaten mindestens jährlich auf Richtigkeit überprüft. Falls sich die bei einer Registrierungsänderung gemachten Angaben ändern, müssen Sie uns auf den neuesten Stand bringen und uns einen Nachweis über die neuen Details schicken.</li>
+                        <li>Ihr Konto ist ausschließlich für Ihren persönlichen Gebrauch bestimmt. Sie dürfen Ihre Kontodaten nicht an Dritte weitergeben oder die Kontodaten anderer verwenden. Die Nutzung Ihres Kontos dient ausschließlich Ihren privaten Zwecken. Es ist strengstens untersagt, im Namen Dritter ein Konto zu eröffnen oder eine Transaktion durchzuführen, eine Zahlungsmethode Dritter zu verwenden oder Dritten den Zugriff auf Ihr Konto zu gestatten. Wenn wir die Nutzung Ihres Kontos durch Dritte feststellen, wird es geschlossen und steht nicht mehr zur Verfügung, es sei denn, unsere Ermittlungen rechtfertigen die Aufrechterhaltung des Kontos aufgrund der Umstände des Falls, der den einmaligen Verstoß gegen diese Klausel rechtfertigt.</li>
+                        <li>Wir gehen davon aus, dass es sich bei jeder Eingabe Ihres korrekten Benutzernamens und Passworts oder Logins mithilfe biometrischer Anmeldefunktionen um Ihre Person handelt. Alle Transaktionen, bei denen der Benutzername und das Passwort korrekt eingegeben wurden, gelten als gültig und von Ihnen autorisiert, sofern uns keine gegenteiligen Informationen vorliegen.</li>
+                        <li>Wir übernehmen absolut keine Verantwortung für den Zugriff eines Dritten auf Ihr Konto unter Verwendung des richtigen Benutzernamens und Passworts, und wir haften nicht für Verluste, die Ihnen als Ergebnis eines solchen Vorfalls entstanden sind, soweit dies nicht auf grob fahrlässigem oder vorsätzlichem Handeln unsererseits beruht. Jeder Zugriff auf Ihr Konto mit richtigem Benutzernamen und Passwort wird von uns als berechtigt gesehen.</li>
+                        <li>Sollten Sie eine nicht autorisierte Benutzung Ihres Kontos bemerken, sind Sie verpflichtet, uns umgehend zu benachrichtigen, und wir werden Ihr Konto bei Anhängigkeit weiterer Untersuchungen dieser nicht autorisierten Verwendung sperren. Falls Sie einen Computer mit anderen Personen teilen, raten wir dazu, dass in Bezug auf die Kontrollbox zur Passworterinnerung keine Aktion ausgeführt wird.</li>
+                        <li>Die Kontoeinrichtungen werden Ihnen nur zur Verfügung gestellt, damit Sie Wetten platzieren oder an Spielen teilnehmen können. Wenn Sie, aus welchem Grund auch immer, den Anschein erwecken, dass Sie Geld einzahlen oder auszahlen, ohne tatsächlich gespielt zu haben, wird Ihr Konto gesperrt und die Umstände werden untersucht. Dies kann dazu führen, dass Ihr Konto dauerhaft geschlossen wird.</li>
+                        <li>Alle Konto-Funktionen werden Ihnen ausschließlich zur Verfügung gestellt, um Sie in die Lage zu versetzen, an den Spielen teilzunehmen.</li>
+                        <li>Hiermit erkennen Sie an und stimmen zu, dass das Spielen dazu führen kann, dass Geld verloren wird und dass alle Verluste, die Ihnen durch das Spielen der von uns angebotenen Spielothek-Spiele entstanden sind, Verluste sind, die in Ihrer eigenen, alleinigen Verantwortung liegen.</li>
+                        <li>Sie können Ihr Konto schließen, indem Sie unsere Seite für die Spielerbeschränkungen besuchen und die Option zum Schließen des Kontos auswählen. Ein geschlossenes Konto ist vollständig von Glücksspielaktivitäten ausgeschlossen, steht aber zur Anforderung von Auszahlungen oder zur Überprüfung des Spiel-/Einzahlungsverlaufs und anderer Kontoinformationen zur Verfügung. Glücksspielaktivitäten können nur reaktiviert werden, wenn Sie sich für eine Reaktivierung entscheiden. Falls die Schließung des Kontos mit Bedenken hinsichtlich einer möglichen Spielsucht zusammenhängt, stimmen Sie zu, die Option „Konto schließen“ nicht zu nutzen, sondern sich stattdessen für einen Ausschluss bei OASIS zu registrieren. OASIS wird auf allen lizenzierten Websites Ihre Möglichkeit einschränken, an Glücksspiel-Aktivitäten teilzunehmen. Falls Sie Ihre Daten auf mehr als einer der von Skill On Net Ltd lizenzierten Websites registriert haben, erhalten Sie die Möglichkeit, alle Konten zu schließen oder nur das der Marke, bei dem Sie gegenwärtig angemeldet sind.</li>
+                        <li>Wenn Sie Ihr Konto nicht schließen, sondern nur einschränken möchten, sodass Sie nicht spielen können, können Sie dies über das OASIS-Selbstausschlussverfahren auf unserer Website tun, indem Sie den Anweisungen auf der Seite „Spielerlimits“ folgen, oder über <a href="https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs">Players (FAQs) | rp-darmstadt.hessen.de</a>. Infolgedessen werden Sie von allen Anbietern blockiert, die mit der OASIS-Datenbank verbunden sind.</li>
+                        <li>Hiermit bestätigen Sie, dass Sie Ihr Konto in Bezug auf unsere Dienstleistungen und unter Beachtung aller anwendbaren Gesetze nicht für eine verbotene oder ungesetzliche Aktivität verwenden oder beabsichtigen es in dieser Weise zu verwenden, oder es einer anderen Person zu gestatten, das Konto in dieser Weise zu verwenden - einschließlich, aber nicht beschränkt auf Betrug oder Geldwäsche.</li>
+                        <li>Hiermit bestätigen Sie, dass Sie kein Spieler-Konto bei uns gehabt haben, das gekündigt oder gesperrt wurde, und dass Sie sich uns gegenüber weder jetzt noch in der Vergangenheit über etwaige (Sucht-)Probleme im Zusammenhang mit Glücksspiel geäußert haben.</li>
+                        <li>Hiermit bestätigen Sie, dass Sie die Verbindung während eines Spiels nicht absichtlich unterbrechen, während Sie unsere Dienstleistungen nutzen. Falls wir feststellen, dass Sie diese Klausel verletzen, können wir umgehend Ihren Zugriff auf unsere Dienstleistungen beenden und/oder Ihr Konto blockieren lassen.</li>
+                        <li>Hiermit bestätigen Sie, dass Sie nicht in eine betrügerische, heimlich abgesprochene, manipulierende oder andere ungesetzliche Aktivität in Bezug auf die Teilnahme an einem der Spiele durch Sie oder einen Dritten eingebunden sein werden.</li>
+                        <li>Sie erklären sich damit einverstanden, dass wir berechtigt sind, Ihr Konto zu kündigen und/oder zu sperren und alle über dieses Konto verfügbaren Gelder zu beschlagnahmen, wenn unserer Meinung nach verdächtige, unangemessene, betrügerische oder rechtswidrige Aktivitäten durch die Nutzung unserer Dienste versucht und/oder durchgeführt werden.</li>
+                        <li>Im Falle, dass Sie bemerken, dass ein anderer Nutzer unserer Dienstleistungen betrügt, manipuliert oder versucht Spielausgänge und -ergebnisse zu manipulieren, dabei im heimlichen Einverständnis mit einer weiteren Person handelt, um uns zu betrügen, durch die Verwendung von Software mit Künstlicher Intelligenz (AI), oder etwas durchführt, das als nachteilig für uns gedeutet werden kann, finanziell oder in anderer Form, sind Sie verantwortlich dafür, uns diese Informationen zu geben. Wir werden alle Informationen, die Sie an uns weiterleiten, mit der höchsten Vertraulichkeit behandeln. Falls wir entdecken, oder den Verdacht haben, dass Sie derartige Kenntnisse hatten und nicht an uns weitergeleitet haben, behalten wir uns das Recht vor, unsere Dienstleistungen an Sie zu beenden.&nbsp;</li>
+                        <li>Skill on Net Ltd. oder Dritte, die im Namen von Skill On Net handeln, gewähren Kunden keine Kredite.</li>
+                        <li>Wir überprüfen die OASIS-Datenbank regelmäßig, um herauszufinden, ob Sie durch diesen Dienst einem Spielverbot unterliegen. Falls Sie Ihr Konto dort registriert haben, kann es nicht mehr für Glücksspiele verwendet werden.</li>
+                        <li>Vor der Teilnahme an einem Spiel prüfen wir über den LUGAS-Dienst, ob Sie auf der Website eines anderen Betreibers aktiv sind. Wenn dies der Fall ist, wird Ihnen der Zugriff auf die Spiele verweigert, bis Ihre Beziehung mit dem anderen Betreiber gekündigt wird.</li>
+                        </ol>
+                        <p><br><strong>7. Transaktionen: Einzahlungen</strong></p>
+                        <ol>
+                        <li>Einzahlungen mit Methoden, die nicht Ihnen gehören (Zahlungsmethoden Dritter), sind strengstens untersagt. Durch die Annahme dieser Allgemeinen Geschäftsbedingungen erklären Sie sich damit einverstanden, dass Sie solche Methoden nicht verwenden werden. Wenn Einzahlungen über eine Drittanbietermethode entdeckt werden, wird Ihr Konto einer weiteren Überprüfung unterzogen.</li>
+                        <li>Wenn Gewinne aus Einzahlungen mit einer Zahlungsmethode eines Drittanbieters erzielt wurden, werden diese für ungültig erklärt und alle mit einer Zahlungsmethode eines Drittanbieters eingezahlten Gelder werden ausschließlich an die Person zurückerstattet, die die Zahlungsmethode für die Einzahlung des Drittanbieters verwendet hat. In Fällen, in denen es technisch nicht möglich ist, die Einzahlungen Dritter über dieselbe Zahlungsmethode zurückzuerstatten, die für die Einzahlungen Dritter verwendet wurde, erfolgt die Rückerstattung ausschließlich per Banküberweisung auf ein Bankkonto, das nach Ablauf der Frist auf den Namen des Dritten geführt wird, nachdem die folgenden zusätzlichen Verifizierungsschritte ausgeführt wurden.</li>
+                        <li>Spieler, die Kredit-/Debitkarteneinzahlungen mit der Kredit-/Debitkarte einer anderen Person vornehmen und diese Einzahlungen nicht auf die verwendete Kredit-/Debitkarte zurückerstattet werden können, werden gebeten, weitere Verifizierungsdokumente wie unten aufgeführt vorzulegen:
+                        <ol style="list-style-type: lower-alpha;">
+                        <li>Kopien der verwendeten Kreditkarte eines Dritten;</li>
+                        <li>Ausweisdokument des Kreditkarteninhabers gemäß Abschnitt 2.7 dieser Bedingungen;</li>
+                        <li>Formular zur Vollmachtserklärung. Dieses Formular muss vom Kredit-/Debitkarteninhaber und Kontoinhaber ausgefüllt und unterzeichnet werden.</li>
+                        <li>ankkontodaten des Dritten zusammen mit einem Bankkonto-Inhabernachweis (Kontoauszug mit dem Namen des Bankkontoinhabers und der Bankkontonummer)</li>
+                        </ol>
+                        </li>
+                        <li>Wenn Sie die im vorliegenden Abschnitt beschriebenen zusätzlichen Verifizierungsprüfungen nicht erfüllen, werden Ihrem Konto weitere Einschränkungen auferlegt, bis solche weiteren Verifizierungsprüfungen ordnungsgemäß zu unserer Zufriedenheit und unseren Standards durchgeführt wurden.</li>
+                        <li>Nach der Einzahlung erhalten Sie eine E-Mail-Bestätigung der Transaktion. Wir empfehlen, dass Sie die Details aller Transaktions-Daten ausdrucken und verwahren, um Missverständnisse und Diskussionen zu einem späteren Zeitpunkt zu vermeiden.<br>i. Bitte beachten Sie, dass Kreditkartenabwickler nach eigenem Ermessen Transaktionen ohne die CVV-Sicherheitsüberprüfung verarbeiten können.</li>
+                        <li>Alle Einzahlungen werden umgehend wirksam, sobald wir eine erfolgreiche Bestätigung vom gewählten Zahlungsabwickler erhalten. Nach der Einzahlung ist es Ihnen umgehend möglich, im Echtgeld-Modus zu spielen. Es ist verboten, Geld einzuzahlen, das mit unrechtmäßigen Mitteln erworben wurde.</li>
+                        <li>Bitte beachten Sie, dass vor jeder Auszahlung oder bei einzelnen Einzahlungen von mehr als 25 € bzw. monatlichen Einzahlungen von mehr als 100 € ein Nachweis des Kreditkarteninhabers erforderlich ist.</li>
+                        <li>Wir behalten uns das Recht vor, mit Ihnen Kontakt aufzunehmen, um eine getätigte Einzahlung mündlich zu bestätigen.</li>
+                        <li>Wir behalten uns das Recht vor, nach jeder Einzahlung Ausweisdokumente anzufordern.</li>
+                        <li>Wir können jederzeit einen positiven Saldo Ihres Kontos oder eines verknüpften Kontos mit allen Beträgen belasten, die Sie uns schulden.</li>
+                        <li>Falls für Ihre Einzahlungen eine Bearbeitungsgebühr anfällt, werden Sie vor Abschluss des Einzahlungsvorgangs darüber informiert.</li>
+                        </ol>
+                        <p><br><strong>8. Transaktionen: Auszahlungen</strong></p>
+                        <ol>
+                        <li>Auszahlungen können nur bearbeitet werden, wenn der Spieler über ein vollständig verifiziertes Konto mit mindestens einer genehmigten Einzahlung verfügt. Darüber hinaus muss der Spieler für eine Auszahlung über ausreichende Echtgeldmittel verfügen und alle geltenden Anforderungen erfüllt haben. Auszahlungen können nur auf der Basis der vom Spieler bei der Erstregistrierung gegebenen oder später aktualisierten Informationen durchgeführt werden.</li>
+                        <li>Damit wir Auszahlungen so schnell wie möglich vornehmen können, wendet unser System bei der Kontoregistrierung Kontrollen an, die einen individuellen Auszahlungsbetrag pro Transaktion vorsehen. Dieser Betrag wird in der Rubrik "Weitere Informationen" auf der Auszahlungsseite angezeigt. Nachdem eine Transaktion bearbeitet wurde, können Sie sofort eine weitere anfordern. Es gibt keine Begrenzung für die Anzahl der Transaktionen pro Tag/Woche/Monat. Wenn Sie in einer einzelnen Transaktion einen höheren Betrag als die Transaktionsgrenze auszahlen möchten oder eine Auszahlungsanfrage gestellt haben, die Sie erhöhen möchten, können Sie uns diesbezüglich direkt über E-Mail kontaktieren.</li>
+                        <li>Bei sich wiederholenden Auszahlungsanfragen, die 2.000 € überschreiten, behalten wir uns weitere Prüfungsverfahren vor.</li>
+                        <li>Beachten Sie bitte ebenfalls, dass alle Gewinne über dem Wert von 5.000 € mehrere Geschäftstage für die Abwicklung benötigen können. Dies ist auf zusätzliche Sicherheitsprüfungen zurückzuführen, die von unserer Konten-Abteilung durchgeführt werden.</li>
+                        <li>Um eine Auszahlung vorzunehmen, müssen Sie zunächst alle Boni stornieren. Dies ist während des Auszahlungsanforderungsprozesses möglich.</li>
+                        <li>Für Auszahlungen ohne vorherige Echtgeldaktivitäten wird eine Gebühr in Höhe von 5 EUR erhoben. Diese Gebühr wird zum Zeitpunkt der Auszahlungsanfrage von Ihrem Kontoguthaben abgebucht.</li>
+                        <li>Für Transaktionen wenden wir die sogenannte „Closed-loop“ Regel an. Danach erfolgen Auszahlungen grundsätzlich nur mit der Methode und auf das Zahlungskonto, welches Sie auch für die Einzahlung verwendet haben. Bei abweichenden Zahlungsarten wird eine erneute Prüfung erforderlich.</li>
+                        <li>Ein Transfer von Geldmitteln zwischen Spielern ist streng untersagt und wird technisch unterbunden, soweit möglich.</li>
+                        <li>Sobald Sie einen Antrag auf Auszahlung gestellt haben, wird Ihr Antrag unverzüglich an eine unsere Konten-Abteilungen weitergeleitet, die Ihre Auszahlung durchführt, vorausgesetzt, sie hat alle für die Auszahlung erforderlichen Informationen. Sie können jederzeit Ihren Antrag auf Auszahlung von Geldern ändern oder umkehren, bis Ihre Auszahlung fertiggestellt und voll abgewickelt ist. Nach der vollständigen Bearbeitung wird Ihr Geld umgehend auf Ihr Konto überwiesen.</li>
+                        <li>Gewninnbenachrichtigungen erfolgen automatisiert und treffen keine Aussage über die Rechtmäßigkeit des Auszahlungsverlangens. Dieses unterliegt grundsätzlich den allgemeinen und unter Umständen vertieften Geldwäscheprüfungen.</li>
+                        <li>Für den Fall , dass Sie sich dafür entscheiden, Ihren Antrag innerhalb der Bearbeitungszeit zu stornieren, werden Ihre Geldmittel Ihrem Echtgeld-Konto wieder zugeteilt.</li>
+                        <li>Sollten Sie eine unserer Anforderungen zur Bereitstellung von KYC-Dokumenten nicht erfüllen können, behalten wir uns das Recht vor, die Abhebung rückgängig zu machen.</li>
+                        <li>Auszahlungsanfragen werden nur als gültig gesehen, wenn sie über die Auszahlungsseite in der Software erfolgen. Wir nehmen keine Auszahlungswünsche über E-Mail oder Telefon oder ein anderes Verfahren an.</li>
+                        <li>Falls eine Auszahlung aufgrund fehlender Informationen abgelehnt oder unvollständig ist, werden Ihre Geldbeträge wieder Ihrem Echtgeldguthaben hinzugefügt. Wir empfehlen Ihnen, die erforderlichen Informationen anzugeben und eine neue Auszahlung zu beantragen.</li>
+                        </ol>
+                        <p><br><strong>9. Boni</strong></p>
+                        <ol>
+                        <li>Sie erkennen an und verstehen, dass unsere Vertragsbedingungen im Hinblick auf Promotionen, Boni und Sonderangebote einen integralen Bestandteil dieser <a href="https://son-direct.com/?appName=PlaySpielothek.dl&amp;langID=8&amp;name=bonus_policy">Vertragsbedingungen darstellen</a>. Diese Vertragsbedingungen werden in unseren Bonus-Regelungen dargestellt. Im Falle eines Widerspruchs zwischen den Vorschriften unserer Vertragsbedingungen zu Promotion, Boni und Sonderangeboten und diesen Vertragsbedingungen haben die Vorschriften zu Promotionen, Boni und Sonderangebote Vorrang.</li>
+                        </ol>
+                        <p><strong>10. Funktionsstörung des Spiels</strong></p>
+                        <ol>
+                        <li>Falls ein technisches Problem dazu führt, dass ein Spiel / eine Funktion einen höheren Betrag auf ein Spieler-Konto auszahlt als ausgezahlt werden müsste (ein Spielgewinn, Bonus-Spiel-Gewinn, etc.), behalten wir uns das Recht vor, alle Geldmittel von dem Konto zu nehmen, die nicht korrekt gutgeschrieben wurden, sowie alle Gewinne, die danach unter Verwendung der fälschlicherweise gutgeschriebenen Geldmittel gemacht wurden, zurückzufordern.</li>
+                        <li>Falls wir feststellen, dass ein Spieler in Verbindung mit den Spielen / der Software eine technische Panne in unzulässiger und treuwidriger Weise ausnutzt oder gebraucht hat, entweder er selbst oder in Zusammenarbeit mit Partnern, behalten wir uns das Recht vor, alle Gewinne ungültig zu machen und die betreffenden Spieler-Konten zu schließen.</li>
+                        <li>Im Falle eines Systemversagens sind alle laufenden Spiele ungültig.</li>
+                        <li>Im Falle, dass ein Spiel gestartet wird, aber aufgrund eines Systemversagens misslingt, erstatten wir Ihnen den im Spiel gesetzten Wettbetrag, indem wir ihn Ihrem Spielerkonto gutschreiben.</li>
+                        <li>Wir werden alle angemessenen Maßnahmen ergreifen, um sicherzustellen, dass unser System Ihre Teilnahme an einem Spiel ermöglicht. Wir haben keinen Einfluss auf Spielausfälle nachdem Sie das Spiel begonnen haben, durch ein Versagen des Telekommunikationssystems oder einen Ausfall Ihres Computersystems. Falls unser System Sie nicht in die Lage versetzt, nach der Wiederherstellung des Systems bei einem durch ein Versagen des Telekommunikationssytems oder Ihres Computersystems unterbrochenen Spiel fortzufahren, werden wir:
+                        <ol style="list-style-type: lower-alpha;">
+                        <li>sicherstellen, dass das Spiel beendet wird; und</li>
+                        <li>Ihnen den getätigten Einsatz erstatten, indem wir ihn Ihrem Konto gutschreiben.<br><br></li>
+                        </ol>
+                        </li>
+                        </ol>
+                        <p><strong>11. Einstellung der Dienstleistungen</strong></p>
+                        <ol>
+                        <li>Wir können die gesamten oder jeden Teil der Dienstleistungen aus einem in unserem alleinigen Ermessen liegenden Grund zeitweise einstellen. Wir können, sind aber nicht dazu verpflichtet, Ihnen so viele Mitteilungen über eine solche Einstellung geben, wie es angemessen und praktikabel ist. Wir werden die Dienstleistung wieder instand setzen, sobald dies nach dieser temporären Einstellung in vertretbarem Umfang möglich ist.</li>
+                        </ol>
+                        <p><br><strong>12. Änderung</strong></p>
+                        <ol>
+                        <li>Wir behalten uns das Recht vor, den Inhalt der Webseite oder der über die Seite angebotenen Dienste nach unserem alleinigen Ermessen, mit unmittelbarer Wirkung und ohne Ankündigung, einzustellen, zu modifizieren, zu entfernen oder hinzuzufügen. Wir haften Ihnen gegenüber nicht für Verluste, die als Ergebnis einer dieser vorgenommenen Änderungen erlitten wurden, und Sie haben uns gegenüber in dieser Hinsicht keine Ansprüche. Ausgenommen hiervon sind Verlust, die auf Verletzung einer Kardinalpflicht oder auf grob fahrlässigem bzw. vorsätzlichem Verhalten beruhen.</li>
+                        </ol>
+                        <p><br><strong>13. Software mit künstlicher Intelligenz </strong></p>
+                        <ol>
+                        <li>Sie erklären sich damit einverstanden, keine Software mit Künstlicher Intelligenz ('KI- Software') zu verwenden, während Sie die Software und/oder Webseite benutzen. Wir werden so handeln, dass wir die Verwendung solcher KI-Software-Programme entdecken und verhindern, die Ihnen zu einem unfairen Vorteil gegenüber den anderen Spielern verhelfen, einschließlich, aber nicht beschränkt auf, das Entdecken des Betriebs derartiger Programme auf Ihrem Computer. Falls wir die Verwendung von KI-Software feststellen, und nach unserem alleinigen Ermessen diese Entdeckung als zutreffend erachten, wird Ihr Konto gekündigt und alle Gewinne werden storniert.</li>
+                        </ol>
+                        <p><br><strong>14. Zufallsgenerator</strong></p>
+                        <ol>
+                        <li>Sie akzeptieren und stimmen zu, dass ein Zufallsgenerator die zufällig generierten Ereignisse erzeugt, die für die Dienstleistungen erforderlich sind. Wenn das in der (durch Ihre Hardware installierte und betriebene) Software gezeigte Ergebnis mit unserem Ergebnis oder dem Ergebnis unserer Spielpartnerserver in Konflikt steht, hat das Ergebnis, das auf unserem Server erscheint, unter allen Umständen Vorrang. Sie stimmen zu, dass (unbeschadet Ihrer anderen Rechte und Rechtsmittel) das Unternehmen die finale Entscheidungskraft über die Nutzungsbedingungen unserer Dienste innehat. Sie haben kein Recht, dahingehende Entscheidungen des Unternehmens anzufechten.</li>
+                        </ol>
+                        <p>&nbsp;</p>
+                        <p><strong>15. Beleidigende oder ausfallende Äußerungen </strong></p>
+                        <ol>
+                        <li>Wir tolerieren keinen beleidigenden oder ausfallenden Sprachgebrauch oder anderes Verhalten, das von uns, nach unserem alleinigen Ermessen, als unpassend erachtet wird.</li>
+                        <li>Schlechtes Benehmen oder beleidigende Äußerungen, das / die von uns identifiziert werden oder über die wir unterrichtet werden, können zu einer Einstellung oder zum Verlust von Spielprivilegien oder einer anderen Aktion führen, wie von uns beschlossen, einschließlich, aber nicht beschränkt auf, das Schließen des Kontos.</li>
+                        <li>Den Spielern ist es untersagt, anstößige Benutzer- oder Bildschirmnamen zu verwenden, wenn sie sich registrieren oder anmelden.</li>
+                        <li>Die Spieler können unserer Kundensupport-Abteilung jederzeit Informationen im Hinblick auf Missbrauch oder andere Verstöße vorlegen, damit wir diese dann untersuchen.</li>
+                        </ol>
+                        <p><br><strong>16. Überwachen der Webseite </strong></p>
+                        <ol>
+                        <li>Wir können die Webseite und die Anwender der Webseite jederzeit elektronisch überwachen, um eine Erfüllung dieser Vereinbarung sicherzustellen, und wir können alle Informationen, Aufzeichnungen oder elektronische Kommunikation eines Anwenders der Webseite bekanntgeben: (a) gemäß einem Gesetz, einer Regulierung oder einem jeden Ersuchen einer rechtmäßigen Regierung; (b) falls eine derartige Bekanntgabe für den fortgesetzten Betrieb der Webseite notwendig ist; oder (c) um unsere Rechte und/oder das Eigentum unserer Partner zu schützen.</li>
+                        </ol>
+                        <p><br><strong>17. Inaktive Konten </strong></p>
+                        <ol>
+                        <li>Wenn sich ein Kontoinhaber für einen Zeitraum von 12 Monaten nicht an seinem Konto anmeldet, wird das Konto als „inaktives Konto“ eingestuft. Während ein Konto inaktiv ist, ziehen wir jeden Monat 5 EUR Verwaltungsgebühr von diesem Konto ab. Die monatliche Verwaltungsgebühr ist vorbehaltlich etwaiger Änderungen. Wenn das Konto ein Guthaben von weniger als 5 EUR aufweist, wird der gesamte Betrag abgezogen und das Guthaben ist null. Wir werden Sie mindestens 30 Tage, bevor Ihr Kundenkonto inaktiv wird und die monatliche Gebühr anfällt, per E-Mail informieren, sofern Ihre aktuelle E-Mail-Adresse in unserem System hinterlegt ist. Innerhalb des Zeitfensters von 30 Tagen können Sie ohne zusätzliche Gebühren Ihr Kundenkonto durch einen Login reaktivieren oder sich das Guthaben auszahlen lassen. Wir werden Sie dabei auch über die Konsequenzen eines inaktiven Kundenkontos und die jeweils anfallenden Gebühren sowie über die Möglichkeit, Ihr Guthaben auszahlen zu lassen oder das Kundenkonto zu reaktivieren, um die Gebühren zu vermeiden, informieren.</li>
+                        </ol>
+                        <p><br><strong>18. Kunden-Support </strong></p>
+                        <ol>
+                        <li>Wir bieten einen Support-Service für unsere Spieler.</li>
+                        <li>Die Spieler können eine E-Mail unter detaillierter Darstellung ihrer Fragen oder Beanstandungen an support@playspielothek.de senden, die dann unsere Kundendienst-Abteilung erreicht. Um eine Konto-Identifizierung zu erleichtern, sollte eine E-Mail von der zu Ihrem Konto registrierten E-Mail-Adresse geschickt werden und dabei den Benutzername des betreffenden Kontos enthalten. Wir behalten uns das Recht vor, weitere Identitätsprüfungen vorzunehmen, um sicherzustellen, dass die uns kontaktierende Person der Kontoinhaber ist.</li>
+                        </ol>
+                        <p><br><strong>19. Verantwortungsvolles Spielen (Responsible Gaming)</strong></p>
+                        <ol>
+                        <li>Wir glauben, dass wir eine 'geschützte Entertainment-Umgebung' bieten. Es ist ein wichtiger Teil unseres gesamten Kundenbetreuungsprogramms. Das Spiel in einer geschützten Umgebung soll eine aufregende und angenehme Erfahrung - ausschließlich für Erwachsene - sein. Wir möchten, dass Sie Ihr Erlebnis genießen, spielen Sie also bitte mit Vernunft und innerhalb Ihres Budgets. Während die Mehrzahl der Menschen innerhalb ihrer Mittel spielt, kann für manche das Spielen zu einem Problem werden. Falls Sie in der übergreifenden Sperrdatei verzeichnet sind, ist es Ihnen nicht erlaubt, ein Konto zu eröffnen, und Sie dürfen auch nicht spielen. Bestehende Konten werden gesperrt, wenn Sie in der ortsunabhängigen, landesweiten Sperrdatei aufgeführt sind, nachdem Sie ein Konto eröffnet hatten.</li>
+                        <li><strong>Limits: </strong>Wir bieten Ihnen die Möglichkeit, Ihre bevorzugten Einzahlungs-, Verlust- und Einsatzlimits für die folgenden Zeiträume festzulegen:
+                        <ul>
+                        <li>Täglich</li>
+                        <li>Wöchentlich</li>
+                        <li>Monatlich<br><br>Jede Reduzierung des Limits tritt auf Ihrem Konto sofort in Kraft. Wenn Sie jedoch ein Limit erhöhen möchten, wird die Änderung erst nach 7 Tagen wirksam. Zu diesen Limits zählen alle eingezahlten, verlorenen und gesetzten Beträge auf allen verschiedenen Marken, bei denen Sie Ihre Daten registriert haben. Wenn Ihr Konto von einer früheren Lizenz auf diese Lizenz übertragen wurde, werden Einzahlungen/Verluste und Einsätze, die mit der vorherigen Lizenz getätigt wurden, den neu festgelegten Limits nicht angerechnet.</li>
+                        </ul>
+                        </li>
+                        <li><strong>Automatische Auszahlungen:</strong> Wir bieten Ihnen eine Funktion, mit der Sie einen Gewinnbetrag festlegen können. Wenn Sie zulassen, dass Gewinne diesen Betrag überschreiten, wird der überschüssige Betrag aus wirtschaftlichen Gründen automatisch für die weitere Verwendung zur Teilnahme am Spiel gesperrt, bis ein bestimmter Mindestbetrag zur Deckung der Transaktionskosten erreicht ist. Wird dieser Betrag ebenfalls erreicht, wird der gesamte überschüssige Betrag automatisch ausgezahlt (vorbehaltlich etwaiger Prüfungen). Bei der Entscheidung, ob Sie dieses Limit erreicht haben, werden die Guthaben aller Marken berücksichtigt, bei denen Sie Ihre Daten registriert haben.</li>
+                        <li><strong>Möglichkeit zur Spielbeschränkung (OASIS):</strong> OASIS ist ein zentrales Sperrsystem, das Sie, wenn Sie dort registriert sind, daran hindert, auf einer damit verbundenen Website zu spielen. OASIS bietet eine 24-Stunden-Sperre, die Sie in jedem Spiel über die „Panik-Taste“ aktivieren können. OASIS bietet auch längere Sperren mit einer Mindestdauer von 3 Monaten. Ihr Antrag auf eine Sperre wird sofort nach der Einreichung des Antrags bearbeitet. Im Falle einer 24-stündigen Spielpause endet die Kontosperre automatisch, nachdem die 24 Stunden verstrichen sind. Um nach einer längeren Sperre wieder zum Glücksspiel zurückzukehren, müssen Einzelpersonen nach dem auf <a href="https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs" target="_blank" rel="noopener">https://rp-darmstadt.hessen.de/sicherheit-und-kommunales/gluecksspiel/spielersperrsystem-oasis/spieler-faqs</a> beschriebenen Verfahren unter Verwendung des angegebenen Formulars einen Antrag bei OASIS einreichen. Im Falle einer längerfristigen Sperre werden Sie auch vom Erhalt von Marketingmaterial, das wir versenden, ausgeschlossen. Sie erhalten kein weiteres Marketingmaterial, bis der Ausschluss beendet ist, die gesetzlich vorgeschriebene Frist nach dem Ausschluss abgelaufen ist und Sie die Rückkehr zur Website angefordert und Ihre erneute Einwilligung zur Werbung und zur OASIS-Abfrage zu Werbezwecken erteilt haben.</li>
+                        <li>Es gibt viele Organisationen, die Personen Unterstützung und Hilfe bieten, die ein Problem mit dem Spielen entwickeln. Es gibt einen Bereich für‚ Verantwortungsvolles Spielen auf unserer Webseite, mit allen Einzelheiten; außerdem können Sie bei allen Sorgen und Fragen Ihrerseits unser Personal ansprechen.</li>
+                        <li>Wenn wir der Meinung sind, dass ein Spieler für Spielsucht oder andere glücksspielbedingte Schäden (einschließlich finanzieller Schäden) gefährdet ist, sei es aufgrund der Wahrnehmung durch unsere Mitarbeiter, aufgrund von Berichten aus externen Quellen oder anderen sachlichen Hinweisen, die sich aus unseren Prozessen zur Spielüberwachung ergeben, werden wir Sie per E-Mail darüber informieren und Sie auffordern, innerhalb einer vorgegebenen Frist Stellung zu nehmen und uns Ihre Meinung zu unseren Ergebnissen mitzuteilen. Wenn Sie nicht antworten oder Ihre Antwort nicht zufriedenstellend ist, werden wir in Ihrem Namen eine Drittanbieterregistrierung bei OASIS beantragen.</li>
+                        </ol>
+                        <p>&nbsp;</p>
+                        <p><strong>20. Kundenbeschwerden </strong></p>
+                        <ol>
+                        <li>Falls Sie wünschen, eine Forderung oder Beschwerde mitzuteilen, sollten Sie als ersten Schritt, so schnell wie unter den Umständen praktikabel, unsere Kunden-Support-Abteilung kontaktieren. Eine weitere Möglichkeit, eine Beschwerde vorzubringen, bietet die Plattform zur Online-Streitbeilegung (OS), die von der Europäischen Kommission unter <a href="http://ec.europa.eu/odr" target="_blank" rel="noopener">http://ec.europa.eu/odr</a> zur Verfügung gestellt wird. Unter obigem Link finden Sie weitere Informationen hierzu und können eine Streitigkeit zur Beilegung einreichen.</li>
+                        </ol>
+                        <p><br><strong>21. Urheberrecht</strong></p>
+                        <ol>
+                        <li>Der gesamte Inhalt dieser Webseite, einschließlich, aber nicht beschränkt auf Text, Warenzeichen oder Dienstleistungsmarken, Grafiken, Animationen, Videos, Musik, Audiomaterial, Logos, Icons und Bilder ('Copyright-Material') sind entweder unser Eigentum oder werden mit entsprechender Genehmigung verwendet.</li>
+                        <li>Mit Ausnahme des hier Spezifizierten darf kein Teil des Materials auf diesen Seiten ohne Erlaubnis des Inhabers der Rechte nachgedruckt, neu veröffentlicht oder in einer anderen Form verwendet werden. Der Anwender erwirbt keine Rechte an diesem Copyright-Material und darf es nicht ohne unsere schriftliche Erlaubnis verwenden.</li>
+                        </ol>
+                        <p><br><strong>22. Links zu den Webseiten Dritter&nbsp;</strong></p>
+                        <ol>
+                        <li>Diese Webseite kann Hyperlinks zu Webseiten enthalten, die von anderen Personen als von uns betrieben werden. Diese Hyperlinks werden Ihnen nur zu Ihrer Information und Hilfe zur Verfügung gestellt. Sie stimmen zu, uns nicht für den Inhalt oder den Betrieb derartiger Webseiten verantwortlich zu machen.</li>
+                        </ol>
+                        <p><br><strong>23. Betrügerisches Verhalten </strong></p>
+                        <ol>
+                        <li>Falls wir betrügerische Aktivität vermuten, können wir Ihr Konto, mit oder ohne vorherige Benachrichtigung an Sie, und zwar nach unserem alleinigen und absoluten Ermessen, sperren. Unberührt bleibt unsere Verpflichtung, Verdächtige Aktivitäten im Zusammenhang mit Geldwäsche ohne Inkenntnissetzung des Spielers an die Zuständige Finanzaufsichtsbehörde zu melden.</li>
+                        <li>Falls wir der Meinung sind, dass Sie sich an betrügerischen, ungesetzlichen, unehrlichen oder unangemessenen Aktivitäten beteiligt haben oder versucht haben, sich an solchen zu beteiligen, während Sie unsere Dienstleistungen nutzen, einschließlich, aber nicht beschränkt auf Spielmanipulationen oder die Vornahme betrügerischer Zahlungen, einschließlich, aber nicht beschränkt auf die Verwendung einer gestohlenen Kreditkarte oder betrügerischer Rückbuchungen (Charge-Back) oder Geldwäsche, sind wir berechtigt, Maßnahmen zu ergreifen, die wir für angemessen halten, einschließlich, aber nicht beschränkt auf:&nbsp;
+                        <ol style="list-style-type: lower-alpha;">
+                        <li>die sofortige Sperrung des Zugangs zu unserem Service;</li>
+                        <li>Ihr Konto zu kündigen</li>
+                        <li>Einfrieren Iher Gelder, bis der Verdacht ausgeräumt ist und/oder Einreichen eines Berichts über verdächtige Transaktionen an die zuständige FIU und/oder Weiterleitung der Gelder an die deutsche Staatsanwaltschaft bei Vorlage eines Gerichtsbeschlusses oder Urteils, das die Beschlagnahme von Geldern durch die deutsche Staatsanwaltschaft verlangt und/oder Beschlagnahme der Geldgewinne auf Ihrem Konto;</li>
+                        <li>Weitergabe dieser Informationen (einschließlich Ihrem Identität) an die zuständigen Behörden, an Finanzinstitute, relevante Behörden und/oder jede Person oder Einrichtung, die ein gesetzliches Recht hat, diese Informationen zu erhalten; und/oder</li>
+                        <li>Einleitung rechtlicher Schritte gegen einen Nutzer.</li>
+                        </ol>
+                        </li>
+                        <li>Wir sind Ihnen oder Dritten gegenüber für Ansprüche oder Schäden nicht haftbar, die aus der oben genannten rechtmäßigen Kündigung oder Sperrung des Kontos entstehen.</li>
+                        </ol>
+                        <p><br><strong>24. Benachrichtigungen </strong></p>
+                        <ol>
+                        <li>Jede Benachrichtigung, die wir Ihnen geben, wird an die von Ihnen bei der Registrierung Ihres Kontos gelieferte E-Mail-Adresse gesendet. Es liegt in Ihrer alleinigen Verantwortung, Ihre E-Mail-Adresse auf dem neuesten Stand und wirksam zu halten.</li>
+                        <li>Falls hier nichts anderes spezifiziert ist, gelten diese Benachrichtigungen oder andere Mitteilungen als erhalten (a) am Datum der Zustellung, falls per E-Mail geschickt, und (b) fünf Geschäftstage nach dem Abschicken, falls per Einschreiben geschickt.</li>
+                        <li>Jede der hier beteiligten Parteien ist zur Angabe einer anderen Adresse berechtigt, indem die andere Partei wie oben erwähnt darüber benachrichtigt wird.</li>
+                        <li>Jede Mitteilung von Ihnen an uns ist an die E-Mail-Adresse der Kunden Support Abteilung – support@playspielothek.de zu senden. Eine E-Mail, die Sie uns schicken, und die eine Antwort auf eine Transaktions-E-Mail (z.B. E-Mail zur Einzahlungsbestätigung, Bonus-Bestätigungsmail) ist, stellt keine akzeptierte Kontaktform dar und wird nicht als von uns empfangen betrachtet.</li>
+                        <li>Wenn Sie auf Ihrem Konto Auffälligkeiten jeglicher Art vermuten/bemerken, müssen Sie unseren Kundendienst benachrichtigen und mit dem Spielen aufhören, bis das Problem behoben ist und die Behebung bestätigt wird. Wenn Sie weiterspielen, bevor das Problem behoben ist, haften wir nicht für weitere Verluste und es wird kein Geld rückwirkend zurückerstattet.</li>
+                        </ol>
+                        <p><br><strong>25. Maßgebendes Recht </strong></p>
+                        <ol>
+                        <li>Jede Meinungsverschiedenheit, die im Hinblick auf oder in Verbindung mit dieser Vereinbarung entstanden ist, ihre Interpretation, Durchführung, Erfüllung, oder die Parteien und ihr Verhältnis, wird unter Beachtung des internationalen Privatrechts sowie der europäischen Zuständigkeitsverordnung ausschließlich in Übereinstimmung mit den Gesetzen Deutschlands geregelt und bestimmt, und die deutschen Gerichte haben die alleinige Zuständigkeit.</li>
+                        </ol>
+                        <p><br><strong>26. Haftungsbeschränkung </strong></p>
+                        <ol>
+                        <li>Wir haften nicht für Schäden oder Verluste aus oder in Verbindung mit einer Ausfallzeit, Server- oder anderen Technik-Unterbrechungen, die beim Betrieb oder der Übertragung entstehen können, für die Webseite oder deren Inhalt oder einen Missbrauch derselben oder der über die Webseite angebotenen Dienstleistungen, für Fehler oder Unterlassungen im Inhalt, für Verlust oder Verfälschung von Daten, für Kommunikations- oder Verbindungsausfall. Dies gilt nicht für Schäden aufgrund grob fahrlässiger oder vorsätzlicher Handlungen sowie Pflichtverletzungen in Bezug auf Kardinalpflichten. In diesem Fall übersteigt unsere Gesamthaftung nicht den Betrag der von Ihnen über Ihr Konto platzierten Wetteinsätze, in Bezug auf den Wetteinsatz, der die relevante Haftung entstehen ließ oder den tatsächlichen, in Ihrem Konto falsch gesetzten Betrag, wo dieser Betrag von uns aufgrund eines Systemversagens falsch gesetzt wurde, wobei es unerheblich ist, welcher Fall zutrifft.</li>
+                        <li>Wir haften Ihnen oder einem Dritten gegenüber nicht für einen Vertrag, eine unerlaubte Handlung, Nachlässigkeit oder sonstwie für einen Verlust oder Schaden, der irgendwie entsteht, wie ausdrücklich in dieser Klausel 29 dargestellt, oder in irgendeiner damit verbundenen Art und Weise, Ihr Konto, oder Dritte, ob direkt oder indirekte, zufällig, spezielle oder exemplarische Schäden (einschließlich, aber nicht beschränkt auf alle Schäden, Verlust von Geschäftsgewinnen [einschließlich des Verlustes oder des Nichterhaltens von antizipierten Gewinnen], Betriebsunterbrechungen, Verlust von Geschäftsinformationen, Datenverlust, Verlust des – ideellen - Firmenwertes oder -ansehens oder einen anderen Verlust) der aus oder in Verbindung mit der Nutzung der Webseite oder der über die Webseite angebotenen Dienstleistungen entsteht. Dies gilt nicht für Schäden aufgrund grob fahrlässiger oder vorsätzlicher Handlungen sowie Pflichtverletzungen in Bezug auf Kardinalpflichten.</li>
+                        <li>Vorbehaltlich der Klauseln 30.1 und 30.4 bezieht sich diese Haftungsbeschränkung sowohl auf Schäden, die entstehen aus Nutzung oder Missbrauch der Dienstleistungen (einschließlich Schäden, die von Dritten verursacht wurden), sowie auch auf infolge der Software verursachte Schäden. Die hier aufgeführten Schadenstypen sind dabei nicht abschließend.</li>
+                        <li>Unsere Haftung ist nicht begrenzt oder ausgeschlossen bei einem durch unsere Nachlässigkeit verursachten Todesfall oder einem Fall von Körperverletzung; Unsere Haftung ist ferner nicht ausgeschlossen in den zuvor gelisteten Ausnahmefällen (grobe Fahrlässigkeit, Vorsatz, Verletzung von Kardinalpflichten)</li>
+                        </ol>
+                        <p><br><strong>27. Schadloshaltung&nbsp;</strong></p>
+                        <ol>
+                        <li>Vorbehaltlich Klausel 29 erklären Sie sich bereit, uns schadlos zu halten und freizustellen von und gegen jeden Anspruch Dritter, der aus ihrer Nutzung der Dienstleistungen entsteht, einschließlich jeder Haftung oder Kosten, entstehend aus allen Forderungen, Verlusten, tatsächlichen Schäden, Klagen, Urteilen, Prozesskosten und notwendig gewordenen Aufwendungen, beispielsweise in Form von Anwaltsgebühren jeder Art und Beschaffenheit. In einem solchen Fall werden wir Ihnen eine Benachrichtigung über diesen Anspruch, Rechtsstreit oder Prozess zukommen lassen.</li>
+                        </ol>
+                        <p><br><strong>28. Gesamtvereinbarung, Modifikationen und Ergänzungen </strong></p>
+                        <ol>
+                        <li>Diese Vereinbarung konstituiert die Gesamtvereinbarung zwischen den Parteien im Hinblick auf den hierin enthaltenen Gegenstand und tritt an die Stelle aller vorherigen und zeitlich damit zusammenfallenden Vereinbarungen, Vorschläge und Mitteilungen, schriftlich oder mündlich, zwischen uns und Ihnen.</li>
+                        <li>Falls eine zukünftige Modifikation für Sie unannehmbar ist, haben Sie das Recht, diese Vereinbarung zu kündigen.&nbsp;</li>
+                        </ol>
+                        <p><br><strong>29. Salvatorische Klausel</strong></p>
+                        <ol>
+                        <li>Falls eine Vorschrift dieser Vereinbarung durch ein Gericht als ungültig oder nicht durchführbar gesehen oder erklärt wird, setzt eine solche Feststellung oder Erklärung keine andere dieser Vorschriften außer Kraft, und diese Vereinbarung wird durch dispositives Gesetzesrecht geschlossen, welches der unwirksamen Bestimmung nach den Vorstellungen der Parteien an nächsten kommt.</li>
+                        </ol>
+                        <p><br><strong>30. Getrennte Geldmittel </strong></p>
+                        <ol>
+                        <li>Alle Geldmittel der Spieler werden in einem von unseren laufenden Geschäften getrennten Bankkonto verwahrt, und die Gelder der Spieler werden vor den Ansprüchen Dritter geschützt, selbst im Falle einer Insolvenz. Dem Kreditinstitut ist bewusst, dass es erforderlich ist, die Spieler-Gelder von denen aus unseren laufenden Geschäftsmitteln zu trennen, und es wird nicht versuchen, eine Forderung, Abbuchung, Aufrechnung oder anderen Anspruch gegen das Geldmittel-Konto der Spieler durchzusetzen oder zu vollstrecken oder die Spieler-Geldmittel mit einem anderen Bankkonto im Hinblick auf eine Schuld unsererseits zu verrechnen.</li>
+                        </ol>
+                        <p><br><strong>31. Steuern auf Gewinne</strong></p>
+                        <ol>
+                        <li>Falls Ihre Gerichtsbarkeit dies erfordert, sind Sie für das Mitteilen Ihrer Gewinne und Verluste an die Steuerbehörden und/oder andere Behörden in Ihrem Gerichtsbezirk verantwortlich.</li>
+                        </ol>
+                        <p><br><strong>32. Verbotene Praktiken</strong></p>
+                        <ol>
+                        <li>Verbotene Praktiken sind nicht gestattet und stellen einen Verstoß gegen die Nutzungsbedingungen dar. Wir ergreifen alle geeigneten Maßnahmen, um verbotene Praktiken zu verhindern und zu erkennen, und werden relevante Spieler, die in Verbindung mit verbotenen Praktiken stehen, identifizieren. Vorbehaltlich dem Vorstehenden haften wir nicht für Verluste oder Schäden, die Sie infolge von verbotenen Praktiken erleiden. Wir allein entscheiden, welche Maßnahmen wir in Bezug auf verbotene Praktiken ergreifen.</li>
+                        <li>Sie stimmen zu, dass Sie sich nicht an verbotenen Praktiken beteiligen und nicht damit verbunden sind.</li>
+                        <li>Falls wir hinreichende Gründe haben (entweder durch uns oder unsere Spielpartner und andere Anbieter erkannt), dass Sie an einer Form von verbotenen Praktiken beteiligt oder damit verbunden sind, wie u. a. Betrug, Mogelei- und Verdunklungspraktiken, die in der Glücksspiel- und Spielbranche genutzt werden (einschließlich, aber nicht beschränkt auf „Wonging“, „Entgegengesetzte Wetten“, „Perfektes Paar“-Kartenzählen, Dragon Tiger „Suited Tie“-Kartenzählen oder eine beliebige andere Kartenzähltechnik) oder</li>
+                        <li>Falls Sie Einsätze platziert und/oder Online-Spiele mit einem beliebigen anderen Anbieter von Online-Glücksspielen gespielt haben und dabei (als Folge Ihres Spiels) mit verbotenen Praktiken in Verbindung stehen oder Sie sich an einer anderen unangemessenen Aktivität beteiligt haben.</li>
+                        <li>Wir behalten uns das Recht vor, in Bezug auf Ihr Konto (und/oder ein beliebiges, anderes, von Ihnen geführtes Konto bei einem Anbieterunternehmen) das gesamte Guthaben oder einen Teil davon einzubehalten und/oder den Betrag an Einsätzen, Auszahlungen, Boni oder Gewinnen abzuziehen, die mit verbotenen Praktiken in Verbindung stehen oder davon betroffen sind. Die in diesem Abschnitt dargelegten Rechte berühren keine anderen Rechte (einschließlich allgemein gültiger Rechte), die wir gegen Sie gemäß den Nutzungsbedingungen und anderem geltend machen können.</li>
+                        </ol>
+                        <p><strong>33. Ihre personenbezogenen Daten</strong></p>
+                        <ol>
+                        <li>Gemäß dem Data Protection Act (Datenschutzgesetz) von 2001 (Kapitel 440 der Gesetze von Malta), der EU-Verordnung 2016/679 (Datenschutzgrundverordnung), der Deutschen Datenschutzbestimmungen und anderen anwendbaren Gesetzen sind wir verpflichtet, bei der Verwendung Ihrer personenbezogenen Daten, die wir im Rahmen Ihrer Nutzung der Website erfassen, die datenschutzrechtlichen Anforderungen zu beachten. Wir nehmen daher unsere Verpflichtungen in Bezug auf die Nutzung Ihrer personenbezogenen Daten sehr ernst. Zudem speichern wir Spielerdaten für einen Zeitraum von mindestens 5 Jahren ab dem Datum, an dem die Geschäftsbeziehung endet, um aufsichtsrechtliche und gesetzliche Pflichten zu erfüllen, unter anderem die landesspezifischen Geldwäscheregelungen. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.</li>
+                        </ol>
+                        <p><br><strong>34. Verwendung von Cookies auf der Website</strong></p>
+                        <ol>
+                        <li>Die Website verwendet „Cookies“, um die Funktionalität der Website zu unterstützen. Ein Cookie ist eine kleine Textdatei, die auf Ihren Computer heruntergeladen wird, wenn Sie auf die Website zugreifen, und die es uns ermöglicht, zu erkennen, wenn Sie die Website später erneut besuchen. Informationen zum Löschen und zur Verwaltung von Cookies finden Sie unter <a href="http://www.aboutcookies.org" target="_blank" rel="noopener">www.aboutcookies.org</a>. Bitte beachten Sie, dass Sie durch das Löschen unserer Cookies oder die Deaktivierung zukünftiger Cookies möglicherweise auf bestimmte Bereiche oder Funktionen der Website nicht mehr zugreifen können. Weitere Informationen finden Sie in unserer Cookie-Richtlinie. Bei Aufruf unserer Internetseite werden Sie zu einer Erklärung mit Bezug auf die Cookie-Einstellungen aufgefordert.</li>
+                        </ol>
+                        <p><br><strong>35. Abtretung von Rechten und Pflichten</strong></p>
+                        <ol>
+                        <li>Wir behalten uns das Recht vor, die AGB ganz oder teilweise an eine beliebige Person zu übertragen, abzutreten, unterzulizenzieren oder zu verpfänden, soweit eine solche Abtretung zu denselben Bedingungen oder zu Bedingungen erfolgt, die für Sie nicht weniger vorteilhaft sind.</li>
+                        </ol>
+                        <p><br><strong>36. Ereignisse außerhalb unserer Kontrolle</strong></p>
+                        <ol>
+                        <li>Wir sind nicht haftbar oder verantwortlich für die Nichterfüllung oder verspätete Erfüllung einer unserer Verpflichtungen gemäß den AGB, soweit dies durch Ereignisse außerhalb unserer angemessenen Kontrolle verursacht wird, unter anderem durch höhere Gewalt, Krieg, zivile Unruhen, Unterbrechung öffentlicher Kommunikationsnetze oder -dienste, Arbeitskampf oder DDOS-Attacken und ähnliche Internetangriffe mit nachteiligen Auswirkungen („höhere Gewalt“). Unsere Leistung gilt für den Zeitraum, während dessen die höhere Gewalt andauert, als ausgesetzt, und die Frist zur Erfüllung verlängert sich um die Dauer dieses Zeitraums. Wir werden uns nach besten Kräften bemühen, die höhere Gewalt zu beenden oder eine Lösung zu finden, durch die unsere Verpflichtungen trotz des Eintretens höherer Gewalt erfüllt werden können.</li>
+                        </ol>
+                        <p><br><strong>37. Widerrufsrecht</strong></p>
+                        <ol>
+                        <li>Das Spiel beginnt mit einer entsprechenden Erklärung des Spielers. Durch Annahme dieser AGB erklären Sie sich ausdrücklich damit einverstanden, dass Ihr Widerrufsrecht nach vollständiger Erfüllung der Leistungen durch Skill On Net Limited ausgeschlossen ist, d.h. insbesondere nach Beendigung eines Spiels.</li>
+                        </ol>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========================== SubPages Context End ====================== -->
 
-    </footer>
-</body>
+
+        <!-- ============================= Footer Section Start ======================= -->
+        <footer class="footer">
+            <div class="footer-top bg-mulberry-wood pt-5 pb-5">
+                <div class="container text-center">
+                    <!-- ===== Footer Links ====== -->
+                    <ul class="list-inline mb-4">
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="payment-options.html">Zahlungsarten</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="responsible-gaming.html"><span class="divider-vertical d-none d-sm-inline"></span> Verantwortungsbewusst Spielen<a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="terms-conditions.html"><span class="divider-vertical d-none d-md-inline"></span> Teilnahmebedingungen</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="privacy-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Datenschutzerklärung</a>
+                        </li>
+
+                        <li class="list-inline-item mb-2">
+                            <a class="text-white pl-2" href="bonus-policy.html"><span class="divider-vertical d-none d-sm-inline"></span> Bonusrichtlinie</a>
+                        </li>
+                    </ul>
+
+                    <!-- === Footer Context ==== -->
+                    <div class="small-1 col-lg-10 mx-auto">
+                        <div class="text-amaranth">
+                            <div son-ce="son-license-text">
+                                Diese Seite wird von der Skill On Net Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta’ Xbiex, XBX 1120, Malta, betrieben, deren Director (entspricht dem Geschäftsführer einer deutschen GmbH) Herr Kyriacos Kyriacou ist. Die Handelsregisternummer (Maltese Business Registry) lautet C 50024. Erreichbarkeit per Telefon: +49 (0)89 38034212 und per E-Mail: kontakt@drückglück.de Die Skill on Net Limited ist ein behördlich zugelassener Veranstalter von virtuellen Automatenspielen und steht unter der Aufsicht der <a href="https://www.gluecksspiel-behoerde.de/de/" target="_blank">Gemeinsamen Glücksspielbehörde der Länder</a>. Die Erlaubnis wurde am 29.12.22 erteilt, vgl. <a href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" target="_blank">WhiteList</a>
+                                <br>
+                                <br>
+                                <a href="responsible-gaming.html" target="_blank">Glücksspiel kann süchtig machen. Bitte spiele verantwortungsvoll</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======= Footer Brand Logos ===== -->
+            <div class="footer-bottom bg-white pt-3 pb-3">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center">
+                        <div class="p-2">
+                            <div class="logos">
+
+                                <a rel="nofollow" href="https://www.gluecksspiel-behoerde.de/de/erlaubnisfaehigesgluecksspiel/whitelist" style="width: 178px;">
+                                    <img src="images/GGL.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://www.skillonnet.com/" style="width: 176px;">
+                                    <img src="images/skillnote.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" style="width: 45px;">
+                                    <img src="images/18.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://aws-origin.image-tech-storage.com/common/RNG_Certificate_SkillOnNet_MT.pdf" style="width: 115px;">
+                                    <img src="images/itect-labs.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" style="width: 126px;">
+                                    <img src="images/secure-site.webp" class="lazyloaded">
+                                </a>
+
+                                <a rel="nofollow" href="https://www.bundesweit-gegen-gluecksspielsucht.de/" style="width: 263px;">
+                                    <img src="images/de.webp" class="lazyloaded">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ============================= Footer Section End ======================= -->
+    </body>
 
 </html>
